@@ -2607,7 +2607,23 @@ For the clean ring we plot the spectral determinant instead of the potential, in
 \label{Ap12}
 %
 The left eigenvector of ${\bm W}$ with eigenvalue $\lambda_0=0$ is 
-the non-equilibrium steady state, and is given by the following formula (The derivation appears in \cite{nef}, however there is a typo in the last line. The correct version is given here.)
+the non-equilibrium steady state, and is given by the following formula (The derivation appears in \cite{nef}, however there is a typo in the last line and the notation is somewhat confusing. The correct version is given here.)
+We have shown that the master equation can be rewritten in the form 
+%
+\beq
+I = \overrightarrow{G} p_{0} - \overleftarrow{G} p_{2},  
+\eeq
+%
+where $\overrightarrow{G}$ is determined by "cutting" the ring at $n=0$, by setting $n\neq 0$
+equation 17 of \cite{nef} becomes 
+%
+\beq
+\overrightarrow{G_n} \  \ &=& \ \ \left[ \sum_{r=0}^{N-1} \frac{1}{w_{\overrightarrow{n+r+1}}} 
+\,\exp\left(-\sum_{x=n+1}^{n{+}r} \mathcal{E}_x \right) \right]^{-1} 
+\eeq
+%
+we have shown that ${\overleftarrow{G}_n = \exp(-\mathcal{E}_{\circlearrowleft}) \, \overrightarrow{G}_n}$
+and that $p_n = I/( \overleftarrow{G}_n - \overrightarrow{G}_n)$, thus
 %
 \beq
 p_n &\  \propto \ & 
