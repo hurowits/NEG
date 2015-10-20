@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: neg_draft_2.aux
+The style file: ieeetr.bst
+Database file #1: neg_draft_2Notes.bib
+Database file #2: neg_bib.bib.bib
+Warning--I didn't find a database entry for ""
+You've used 21 entries,
+            1876 wiz_defined-function locations,
+            626 strings with 6307 characters,
+and the built_in function-call counts, 7287 in all, are:
+= -- 818
+> -- 180
+< -- 0
++ -- 68
+- -- 47
+* -- 488
+:= -- 924
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 21
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 395
+empty$ -- 621
+format.name$ -- 47
+if$ -- 1841
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 21
+newline$ -- 66
+num.names$ -- 21
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 391
+stack$ -- 0
+substring$ -- 676
+swap$ -- 241
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 68
+width$ -- 23
+write$ -- 219
+(There was 1 warning)

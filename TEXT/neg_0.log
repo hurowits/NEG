@@ -1,0 +1,1455 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 APR 2015 16:13
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**neg_0.tex
+(./neg_0.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip41
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
+\@topmark@saved=\toks15
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+Class revtex4-1 Info: Selecting society aps on input line 7542.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+Class revtex4-1 Info: Selecting journal pre on input line 7544.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+)
+Class revtex4-1 Info: APS journal PRE selected on input line 7545.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen103
+)
+
+Class revtex4-1 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen104
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen107
+\epsfysize=\dimen108
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen109
+)
+LaTeX Info: Redefining \text on input line 53.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip11
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks18
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks19
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Info: Redefining \frak on input line 99.
+LaTeX Info: Redefining \Bbb on input line 101.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 116.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 116
+.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 116.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 116.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 116.
+
+No file neg_0.aux.
+\openout1 = `neg_0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen118
+\scratchbox=\box43
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen119
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout3 = `neg_0Notes.bib'.
+
+LaTeX Font Info:    Try loading font information for U+lasy on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 130.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 130.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+LaTeX Warning: Reference `fig2' on page 1 undefined on input line 219.
+
+[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package epstopdf Info: Source file: <.//Figs/vD.eps>
+(epstopdf)                    date: 2015-01-13 18:21:05
+(epstopdf)                    size: 53084 bytes
+(epstopdf)             Output file: <.//Figs/vD-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:21:09
+(epstopdf)                    size: 33982 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vD-eps-converted-to
+.pdf .//Figs/vD.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vD-eps-converted-to.pdf, id=20, 530.98375pt x 413.545pt>
+File: .//Figs/vD-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vD-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vD-eps-converted-to.pdf used on input line 228
+.
+(pdftex.def)             Requested size: 255.73622pt x 199.16928pt.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 235.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 235.
+
+
+LaTeX Warning: Reference `fig2' on page 2 undefined on input line 243.
+
+
+LaTeX Warning: Reference `fig3a' on page 2 undefined on input line 248.
+
+Package epstopdf Info: Source file: <.//Figs/vD_vDinf_1.eps>
+(epstopdf)                    date: 2015-01-14 17:26:03
+(epstopdf)                    size: 12279 bytes
+(epstopdf)             Output file: <.//Figs/vD_vDinf_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-14 17:26:08
+(epstopdf)                    size: 8782 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vD_vDinf_1-eps-conv
+erted-to.pdf .//Figs/vD_vDinf_1.eps>
+(epstopdf)             \includegraphics on input line 259.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/vD_vDinf_1-eps-converted-to.pdf, id=21, 468.75125pt x 438.63875pt>
+File: .//Figs/vD_vDinf_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vD_vDinf_1-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vD_vDinf_1-eps-converted-to.pdf used on input 
+line 259.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vD_vDinf_2.eps>
+(epstopdf)                    date: 2015-01-14 17:26:04
+(epstopdf)                    size: 15481 bytes
+(epstopdf)             Output file: <.//Figs/vD_vDinf_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-14 17:26:09
+(epstopdf)                    size: 9125 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vD_vDinf_2-eps-conv
+erted-to.pdf .//Figs/vD_vDinf_2.eps>
+(epstopdf)             \includegraphics on input line 260.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vD_vDinf_2-eps-converted-to.pdf, id=22, 468.75125pt x 438.63875pt>
+File: .//Figs/vD_vDinf_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vD_vDinf_2-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vD_vDinf_2-eps-converted-to.pdf used on input 
+line 260.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vD_vDinf_3.eps>
+(epstopdf)                    date: 2015-01-14 17:26:05
+(epstopdf)                    size: 14800 bytes
+(epstopdf)             Output file: <.//Figs/vD_vDinf_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-14 17:26:10
+(epstopdf)                    size: 9113 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vD_vDinf_3-eps-conv
+erted-to.pdf .//Figs/vD_vDinf_3.eps>
+(epstopdf)             \includegraphics on input line 261.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vD_vDinf_3-eps-converted-to.pdf, id=23, 468.75125pt x 438.63875pt>
+File: .//Figs/vD_vDinf_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vD_vDinf_3-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vD_vDinf_3-eps-converted-to.pdf used on input 
+line 261.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vD_vDinf_4.eps>
+(epstopdf)                    date: 2015-01-14 17:26:06
+(epstopdf)                    size: 10810 bytes
+(epstopdf)             Output file: <.//Figs/vD_vDinf_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-14 17:26:11
+(epstopdf)                    size: 8100 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vD_vDinf_4-eps-conv
+erted-to.pdf .//Figs/vD_vDinf_4.eps>
+(epstopdf)             \includegraphics on input line 262.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vD_vDinf_4-eps-converted-to.pdf, id=24, 468.75125pt x 438.63875pt>
+File: .//Figs/vD_vDinf_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vD_vDinf_4-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vD_vDinf_4-eps-converted-to.pdf used on input 
+line 262.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+ [2 <.//Figs/vD-eps-converted-to.pdf> <.//Figs/vD_vDinf_1-eps-converted-to.pdf>
+ <.//Figs/vD_vDinf_2-eps-converted-to.pdf> <.//Figs/vD_vDinf_3-eps-converted-to
+.pdf> <.//Figs/vD_vDinf_4-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig3' on page 3 undefined on input line 311.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+Package epstopdf Info: Source file: <.//Figs/vDs_1.eps>
+(epstopdf)                    date: 2015-01-13 18:30:42
+(epstopdf)                    size: 11651 bytes
+(epstopdf)             Output file: <.//Figs/vDs_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:05
+(epstopdf)                    size: 8803 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vDs_1-eps-converted
+-to.pdf .//Figs/vDs_1.eps>
+(epstopdf)             \includegraphics on input line 321.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/vDs_1-eps-converted-to.pdf, id=85, 468.75125pt x 438.63875pt>
+File: .//Figs/vDs_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vDs_1-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vDs_1-eps-converted-to.pdf used on input line 
+321.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vDs_2.eps>
+(epstopdf)                    date: 2015-01-13 18:30:43
+(epstopdf)                    size: 13670 bytes
+(epstopdf)             Output file: <.//Figs/vDs_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:06
+(epstopdf)                    size: 9031 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vDs_2-eps-converted
+-to.pdf .//Figs/vDs_2.eps>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vDs_2-eps-converted-to.pdf, id=86, 468.75125pt x 438.63875pt>
+File: .//Figs/vDs_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vDs_2-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vDs_2-eps-converted-to.pdf used on input line 
+322.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vDs_3.eps>
+(epstopdf)                    date: 2015-01-13 18:30:43
+(epstopdf)                    size: 14285 bytes
+(epstopdf)             Output file: <.//Figs/vDs_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:07
+(epstopdf)                    size: 8902 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vDs_3-eps-converted
+-to.pdf .//Figs/vDs_3.eps>
+(epstopdf)             \includegraphics on input line 323.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vDs_3-eps-converted-to.pdf, id=87, 468.75125pt x 438.63875pt>
+File: .//Figs/vDs_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vDs_3-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vDs_3-eps-converted-to.pdf used on input line 
+323.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vDs_4.eps>
+(epstopdf)                    date: 2015-01-13 18:30:44
+(epstopdf)                    size: 13299 bytes
+(epstopdf)             Output file: <.//Figs/vDs_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:08
+(epstopdf)                    size: 8719 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vDs_4-eps-converted
+-to.pdf .//Figs/vDs_4.eps>
+(epstopdf)             \includegraphics on input line 324.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vDs_4-eps-converted-to.pdf, id=88, 468.75125pt x 438.63875pt>
+File: .//Figs/vDs_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vDs_4-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vDs_4-eps-converted-to.pdf used on input line 
+324.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vhs_1.eps>
+(epstopdf)                    date: 2015-01-13 18:30:27
+(epstopdf)                    size: 11178 bytes
+(epstopdf)             Output file: <.//Figs/vhs_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:09
+(epstopdf)                    size: 8321 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vhs_1-eps-converted
+-to.pdf .//Figs/vhs_1.eps>
+(epstopdf)             \includegraphics on input line 327.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vhs_1-eps-converted-to.pdf, id=89, 468.75125pt x 438.63875pt>
+File: .//Figs/vhs_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vhs_1-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vhs_1-eps-converted-to.pdf used on input line 
+327.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vhs_2.eps>
+(epstopdf)                    date: 2015-01-13 18:30:27
+(epstopdf)                    size: 13469 bytes
+(epstopdf)             Output file: <.//Figs/vhs_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:09
+(epstopdf)                    size: 9013 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vhs_2-eps-converted
+-to.pdf .//Figs/vhs_2.eps>
+(epstopdf)             \includegraphics on input line 328.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vhs_2-eps-converted-to.pdf, id=90, 468.75125pt x 438.63875pt>
+File: .//Figs/vhs_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vhs_2-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vhs_2-eps-converted-to.pdf used on input line 
+328.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vhs_3.eps>
+(epstopdf)                    date: 2015-01-13 18:30:28
+(epstopdf)                    size: 14840 bytes
+(epstopdf)             Output file: <.//Figs/vhs_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:10
+(epstopdf)                    size: 9167 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vhs_3-eps-converted
+-to.pdf .//Figs/vhs_3.eps>
+(epstopdf)             \includegraphics on input line 329.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vhs_3-eps-converted-to.pdf, id=91, 468.75125pt x 438.63875pt>
+File: .//Figs/vhs_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vhs_3-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vhs_3-eps-converted-to.pdf used on input line 
+329.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+Package epstopdf Info: Source file: <.//Figs/vhs_4.eps>
+(epstopdf)                    date: 2015-01-13 18:30:29
+(epstopdf)                    size: 14369 bytes
+(epstopdf)             Output file: <.//Figs/vhs_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-13 18:31:11
+(epstopdf)                    size: 9020 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/vhs_4-eps-converted
+-to.pdf .//Figs/vhs_4.eps>
+(epstopdf)             \includegraphics on input line 330.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/vhs_4-eps-converted-to.pdf, id=92, 468.75125pt x 438.63875pt>
+File: .//Figs/vhs_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/vhs_4-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/vhs_4-eps-converted-to.pdf used on input line 
+330.
+(pdftex.def)             Requested size: 121.6221pt x 113.81102pt.
+ [3 <.//Figs/vDs_1-eps-converted-to.pdf> <.//Figs/vDs_2-eps-converted-to.pdf> <
+.//Figs/vDs_3-eps-converted-to.pdf> <.//Figs/vDs_4-eps-converted-to.pdf> <.//Fi
+gs/vhs_1-eps-converted-to.pdf> <.//Figs/vhs_2-eps-converted-to.pdf> <.//Figs/vh
+s_3-eps-converted-to.pdf> <.//Figs/vhs_4-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig4' on page 4 undefined on input line 375.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+Package epstopdf Info: Source file: <.//Figs/g_lambda_M.eps>
+(epstopdf)                    date: 2015-01-21 10:46:13
+(epstopdf)                    size: 22701 bytes
+(epstopdf)             Output file: <.//Figs/g_lambda_M-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-21 10:46:18
+(epstopdf)                    size: 19486 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/g_lambda_M-eps-conv
+erted-to.pdf .//Figs/g_lambda_M.eps>
+(epstopdf)             \includegraphics on input line 382.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/g_lambda_M-eps-converted-to.pdf, id=185, 533.995pt x 419.5675pt>
+File: .//Figs/g_lambda_M-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/g_lambda_M-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/g_lambda_M-eps-converted-to.pdf used on input 
+line 382.
+(pdftex.def)             Requested size: 253.48729pt x 199.16928pt.
+ [4 <.//Figs/g_lambda_M-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig5' on page 5 undefined on input line 461.
+
+Package epstopdf Info: Source file: <.//Figs/kappa_1_a.eps>
+(epstopdf)                    date: 2015-02-10 20:37:04
+(epstopdf)                    size: 91081 bytes
+(epstopdf)             Output file: <.//Figs/kappa_1_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-10 20:37:09
+(epstopdf)                    size: 48035 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/kappa_1_a-eps-conve
+rted-to.pdf .//Figs/kappa_1_a.eps>
+(epstopdf)             \includegraphics on input line 464.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/kappa_1_a-eps-converted-to.pdf, id=201, 527.9725pt x 405.515pt>
+File: .//Figs/kappa_1_a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/kappa_1_a-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/kappa_1_a-eps-converted-to.pdf used on input l
+ine 464.
+(pdftex.def)             Requested size: 222.27058pt x 170.71652pt.
+Package epstopdf Info: Source file: <.//Figs/epsilon_s_1_a.eps>
+(epstopdf)                    date: 2015-02-10 20:36:37
+(epstopdf)                    size: 91892 bytes
+(epstopdf)             Output file: <.//Figs/epsilon_s_1_a-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-02-10 20:37:09
+(epstopdf)                    size: 69480 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/epsilon_s_1_a-eps-c
+onverted-to.pdf .//Figs/epsilon_s_1_a.eps>
+(epstopdf)             \includegraphics on input line 465.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/epsilon_s_1_a-eps-converted-to.pdf, id=202, 530.98375pt x 419.5675pt>
+File: .//Figs/epsilon_s_1_a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/epsilon_s_1_a-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/epsilon_s_1_a-eps-converted-to.pdf used on inp
+ut line 465.
+(pdftex.def)             Requested size: 216.0519pt x 170.71652pt.
+Package epstopdf Info: Source file: <.//Figs/kappa_2_a.eps>
+(epstopdf)                    date: 2015-02-10 20:35:35
+(epstopdf)                    size: 67006 bytes
+(epstopdf)             Output file: <.//Figs/kappa_2_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-10 20:35:43
+(epstopdf)                    size: 30888 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/kappa_2_a-eps-conve
+rted-to.pdf .//Figs/kappa_2_a.eps>
+(epstopdf)             \includegraphics on input line 466.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/kappa_2_a-eps-converted-to.pdf, id=203, 507.8975pt x 405.515pt>
+File: .//Figs/kappa_2_a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/kappa_2_a-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/kappa_2_a-eps-converted-to.pdf used on input l
+ine 466.
+(pdftex.def)             Requested size: 213.81924pt x 170.71652pt.
+Package epstopdf Info: Source file: <.//Figs/epsilon_s_2_a.eps>
+(epstopdf)                    date: 2015-02-10 20:35:03
+(epstopdf)                    size: 68718 bytes
+(epstopdf)             Output file: <.//Figs/epsilon_s_2_a-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-02-10 20:35:44
+(epstopdf)                    size: 24575 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/epsilon_s_2_a-eps-c
+onverted-to.pdf .//Figs/epsilon_s_2_a.eps>
+(epstopdf)             \includegraphics on input line 467.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/epsilon_s_2_a-eps-converted-to.pdf, id=204, 527.9725pt x 405.515pt>
+File: .//Figs/epsilon_s_2_a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/epsilon_s_2_a-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/epsilon_s_2_a-eps-converted-to.pdf used on inp
+ut line 467.
+(pdftex.def)             Requested size: 222.27058pt x 170.71652pt.
+
+
+LaTeX Warning: Reference `e61' on page 5 undefined on input line 476.
+
+
+LaTeX Warning: Reference `e61' on page 5 undefined on input line 476.
+
+
+LaTeX Warning: Reference `e61' on page 5 undefined on input line 480.
+
+
+LaTeX Warning: Reference `fig7' on page 5 undefined on input line 483.
+
+
+LaTeX Warning: Reference `e61' on page 5 undefined on input line 485.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+Package epstopdf Info: Source file: <.//Figs/kappa_4a.eps>
+(epstopdf)                    date: 2015-01-22 15:04:24
+(epstopdf)                    size: 110302 bytes
+(epstopdf)             Output file: <.//Figs/kappa_4a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-22 15:04:49
+(epstopdf)                    size: 31668 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/kappa_4a-eps-conver
+ted-to.pdf .//Figs/kappa_4a.eps>
+(epstopdf)             \includegraphics on input line 501.
+Package epstopdf Info: Output file is already uptodate.
+ <.//Figs/kappa_4a-eps-converted-to.pdf, id=208, 520.94624pt x 405.515pt>
+File: .//Figs/kappa_4a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/kappa_4a-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/kappa_4a-eps-converted-to.pdf used on input li
+ne 501.
+(pdftex.def)             Requested size: 182.76315pt x 142.26378pt.
+Package epstopdf Info: Source file: <.//Figs/kappa_4.eps>
+(epstopdf)                    date: 2015-01-22 15:01:49
+(epstopdf)                    size: 99917 bytes
+(epstopdf)             Output file: <.//Figs/kappa_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-22 15:02:22
+(epstopdf)                    size: 49749 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/kappa_4-eps-convert
+ed-to.pdf .//Figs/kappa_4.eps>
+(epstopdf)             \includegraphics on input line 502.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/kappa_4-eps-converted-to.pdf, id=209, 522.95375pt x 419.5675pt>
+File: .//Figs/kappa_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/kappa_4-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/kappa_4-eps-converted-to.pdf used on input lin
+e 502.
+(pdftex.def)             Requested size: 177.31516pt x 142.26378pt.
+
+
+LaTeX Warning: Reference `e61' on page 6 undefined on input line 506.
+
+
+LaTeX Warning: Reference `e61' on page 6 undefined on input line 506.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig8' on page 6 undefined on input line 514.
+
+
+LaTeX Warning: Reference `fig9' on page 6 undefined on input line 514.
+
+Package epstopdf Info: Source file: <.//Figs/num_cplx_Delta.eps>
+(epstopdf)                    date: 2015-02-04 15:09:28
+(epstopdf)                    size: 93700 bytes
+(epstopdf)             Output file: <.//Figs/num_cplx_Delta-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-02-09 13:34:54
+(epstopdf)                    size: 9822 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/num_cplx_Delta-eps-
+converted-to.pdf .//Figs/num_cplx_Delta.eps>
+(epstopdf)             \includegraphics on input line 523.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/num_cplx_Delta-eps-converted-to.pdf, id=210, 540.0175pt x 419.5675pt>
+File: .//Figs/num_cplx_Delta-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/num_cplx_Delta-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/num_cplx_Delta-eps-converted-to.pdf used on in
+put line 523.
+(pdftex.def)             Requested size: 183.10088pt x 142.26378pt.
+Package epstopdf Info: Source file: <.//Figs/num_cplx_Delta_sigma.eps>
+(epstopdf)                    date: 2015-02-04 15:23:28
+(epstopdf)                    size: 139298 bytes
+(epstopdf)             Output file: <.//Figs/num_cplx_Delta_sigma-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-02-09 13:34:55
+(epstopdf)                    size: 12914 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/num_cplx_Delta_sigm
+a-eps-converted-to.pdf .//Figs/num_cplx_Delta_sigma.eps>
+(epstopdf)             \includegraphics on input line 524.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/num_cplx_Delta_sigma-eps-converted-to.pdf, id=211, 540.0175pt x 419.56
+75pt>
+File: .//Figs/num_cplx_Delta_sigma-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use .//Figs/num_cplx_Delta_sigma-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/num_cplx_Delta_sigma-eps-converted-to.pdf used
+ on input line 524.
+(pdftex.def)             Requested size: 183.10088pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <.//Figs/epsilon_j.eps>
+(epstopdf)                    date: 2015-02-04 17:09:32
+(epstopdf)                    size: 11040 bytes
+(epstopdf)             Output file: <.//Figs/epsilon_j-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-09 13:35:26
+(epstopdf)                    size: 9837 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/epsilon_j-eps-conve
+rted-to.pdf .//Figs/epsilon_j.eps>
+(epstopdf)             \includegraphics on input line 532.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/epsilon_j-eps-converted-to.pdf, id=212, 538.01pt x 413.545pt>
+File: .//Figs/epsilon_j-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/epsilon_j-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/epsilon_j-eps-converted-to.pdf used on input l
+ine 532.
+(pdftex.def)             Requested size: 185.08003pt x 142.26378pt.
+Package epstopdf Info: Source file: <.//Figs/kappa_Delta.eps>
+(epstopdf)                    date: 2015-02-03 10:06:00
+(epstopdf)                    size: 78285 bytes
+(epstopdf)             Output file: <.//Figs/kappa_Delta-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-03 10:08:26
+(epstopdf)                    size: 40978 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/kappa_Delta-eps-con
+verted-to.pdf .//Figs/kappa_Delta.eps>
+(epstopdf)             \includegraphics on input line 533.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/kappa_Delta-eps-converted-to.pdf, id=213, 521.95pt x 419.5675pt>
+File: .//Figs/kappa_Delta-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/kappa_Delta-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/kappa_Delta-eps-converted-to.pdf used on input
+ line 533.
+(pdftex.def)             Requested size: 176.97482pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <.//Figs/kappa_1_a-eps-converted-to.pdf> <.//Figs/epsilon_s_1_a-eps-converte
+d-to.pdf> <.//Figs/kappa_2_a-eps-converted-to.pdf> <.//Figs/epsilon_s_2_a-eps-c
+onverted-to.pdf>] [7 <.//Figs/kappa_4a-eps-converted-to.pdf> <.//Figs/kappa_4-e
+ps-converted-to.pdf> <.//Figs/num_cplx_Delta-eps-converted-to.pdf> <.//Figs/num
+_cplx_Delta_sigma-eps-converted-to.pdf> <.//Figs/epsilon_j-eps-converted-to.pdf
+> <.//Figs/kappa_Delta-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <.//Figs/epsilon_j_N_2.eps>
+(epstopdf)                    date: 2015-02-09 13:19:57
+(epstopdf)                    size: 19198 bytes
+(epstopdf)             Output file: <.//Figs/epsilon_j_N_2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-02-09 13:40:11
+(epstopdf)                    size: 26033 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/epsilon_j_N_2-eps-c
+onverted-to.pdf .//Figs/epsilon_j_N_2.eps>
+(epstopdf)             \includegraphics on input line 548.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/epsilon_j_N_2-eps-converted-to.pdf, id=309, 548.0475pt x 396.48125pt>
+File: .//Figs/epsilon_j_N_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/epsilon_j_N_2-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/epsilon_j_N_2-eps-converted-to.pdf used on inp
+ut line 548.
+(pdftex.def)             Requested size: 196.65303pt x 142.26378pt.
+Package epstopdf Info: Source file: <.//Figs/kappa_N_2.eps>
+(epstopdf)                    date: 2015-02-09 13:19:56
+(epstopdf)                    size: 226103 bytes
+(epstopdf)             Output file: <.//Figs/kappa_N_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-09 13:40:12
+(epstopdf)                    size: 121059 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/kappa_N_2-eps-conve
+rted-to.pdf .//Figs/kappa_N_2.eps>
+(epstopdf)             \includegraphics on input line 549.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/kappa_N_2-eps-converted-to.pdf, id=310, 524.96124pt x 419.5675pt>
+File: .//Figs/kappa_N_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/kappa_N_2-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/kappa_N_2-eps-converted-to.pdf used on input l
+ine 549.
+(pdftex.def)             Requested size: 177.99583pt x 142.26378pt.
+ [8 <.//Figs/epsilon_j_N_2-eps-converted-to.pdf> <.//Figs/kappa_N_2-eps-convert
+ed-to.pdf>]
+Package epstopdf Info: Source file: <.//Figs/num_cplx.eps>
+(epstopdf)                    date: 2015-01-21 12:28:57
+(epstopdf)                    size: 95721 bytes
+(epstopdf)             Output file: <.//Figs/num_cplx-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-21 12:29:05
+(epstopdf)                    size: 14153 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/num_cplx-eps-conver
+ted-to.pdf .//Figs/num_cplx.eps>
+(epstopdf)             \includegraphics on input line 617.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/num_cplx-eps-converted-to.pdf, id=335, 533.995pt x 419.5675pt>
+File: .//Figs/num_cplx-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/num_cplx-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/num_cplx-eps-converted-to.pdf used on input li
+ne 617.
+(pdftex.def)             Requested size: 253.48729pt x 199.16928pt.
+
+
+LaTeX Warning: Reference `fig11' on page 9 undefined on input line 629.
+
+Package epstopdf Info: Source file: <.//Figs/gap_sigma.eps>
+(epstopdf)                    date: 2015-02-16 08:42:26
+(epstopdf)                    size: 8641 bytes
+(epstopdf)             Output file: <.//Figs/gap_sigma-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-16 08:44:51
+(epstopdf)                    size: 6834 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/gap_sigma-eps-conve
+rted-to.pdf .//Figs/gap_sigma.eps>
+(epstopdf)             \includegraphics on input line 642.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/gap_sigma-eps-converted-to.pdf, id=336, 516.93124pt x 438.63875pt>
+File: .//Figs/gap_sigma-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/gap_sigma-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/gap_sigma-eps-converted-to.pdf used on input l
+ine 642.
+(pdftex.def)             Requested size: 167.6536pt x 142.26378pt.
+Package epstopdf Info: Source file: <.//Figs/gap_s_sigma_10.eps>
+(epstopdf)                    date: 2015-03-16 10:39:55
+(epstopdf)                    size: 13349 bytes
+(epstopdf)             Output file: <.//Figs/gap_s_sigma_10-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-03-16 10:41:41
+(epstopdf)                    size: 9055 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/gap_s_sigma_10-eps-
+converted-to.pdf .//Figs/gap_s_sigma_10.eps>
+(epstopdf)             \includegraphics on input line 643.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/gap_s_sigma_10-eps-converted-to.pdf, id=337, 516.93124pt x 438.63875pt
+>
+File: .//Figs/gap_s_sigma_10-eps-converted-to.pdf Graphic file (type pdf)
+ <use .//Figs/gap_s_sigma_10-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/gap_s_sigma_10-eps-converted-to.pdf used on in
+put line 643.
+(pdftex.def)             Requested size: 167.6536pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <.//Figs/num_cplx-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `e1' on page 10 undefined on input line 664.
+
+
+LaTeX Warning: Reference `e1' on page 10 undefined on input line 671.
+
+
+LaTeX Warning: Reference `e4' on page 10 undefined on input line 701.
+
+[10 <.//Figs/gap_sigma-eps-converted-to.pdf> <.//Figs/gap_s_sigma_10-eps-conver
+ted-to.pdf>]
+
+LaTeX Warning: Reference `e5' on page 11 undefined on input line 719.
+
+
+LaTeX Warning: Reference `fig4' on page 11 undefined on input line 739.
+
+
+LaTeX Warning: Reference `fig12' on page 11 undefined on input line 740.
+
+Package epstopdf Info: Source file: <.//Figs/gap_s_I_II_III_N_100_4.eps>
+(epstopdf)                    date: 2015-03-25 08:49:51
+(epstopdf)                    size: 14073 bytes
+(epstopdf)             Output file: <.//Figs/gap_s_I_II_III_N_100_4-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-03-25 08:49:58
+(epstopdf)                    size: 9303 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/gap_s_I_II_III_N_10
+0_4-eps-converted-to.pdf .//Figs/gap_s_I_II_III_N_100_4.eps>
+(epstopdf)             \includegraphics on input line 745.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/gap_s_I_II_III_N_100_4-eps-converted-to.pdf, id=366, 527.9725pt x 405.
+515pt>
+File: .//Figs/gap_s_I_II_III_N_100_4-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use .//Figs/gap_s_I_II_III_N_100_4-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/gap_s_I_II_III_N_100_4-eps-converted-to.pdf us
+ed on input line 745.
+(pdftex.def)             Requested size: 185.22816pt x 142.26378pt.
+ [11 <.//Figs/gap_s_I_II_III_N_100_4-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `e9' on page 12 undefined on input line 778.
+
+
+LaTeX Warning: Reference `e9' on page 12 undefined on input line 790.
+
+
+LaTeX Warning: Reference `fig1' on page 12 undefined on input line 804.
+
+
+LaTeX Warning: Reference `fig1' on page 12 undefined on input line 804.
+
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NHR/Figs/realGa
+p.eps>
+(epstopdf)                    date: 2015-02-15 14:56:52
+(epstopdf)                    size: 26987 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NHR/Figs/realGa
+p-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-15 14:56:56
+(epstopdf)                    size: 20878 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NHR/Figs/realGap-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NHR/Figs/realG
+ap.eps>
+(epstopdf)             \includegraphics on input line 808.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NHR/Figs/realGap-eps-converted-to.pdf, id=375, 548.
+0475pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NHR/Figs/realGap-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NHR/Figs/realGap-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NHR/Figs/realGap-eps-conver
+ted-to.pdf used on input line 808.
+(pdftex.def)             Requested size: 185.82356pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NHR/Figs/comple
+xGap.eps>
+(epstopdf)                    date: 2015-02-15 14:56:46
+(epstopdf)                    size: 27058 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NHR/Figs/comple
+xGap-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-15 14:56:56
+(epstopdf)                    size: 17959 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NHR/Figs/complexGap-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NHR/Figs/co
+mplexGap.eps>
+(epstopdf)             \includegraphics on input line 809.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NHR/Figs/complexGap-eps-converted-to.pdf, id=376, 5
+48.0475pt x 405.515pt>
+File: /Users/danielhurowitz/PROJ/NHR/Figs/complexGap-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NHR/Figs/complexGap-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NHR/Figs/complexGap-eps-con
+verted-to.pdf used on input line 809.
+(pdftex.def)             Requested size: 192.27107pt x 142.26378pt.
+
+
+LaTeX Warning: Reference `e9' on page 12 undefined on input line 817.
+
+[12 </Users/danielhurowitz/PROJ/NHR/Figs/realGap-eps-converted-to.pdf> </Users/
+danielhurowitz/PROJ/NHR/Figs/complexGap-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `e9' on page 13 undefined on input line 851.
+
+
+LaTeX Warning: Reference `e9' on page 13 undefined on input line 852.
+
+
+LaTeX Warning: Reference `fig2' on page 13 undefined on input line 870.
+
+
+LaTeX Warning: Reference `e10' on page 13 undefined on input line 870.
+
+
+LaTeX Warning: Reference `e11' on page 13 undefined on input line 871.
+
+
+LaTeX Warning: Reference `e10' on page 13 undefined on input line 872.
+
+
+LaTeX Warning: Reference `e5' on page 13 undefined on input line 874.
+
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NHR/Figs/envelo
+pe_x.eps>
+(epstopdf)                    date: 2015-02-18 16:07:37
+(epstopdf)                    size: 141693 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NHR/Figs/envelo
+pe_x-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-18 16:07:41
+(epstopdf)                    size: 68138 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NHR/Figs/envelope_x-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NHR/Figs/en
+velope_x.eps>
+(epstopdf)             \includegraphics on input line 877.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NHR/Figs/envelope_x-eps-converted-to.pdf, id=400, 5
+26.96875pt x 413.545pt>
+File: /Users/danielhurowitz/PROJ/NHR/Figs/envelope_x-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NHR/Figs/envelope_x-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NHR/Figs/envelope_x-eps-con
+verted-to.pdf used on input line 877.
+(pdftex.def)             Requested size: 181.28175pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NHR/Figs/y_x_tr
+aj_gap.eps>
+(epstopdf)                    date: 2015-02-19 08:55:02
+(epstopdf)                    size: 142636 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NHR/Figs/y_x_tr
+aj_gap-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-19 08:57:39
+(epstopdf)                    size: 49822 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NHR/Figs/y_x_traj_gap-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NHR/Figs/
+y_x_traj_gap.eps>
+(epstopdf)             \includegraphics on input line 878.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NHR/Figs/y_x_traj_gap-eps-converted-to.pdf, id=401,
+ 506.89375pt x 418.56375pt>
+File: /Users/danielhurowitz/PROJ/NHR/Figs/y_x_traj_gap-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NHR/Figs/y_x_traj_gap-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NHR/Figs/y_x_traj_gap-eps-c
+onverted-to.pdf used on input line 878.
+(pdftex.def)             Requested size: 172.27971pt x 142.26378pt.
+
+
+LaTeX Warning: Reference `e10' on page 13 undefined on input line 883.
+
+
+LaTeX Warning: Reference `e10' on page 13 undefined on input line 883.
+
+
+LaTeX Warning: Reference `e9' on page 13 undefined on input line 883.
+
+
+LaTeX Warning: Reference `e12' on page 13 undefined on input line 883.
+
+
+LaTeX Warning: Reference `e10' on page 13 undefined on input line 883.
+
+
+LaTeX Warning: Reference `e10' on page 13 undefined on input line 883.
+
+
+LaTeX Warning: Reference `e9' on page 13 undefined on input line 883.
+
+
+LaTeX Warning: Reference `e12' on page 13 undefined on input line 883.
+
+[13 </Users/danielhurowitz/PROJ/NHR/Figs/envelope_x-eps-converted-to.pdf> </Use
+rs/danielhurowitz/PROJ/NHR/Figs/y_x_traj_gap-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `e13' on page 14 undefined on input line 924.
+
+
+LaTeX Warning: Reference `realSpectrum' on page 14 undefined on input line 931.
+
+
+
+LaTeX Warning: Reference `e13' on page 14 undefined on input line 939.
+
+
+LaTeX Warning: Reference `e9' on page 14 undefined on input line 942.
+
+
+LaTeX Warning: Reference `e13' on page 14 undefined on input line 942.
+
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/realLa
+mbda_sigma_5.eps>
+(epstopdf)                    date: 2015-03-18 09:41:12
+(epstopdf)                    size: 41350 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/realLa
+mbda_sigma_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-18 09:41:17
+(epstopdf)                    size: 29319 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/realLambda_sigma_5-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG
+/Figs/realLambda_sigma_5.eps>
+(epstopdf)             \includegraphics on input line 946.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5-eps-converted-to.pdf, i
+d=416, 533.995pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5-eps-converted-to.pd
+f>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5
+-eps-converted-to.pdf used on input line 946.
+(pdftex.def)             Requested size: 235.38222pt x 184.9429pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/realLa
+mbda_sigma_5_N_50.eps>
+(epstopdf)                    date: 2015-03-19 18:42:28
+(epstopdf)                    size: 20342 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/realLa
+mbda_sigma_5_N_50-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-03-19 18:42:43
+(epstopdf)                    size: 18516 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/realLambda_sigma_5_N_50-eps-converted-to.pdf /Users/danielhurowitz/PRO
+J/NEG/Figs/realLambda_sigma_5_N_50.eps>
+(epstopdf)             \includegraphics on input line 947.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5_N_50-eps-converted-to.p
+df, id=417, 530.98375pt x 405.515pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5_N_50-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5_N_50-eps-converted-
+to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5
+_N_50-eps-converted-to.pdf used on input line 947.
+(pdftex.def)             Requested size: 242.17323pt x 184.9429pt.
+
+
+LaTeX Warning: Reference `e15' on page 14 undefined on input line 948.
+
+
+LaTeX Warning: Reference `e15' on page 14 undefined on input line 948.
+
+[14 </Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5-eps-converted-to.pd
+f> </Users/danielhurowitz/PROJ/NEG/Figs/realLambda_sigma_5_N_50-eps-converted-t
+o.pdf>]
+
+LaTeX Warning: Reference `e1' on page 15 undefined on input line 1041.
+
+
+LaTeX Warning: Reference `e6' on page 15 undefined on input line 1157.
+
+
+LaTeX Warning: Reference `e2' on page 15 undefined on input line 1157.
+
+
+LaTeX Warning: Reference `e7' on page 15 undefined on input line 1178.
+
+[15]
+
+LaTeX Warning: Reference `discrete' on page 16 undefined on input line 1201.
+
+
+LaTeX Warning: Reference `e8' on page 16 undefined on input line 1204.
+
+
+LaTeX Warning: Reference `lambda_star' on page 16 undefined on input line 1208.
+
+
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NHR/Figs/lambda
+_star.eps>
+(epstopdf)                    date: 2014-11-27 17:35:12
+(epstopdf)                    size: 854070 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NHR/Figs/lambda
+_star-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-27 17:35:15
+(epstopdf)                    size: 84377 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NHR/Figs/lambda_star-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NHR/Figs/l
+ambda_star.eps>
+(epstopdf)             \includegraphics on input line 1216.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NHR/Figs/lambda_star-eps-converted-to.pdf, id=442, 
+530.98375pt x 418.56375pt>
+File: /Users/danielhurowitz/PROJ/NHR/Figs/lambda_star-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NHR/Figs/lambda_star-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NHR/Figs/lambda_star-eps-co
+nverted-to.pdf used on input line 1216.
+(pdftex.def)             Requested size: 234.61392pt x 184.9429pt.
+
+
+LaTeX Warning: Reference `e9' on page 16 undefined on input line 1221.
+
+
+LaTeX Warning: Reference `e5' on page 16 undefined on input line 1221.
+
+
+LaTeX Warning: Reference `e19' on page 16 undefined on input line 1221.
+
+
+LaTeX Warning: Reference `e9' on page 16 undefined on input line 1221.
+
+
+LaTeX Warning: Reference `e5' on page 16 undefined on input line 1221.
+
+
+LaTeX Warning: Reference `e19' on page 16 undefined on input line 1221.
+
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NHR/Figs/ReLamb
+da_s_1.eps>
+(epstopdf)                    date: 2014-11-25 10:39:27
+(epstopdf)                    size: 6525308 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NHR/Figs/ReLamb
+da_s_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-25 10:39:56
+(epstopdf)                    size: 22339 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NHR/Figs/ReLambda_s_1-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NHR/Figs/
+ReLambda_s_1.eps>
+(epstopdf)             \includegraphics on input line 1225.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NHR/Figs/ReLambda_s_1-eps-converted-to.pdf, id=443,
+ 513.92pt x 406.51875pt>
+File: /Users/danielhurowitz/PROJ/NHR/Figs/ReLambda_s_1-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NHR/Figs/ReLambda_s_1-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NHR/Figs/ReLambda_s_1-eps-c
+onverted-to.pdf used on input line 1225.
+(pdftex.def)             Requested size: 233.80258pt x 184.9429pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NHR/Figs/ImLamb
+da_s_1.eps>
+(epstopdf)                    date: 2014-11-25 10:39:28
+(epstopdf)                    size: 6525308 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NHR/Figs/ImLamb
+da_s_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-11-25 10:39:57
+(epstopdf)                    size: 28254 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NHR/Figs/ImLambda_s_1-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NHR/Figs/
+ImLambda_s_1.eps>
+(epstopdf)             \includegraphics on input line 1226.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NHR/Figs/ImLambda_s_1-eps-converted-to.pdf, id=444,
+ 534.99875pt x 418.56375pt>
+File: /Users/danielhurowitz/PROJ/NHR/Figs/ImLambda_s_1-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NHR/Figs/ImLambda_s_1-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NHR/Figs/ImLambda_s_1-eps-c
+onverted-to.pdf used on input line 1226.
+(pdftex.def)             Requested size: 236.38794pt x 184.9429pt.
+
+
+LaTeX Warning: Reference `e13' on page 16 undefined on input line 1254.
+
+
+LaTeX Warning: Reference `e14' on page 16 undefined on input line 1254.
+
+[16 </Users/danielhurowitz/PROJ/NHR/Figs/lambda_star-eps-converted-to.pdf>]
+[17 </Users/danielhurowitz/PROJ/NHR/Figs/ReLambda_s_1-eps-converted-to.pdf> </U
+sers/danielhurowitz/PROJ/NHR/Figs/ImLambda_s_1-eps-converted-to.pdf>]
+No file neg_0.bbl.
+[18] (./neg_0.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5056 strings out of 493488
+ 71596 string characters out of 3141326
+ 147973 words of memory out of 3000000
+ 8199 multiletter control sequences out of 15000+200000
+ 16046 words of font info for 64 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,21n,26p,1330b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on neg_0.pdf (18 pages, 1171289 bytes).
+PDF statistics:
+ 553 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+

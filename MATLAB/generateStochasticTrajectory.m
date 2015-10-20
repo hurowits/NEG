@@ -1,0 +1,78 @@
+% [x_vec,t_vec] = generateStochasticTrajectory(w_p,w_m,x0,t_end)
+% Implements Gillespies algorithm to simulate a random walk on a ring 
+% the length of w_p
+% Input: 
+%   w_p,w_m vectors of transition rates
+%   x0 - starting position of the simulation
+%   t_end - end time of the simulation
+% Output:
+%   x_vec and t_vec are two vectors corresponding to the wrapped trajectory
+
+function [x_vec,t_vec] = generateStochasticTrajectory(w_p,w_m,x0,t_end)
+
+
+N=length(w_p);
+% numRuns = 1e3;
+
+
+% t_end=1/min([w_p,w_m]) *1e2;
+r = w_p + w_m([N,1:N-1]);
+if nargin==3
+    t_end = max(1./r)*N*100;
+end
+% t_end=500;
+
+% X  = zeros(numRuns,1);
+% numTimeSteps = zeros(numRuns,1);
+% endTime= zeros(numRuns,1);
+% site_t = zeros(numTimeSteps,numRuns);
+% t_vec = zeros(numTimeSteps,numRuns);
+
+
+
+t=0;
+site = x0;
+site_prev=x0;
+iT=0;
+%     tic;
+while t<t_end
+    iT=iT+1;
+    n = mod(site,N)+1;
+    %         n_1 = mod(site-1,N)+1;
+    
+    a = rand(2,1);
+    
+    delta_t = -1/r(n)*log(a(1));
+    
+    if(a(2)<w_p(n)/r(n))
+        site=site+1;
+    else
+        site=site-1;
+    end
+    
+    
+%     
+%     if(mod(site_prev,N)+1==3 && mod(site,N)+1==4)
+%         Q(iR) = Q_prev(iR) +1;
+%         %             H(iR) = H_prev(iR) +Delta_n(mod(site_prev,N));
+%     elseif(mod(site_prev,N)+1==4 && mod(site,N)+1==3)
+%         Q(iR) = Q_prev(iR) -1;
+%         %             H(iR) = H_prev(iR) -Delta_n(mod(site_prev,N));
+%         
+%     else
+%         Q(iR) = Q_prev(iR);
+%         %             H(iR) = H_prev(iR);
+%     end
+%     
+%     Q_prev(iR) = Q(iR);
+%     %         H_prev(iR) = H(iR);
+    site_prev = site;
+    
+    t = t + delta_t;
+    
+    x_vec(iT)=site;
+    t_vec(iT)=t;
+%     Q_t(iT,iR)=Q(iR);
+    %
+end
+

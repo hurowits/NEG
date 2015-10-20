@@ -1,0 +1,960 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 SEP 2015 12:46
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**neg_draft_2.tex
+(./neg_draft_2.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip41
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
+\@topmark@saved=\toks15
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+Class revtex4-1 Info: Selecting society aps on input line 7542.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+Class revtex4-1 Info: Selecting journal pre on input line 7544.
+Class revtex4-1 Info: APS journal PRE selected on input line 7545.
+
+
+Class revtex4-1 Warning: No type size specified, using default 10.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen104
+)
+LaTeX Info: Redefining \text on input line 53.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip11
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks18
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+LaTeX Info: Redefining \frak on input line 99.
+LaTeX Info: Redefining \Bbb on input line 101.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup12
+\symitalic=\mathgroup13
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+\symepsilon=\mathgroup14
+LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 33.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count110
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+LaTeX Info: Redefining \href on input line 4564.
+\c@Hy@tempcnt=\count111
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count112
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count113
+\c@Item=\count114
+\c@Hfootnote=\count115
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count116
+\c@bookmark@seq@number=\count117
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip49
+)
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 94.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 94.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 94.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 94.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 94.
+
+(./neg_draft_2.aux)
+\openout1 = `neg_draft_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 94.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen116
+\scratchbox=\box43
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen117
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks23
+)
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring OFF on input line 94.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
+
+(./neg_draft_2.out) (./neg_draft_2.out)
+\@outlinefile=\write4
+\openout4 = `neg_draft_2.out'.
+
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 94.
+\openout3 = `neg_draft_2Notes.bib'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+
+
+Package natbib Warning: Citation `' on page 1 undefined on input line 141.
+
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 15
+4.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 15
+4.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 15
+4.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 15
+4.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 154.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.4> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 154.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 154.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 154.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 15
+4.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/newtx/omlntxmi.fd
+File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 186.
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 1902) in paragraph at lines 272--291
+[]\OT1/ptm/b/n/10 Sliding transition.--  \OT1/ptm/m/n/10 Con-sider a sam-ple of
+ $\OML/ztmcm/m/it/10 N$ \OT1/ptm/m/n/10 sites.
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 376.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 376.
+ [2]
+Package epstopdf Info: Source file: <.//Figs/gap_D_sigma5_N_1000.eps>
+(epstopdf)                    date: 2015-08-25 16:42:01
+(epstopdf)                    size: 12343 bytes
+(epstopdf)             Output file: <.//Figs/gap_D_sigma5_N_1000-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-08-25 16:42:04
+(epstopdf)                    size: 9462 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/gap_D_sigma5_N_1000
+-eps-converted-to.pdf .//Figs/gap_D_sigma5_N_1000.eps>
+(epstopdf)             \includegraphics on input line 498.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf, id=169, 530.98375pt x 419.56
+75pt>
+File: .//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf Graphic file (type pdf)
+ <use .//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf used 
+on input line 498.
+(pdftex.def)             Requested size: 180.03784pt x 142.26378pt.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 503.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 503.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 503.
+ [3 <.//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <.//Figs/N_E_0.eps>
+(epstopdf)                    date: 2015-08-12 11:32:44
+(epstopdf)                    size: 90752 bytes
+(epstopdf)             Output file: <.//Figs/N_E_0-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-12 11:32:49
+(epstopdf)                    size: 140364 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/N_E_0-eps-converted
+-to.pdf .//Figs/N_E_0.eps>
+(epstopdf)             \includegraphics on input line 589.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/N_E_0-eps-converted-to.pdf, id=203, 530.98375pt x 426.59375pt>
+File: .//Figs/N_E_0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/N_E_0-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/N_E_0-eps-converted-to.pdf used on input line 
+589.
+(pdftex.def)             Requested size: 177.08057pt x 142.26378pt.
+
+Underfull \hbox (badness 7777) in paragraph at lines 607--616
+\OT1/ptm/m/n/10 where $[]$. Note that com-pared with []equa-
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 607--616
+\OT1/ptm/m/n/10 The po-ten-tial for a given charge dis-tri-bu-tion $\OML/ztmcm/
+m/it/10 ^^Z\OT1/ztmcm/m/n/10 (\OML/ztmcm/m/it/10 x\OT1/ztmcm/m/n/10 )$ \OT1/ptm
+/m/n/10 is
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 607--616
+[]$ \OT1/ptm/m/n/10 and along the real
+ []
+
+[4 <.//Figs/N_E_0-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <.//Figs/V_E_localized.eps>
+(epstopdf)                    date: 2015-08-13 14:15:03
+(epstopdf)                    size: 64455 bytes
+(epstopdf)             Output file: <.//Figs/V_E_localized-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-08-13 14:15:22
+(epstopdf)                    size: 29782 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/V_E_localized-eps-c
+onverted-to.pdf .//Figs/V_E_localized.eps>
+(epstopdf)             \includegraphics on input line 666.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/V_E_localized-eps-converted-to.pdf, id=238, 530.98375pt x 413.545pt>
+File: .//Figs/V_E_localized-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/V_E_localized-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/V_E_localized-eps-converted-to.pdf used on inp
+ut line 666.
+(pdftex.def)             Requested size: 182.66295pt x 142.26378pt.
+Package epstopdf Info: Source file: <.//Figs/V_E_delocalized.eps>
+(epstopdf)                    date: 2015-08-13 14:14:56
+(epstopdf)                    size: 40927 bytes
+(epstopdf)             Output file: <.//Figs/V_E_delocalized-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-08-13 14:15:23
+(epstopdf)                    size: 20266 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/V_E_delocalized-eps
+-converted-to.pdf .//Figs/V_E_delocalized.eps>
+(epstopdf)             \includegraphics on input line 667.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/V_E_delocalized-eps-converted-to.pdf, id=239, 531.9875pt x 417.56pt>
+File: .//Figs/V_E_delocalized-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/V_E_delocalized-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/V_E_delocalized-eps-converted-to.pdf used on i
+nput line 667.
+(pdftex.def)             Requested size: 181.24677pt x 142.26378pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 676.
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 725--734
+\OT1/ptm/m/n/10 the po-ten-tial at $\OML/ntxmi/m/it/10 ^^O[]$\OT1/ptm/m/n/10 . 
+The charges above the con-tin-uum
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 740.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 740.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\infty' on input line 740.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 740.
+
+[5 <.//Figs/V_E_localized-eps-converted-to.pdf> <.//Figs/V_E_delocalized-eps-co
+nverted-to.pdf>]
+Underfull \hbox (badness 1448) in paragraph at lines 778--782
+\OT1/ptm/m/n/10 The gap is de-ter-mined by in-te-grat-ing the elec-tric field,
+ []
+
+Package epstopdf Info: Source file: <.//Figs/V_E_s_inf.eps>
+(epstopdf)                    date: 2015-08-12 16:56:11
+(epstopdf)                    size: 89749 bytes
+(epstopdf)             Output file: <.//Figs/V_E_s_inf-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-12 16:56:25
+(epstopdf)                    size: 47449 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/V_E_s_inf-eps-conve
+rted-to.pdf .//Figs/V_E_s_inf.eps>
+(epstopdf)             \includegraphics on input line 815.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/V_E_s_inf-eps-converted-to.pdf, id=272, 524.96124pt x 413.545pt>
+File: .//Figs/V_E_s_inf-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/V_E_s_inf-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/V_E_s_inf-eps-converted-to.pdf used on input l
+ine 815.
+(pdftex.def)             Requested size: 199.16928pt x 156.89632pt.
+Package epstopdf Info: Source file: <.//Figs/electrostatics_large_S.eps>
+(epstopdf)                    date: 2015-05-25 19:04:12
+(epstopdf)                    size: 3594035 bytes
+(epstopdf)             Output file: <.//Figs/electrostatics_large_S-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-05-25 19:04:13
+(epstopdf)                    size: 1113046 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/electrostatics_larg
+e_S-eps-converted-to.pdf .//Figs/electrostatics_large_S.eps>
+(epstopdf)             \includegraphics on input line 816.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/electrostatics_large_S-eps-converted-to.pdf, id=273, 483.8075pt x 413.
+545pt>
+File: .//Figs/electrostatics_large_S-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use .//Figs/electrostatics_large_S-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/electrostatics_large_S-eps-converted-to.pdf us
+ed on input line 816.
+(pdftex.def)             Requested size: 241.84842pt x 206.72781pt.
+Package epstopdf Info: Source file: <.//Figs/electrostatics_large_S_zoom.eps>
+(epstopdf)                    date: 2015-05-25 20:36:30
+(epstopdf)                    size: 1837823 bytes
+(epstopdf)             Output file: <.//Figs/electrostatics_large_S_zoom-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2015-05-25 20:36:34
+(epstopdf)                    size: 109118 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/electrostatics_larg
+e_S_zoom-eps-converted-to.pdf .//Figs/electrostatics_large_S_zoom.eps>
+(epstopdf)             \includegraphics on input line 817.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf, id=274, 443.6575pt x
+ 405.515pt>
+File: .//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use .//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/electrostatics_large_S_zoom-eps-converted-to.p
+df used on input line 817.
+(pdftex.def)             Requested size: 199.16928pt x 182.04073pt.
+
+
+LaTeX Warning: Float too large for page by 26.41486pt on input line 832.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 835.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gg' on input line 835.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 835.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\infty' on input line 835.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 835.
+
+
+Overfull \hbox (11.00674pt too wide) in alignment at lines 848--856
+ [][][] []
+ []
+
+Package epstopdf Info: Source file: <.//Figs/num_cplx.eps>
+(epstopdf)                    date: 2015-01-21 12:28:57
+(epstopdf)                    size: 95721 bytes
+(epstopdf)             Output file: <.//Figs/num_cplx-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-21 12:29:05
+(epstopdf)                    size: 14153 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/num_cplx-eps-conver
+ted-to.pdf .//Figs/num_cplx.eps>
+(epstopdf)             \includegraphics on input line 895.
+Package epstopdf Info: Output file is already uptodate.
+<.//Figs/num_cplx-eps-converted-to.pdf, id=282, 533.995pt x 419.5675pt>
+File: .//Figs/num_cplx-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/num_cplx-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/num_cplx-eps-converted-to.pdf used on input li
+ne 895.
+(pdftex.def)             Requested size: 181.05885pt x 142.26378pt.
+Package epstopdf Info: Source file: <.//Figs/numComplex_500.eps>
+(epstopdf)                    date: 2015-06-16 08:37:03
+(epstopdf)                    size: 10055 bytes
+(epstopdf)             Output file: <.//Figs/numComplex_500-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-06-16 08:37:07
+(epstopdf)                    size: 6782 bytes
+(epstopdf)             Command: <epstopdf --outfile=.//Figs/numComplex_500-eps-
+converted-to.pdf .//Figs/numComplex_500.eps>
+(epstopdf)             \includegraphics on input line 896.
+Package epstopdf Info: Output file is already uptodate.
+
+<.//Figs/numComplex_500-eps-converted-to.pdf, id=283, 533.995pt x 419.5675pt>
+File: .//Figs/numComplex_500-eps-converted-to.pdf Graphic file (type pdf)
+
+<use .//Figs/numComplex_500-eps-converted-to.pdf>
+Package pdftex.def Info: .//Figs/numComplex_500-eps-converted-to.pdf used on in
+put line 896.
+(pdftex.def)             Requested size: 181.05885pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 908.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[7 <.//Figs/V_E_s_inf-eps-converted-to.pdf> <.//Figs/electrostatics_large_S-eps
+-converted-to.pdf> <.//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf> <
+.//Figs/num_cplx-eps-converted-to.pdf> <.//Figs/numComplex_500-eps-converted-to
+.pdf>] (./neg_draft_2.bbl
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 1325) in paragraph at lines 45--47
+ []\OT1/ptm/m/n/9 N. Hatano and D. R. Nel-son, ``Vor-tex pin-ning and non-
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+) [8]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 990.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 990.
+
+
+Overfull \hbox (7.64163pt too wide) in alignment at lines 1019--1025
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1036
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1038.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1038.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1038.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1038.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1046.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1046.
+
+Missing character: There is no Ó in font ptmb7t!
+Missing character: There is no Ó in font ptmb7t!
+
+Package natbib Warning: There were undefined citations.
+
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1055.
+ (./neg_draft_2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1055.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1055.
+
+Package rerunfilecheck Info: File `neg_draft_2.out' has not changed.
+(rerunfilecheck)             Checksum: 3D6AD76DB09DB5CC691095CB1C97520F;1655.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.55997pt have occured.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8652 strings out of 493488
+ 122202 string characters out of 3141326
+ 249585 words of memory out of 3000000
+ 11632 multiletter control sequences out of 15000+200000
+ 66840 words of font info for 166 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 42i,18n,31p,1168b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{figure.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.26} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
+pe1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/tim
+es/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/wasy/wasy7.pfb>
+Output written on neg_draft_2.pdf (9 pages, 1646208 bytes).
+PDF statistics:
+ 446 PDF objects out of 1000 (max. 8388607)
+ 384 compressed objects within 4 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+

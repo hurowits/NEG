@@ -1,0 +1,27 @@
+LA  - eng
+AID - 36152 [pii]
+AID - 10.1529/biophysj.103.036152 [doi]
+PMC - PMC1304246
+PMID- 15189841
+VI  - 86
+IP  - 6
+PG  - 3373-91
+DP  - 2004 Jun
+PHST- 2003/10/20 [received]
+PHST- 2004/01/29 [accepted]
+IS  - 0006-3495 (Print)
+IS  - 1542-0086 (Electronic)
+TI  - Dynamics of Molecular Motors and Polymer Translocation with Sequence Heterogeneity
+AB  - The effect of sequence heterogeneity on polynucleotide translocation across a pore and on simple models of molecular motors such as helicases, DNA polymerase/exonuclease, and RNA polymerase is studied in detail. Pore translocation of RNA or DNA is biased due to the different chemical environments on the two sides of the membrane, whereas the molecular motor motion is biased through a coupling to chemical energy. An externally applied force can oppose these biases. For both systems we solve lattice models exactly both with and without disorder. The models incorporate explicitly the coupling to the different chemical environments for polymer translocation and the coupling to the chemical energy (as well as nucleotide pairing energies) for molecular motors. Using the exact solutions and general arguments, we show that the heterogeneity leads to anomalous dynamics. Most notably, over a range of forces around the stall force (or stall tension for DNA polymerase/exonuclease systems) the displacement grows sublinearly as t(μ), with μ < 1. The range over which this behavior can be observed experimentally is estimated for several systems and argued to be detectable for appropriate forces and buffers. Similar sequence heterogeneity effects may arise in the packing of viral DNA. 
+AU  - Kafri Y
+FAU - Kafri, Yariv
+AD  - Department of Physics, Harvard University, Cambridge, Massachusetts 02138; and BioMaPS Institute, Rutgers University, Piscataway, New Jersey 08854, and Bell Laboratories, Lucent Technologies, Murray Hill, New Jersey 07974
+AU  - Lubensky DK
+FAU - Lubensky, David K
+AD  - Department of Physics, Harvard University, Cambridge, Massachusetts 02138; and BioMaPS Institute, Rutgers University, Piscataway, New Jersey 08854, and Bell Laboratories, Lucent Technologies, Murray Hill, New Jersey 07974
+AU  - Nelson DR
+FAU - Nelson, David R
+AD  - Department of Physics, Harvard University, Cambridge, Massachusetts 02138; and BioMaPS Institute, Rutgers University, Piscataway, New Jersey 08854, and Bell Laboratories, Lucent Technologies, Murray Hill, New Jersey 07974
+TA  - Biophys J
+JT  - Biophysical Journal
+SO  - Biophys J. 2004 Jun;86(6):3373-91. doi:10.1529/biophysj.103.036152.

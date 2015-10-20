@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+
+\bibitem{glass1}
+A.~Amir, Y.~Oreg, and Y.~Imry, ``On relaxations and aging of various glasses,''
+  {\em Proceedings of the National Academy of Sciences}, vol.~109, no.~6,
+  pp.~1850--1855, 2012.
+
+\bibitem{ege}
+A.~Vaknin, Z.~Ovadyahu, and M.~Pollak, ``Aging effects in an anderson
+  insulator,'' {\em Phys. Rev. Lett.}, vol.~84, pp.~3402--3405, Apr 2000.
+
+\bibitem{egt}
+A.~Amir, Y.~Oreg, and Y.~Imry, ``Slow relaxations and aging in the electron
+  glass,'' {\em Phys. Rev. Lett.}, vol.~103, p.~126403, Sep 2009.
+
+\bibitem{pts}
+Y.~de~Leeuw and D.~Cohen, ``Diffusion in sparse networks: Linear to semilinear
+  crossover,'' {\em Phys. Rev. E}, vol.~86, p.~051120, Nov 2012.
+
+\bibitem{BouchaudReview}
+J.-P. Bouchaud and A.~Georges, ``Anomalous diffusion in disordered media:
+  Statistical mechanisms, models and physical applications,'' {\em Physics
+  Reports}, vol.~195, no.~4–5, pp.~127 -- 293, 1990.
+
+\bibitem{Sinai}
+Y.~G. Sinai, ``Limit behaviour of one-dimensional random walks in random
+  environments,'' {\em Teoriya Veroyatnostei i ee Primeneniya}, vol.~27, no.~2,
+  pp.~247--258, 1982.
+
+\bibitem{odh1}
+B.~Derrida, ``Velocity and diffusion constant of a periodic one-dimensional
+  hopping model,'' {\em Journal of Statistical Physics}, vol.~31, no.~3,
+  pp.~433--450, 1983.
+
+\bibitem{odh3}
+J.~Bouchaud, A.~Comtet, A.~Georges, and P.~L. Doussal, ``Classical diffusion of
+  a particle in a one-dimensional random force field,'' {\em Annals of
+  Physics}, vol.~201, no.~2, pp.~285 -- 341, 1990.
+
+\bibitem{Hatano1}
+N.~Hatano and D.~R. Nelson, ``Localization transitions in non-hermitian quantum
+  mechanics,'' {\em Phys. Rev. Lett.}, vol.~77, pp.~570--573, Jul 1996.
+
+\bibitem{Hatano2}
+N.~Hatano and D.~R. Nelson, ``Vortex pinning and non-hermitian quantum
+  mechanics,'' {\em Phys. Rev. B}, vol.~56, pp.~8651--8673, Oct 1997.
+
+\bibitem{Shnerb1}
+N.~M. Shnerb and D.~R. Nelson, ``Winding numbers, complex currents, and
+  non-hermitian localization,'' {\em Phys. Rev. Lett.}, vol.~80,
+  pp.~5172--5175, Jun 1998.
+
+\bibitem{Brouwer}
+P.~W. Brouwer, P.~G. Silvestrov, and C.~W.~J. Beenakker, ``Theory of directed
+  localization in one dimension,'' {\em Phys. Rev. B}, vol.~56,
+  pp.~R4333--R4335, Aug 1997.
+
+\bibitem{Goldsheid}
+I.~Y. Goldsheid and B.~A. Khoruzhenko, ``Distribution of eigenvalues in
+  non-hermitian anderson models,'' {\em Phys. Rev. Lett.}, vol.~80,
+  pp.~2897--2900, Mar 1998.
+
+\bibitem{Zee}
+J.~Feinberg and A.~Zee, ``Non-hermitian localization and delocalization,'' {\em
+  Phys. Rev. E}, vol.~59, pp.~6433--6443, Jun 1999.
+
+\bibitem{DNA1}
+D.~K. Lubensky and D.~R. Nelson, ``Pulling pinned polymers and unzipping dna,''
+  {\em Phys. Rev. Lett.}, vol.~85, pp.~1572--1575, Aug 2000.
+
+\bibitem{DNA2}
+D.~K. Lubensky and D.~R. Nelson, ``Single molecule statistics and the
+  polynucleotide unzipping transition,'' {\em Phys. Rev. E}, vol.~65,
+  p.~031917, Mar 2002.
+
+\bibitem{popbio}
+D.~R. Nelson and N.~M. Shnerb, ``Non-hermitian localization and population
+  biology,'' {\em Phys. Rev. E}, vol.~58, pp.~1383--1403, Aug 1998.
+
+\bibitem{brm1}
+Y.~Kafri, D.~K. Lubensky, and D.~R. Nelson, ``Dynamics of molecular motors and
+  polymer translocation with sequence heterogeneity,'' {\em Biophysical
+  Journal}, vol.~86, no.~6, pp.~3373 -- 3391, 2004.
+
+\bibitem{brm2}
+Y.~Kafri, D.~K. Lubensky, and D.~R. Nelson, ``Dynamics of molecular motors with
+  finite processivity on heterogeneous tracks,'' {\em Phys. Rev. E}, vol.~71,
+  p.~041906, Apr 2005.
+
+\bibitem{nes}
+D.~Hurowitz and D.~Cohen, ``Nonequilibrium version of the einstein relation,''
+  {\em Phys. Rev. E}, vol.~90, p.~032129, Sep 2014.
+
+\bibitem{det1}
+L.~G. Molinari, ``Determinants of block tridiagonal matrices,'' {\em Linear
+  Algebra and its Applications}, vol.~429, no.~8–9, pp.~2221 -- 2226, 2008.
+
+\end{thebibliography}

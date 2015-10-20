@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{odh3}
+J.P Bouchaud, A~Comtet, A~Georges, and P~Le Doussal.
+\newblock Classical diffusion of a particle in a one-dimensional random force
+  field.
+\newblock {\em Annals of Physics}, 201(2):285 -- 341, 1990.
+
+\bibitem{det2}
+P.~W. Brouwer, P.~G. Silvestrov, and C.~W.~J. Beenakker.
+\newblock Theory of directed localization in one dimension.
+\newblock {\em Phys. Rev. B}, 56:R4333--R4335, Aug 1997.
+
+\bibitem{odh1}
+Bernard Derrida.
+\newblock Velocity and diffusion constant of a periodic one-dimensional hopping
+  model.
+\newblock {\em Journal of Statistical Physics}, 31(3):433--450, 1983.
+
+\bibitem{Nelson1}
+Naomichi Hatano and David~R. Nelson.
+\newblock Localization transitions in non-hermitian quantum mechanics.
+\newblock {\em Phys. Rev. Lett.}, 77:570--573, Jul 1996.
+
+\bibitem{det1}
+Luca~Guido Molinari.
+\newblock Determinants of block tridiagonal matrices.
+\newblock {\em Linear Algebra and its Applications}, 429(8–9):2221 -- 2226,
+  2008.
+
+\bibitem{Nelson2}
+Nadav~M. Shnerb and David~R. Nelson.
+\newblock Winding numbers, complex currents, and non-hermitian localization.
+\newblock {\em Phys. Rev. Lett.}, 80:5172--5175, Jun 1998.
+
+\end{thebibliography}
