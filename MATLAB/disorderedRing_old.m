@@ -6,8 +6,8 @@ colors='rgbckymrgbckym'
 options = optimset('TolX',1e-11,'TolFun',1e-11);
 % N=500;
 N_vec = 100:100:2000;[100,500,1000,1500,2000];
-N_vec=100 ;
-numRealizations=30;
+N_vec=5000 ;
+numRealizations=1;
 N=N_vec(1);
 randInd1 = randperm(N);
 randInd2 = randperm(N);
@@ -81,6 +81,7 @@ for iSigma=1:length(sigma_vec)
             %             s_vec=2*sigma;
             %             s_vec=s_2;s_1_2/2
             %             s_vec=linspace(0,1e1,100);
+            s_vec=s_1;
             for iS=1:length(s_vec)
                 %                 mu=mu_vec(iS);
                 
@@ -107,22 +108,9 @@ for iSigma=1:length(sigma_vec)
         end
     end
 end
-% a=exp((s-sigma)/2);
-% b=exp((s+sigma)/2);
-% max_x=fsolve(@(x)real(-log(-a+  x).* log(a./x) + log(b - x).* log(b./x)...
-%     - polylogN(2, 1 - a./x) + polylogN(2, 1 - b./x))/sigma-s/2,b/2);
-% pcntComplex=max_x/max(abs(epsilon_s));
 
-% axis([s_vec(1) s_vec(end)  -max(real(gap)) -min(real(gap))/5])
-% Inverse localization length
-% nu=gap2(iS);
-% iS=6;%real
-% iS=21;%complex
-% iS=27;%s_c
-% iS=40;%s>s_c
-% iS=50;
+%% Plot integrated density of states for sigma=0
 
-%%
 figure;
 axes('FontSize',24)
 hold on
@@ -139,8 +127,8 @@ legend([h2,h3],...
     '\mu=\alpha'},...
     'Location','SouthEast')
 
-%% Plot integrated density of states, (NEG, Fig. 2)
 %     for iS=1:length(s_vec)
+%% Plot N(epsilon), Fig. 2 of NEG
 for iS=1:length(s_vec)
     s=s_vec(iS);
     x= epsilon_j_mat(iS,:);
@@ -149,6 +137,10 @@ for iS=1:length(s_vec)
     else
         mu = fsolve(@(mu)(s)-1/mu*log(sinh(mu*sigma)/(mu*sigma)),1,options);
     end
+    
+    z = 144*16*x/sigma^4;
+    NumStates = N*sigma^2/(24*pi^2)./(besselj(mu,sqrt(z)).^2+bessely(mu,sqrt(z)).^2);
+    
     figure;
     set(gca,'FontSize',24)
     hold on;
@@ -159,7 +151,7 @@ for iS=1:length(s_vec)
     if (mu==0)
         plot(x,1/N*log(x/x(1)),'--k','LineWidth',4)
     else
-        plot(x,1/N*(x/x(1)).^mu,'--k','LineWidth',4)
+        plot(x(1:end),1/N*(x(1:end)/x(1)).^mu,'--k','LineWidth',4)
     end
     %         else
     if (alpha>=1)
@@ -174,6 +166,9 @@ for iS=1:length(s_vec)
         %             plot(x,1./log(x).^2,['r',':'])
         %           plot(x,1./log(x).^2,[colors(iC),':'])
     end
+    plot([exp((s-sigma)/2) exp((s-sigma)/2)], [1/N 1],':k','LineWidth',4)
+    plot(x(1:end),NumStates(1:end)./(NumStates(1))*1/N,'--r')
+    %
     iC = iC+1;
     xlabel('\epsilon')
     ylabel('N(\epsilon)')
@@ -185,63 +180,18 @@ for iS=1:length(s_vec)
     end
     axtype(3);
     %               title(['\alpha = ',num2str(alpha),', \mu_{\alpha} = ',num2str(mu_alpha),', \mu_s = ',num2str(mu)]);
-    plot([exp((s-sigma)/2) exp((s-sigma)/2)], [1/N 1],':k','LineWidth',4)
-    
     axis([x(1) x(end) 1/N 1])
     %      print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_',num2str(iS),'_',num2str(iAlpha),'.eps'])
     %      print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_0.eps'])
     %     end
-    %% Plot spectral density
-    %         iS=2
-    %         s=s_vec(iS);
-    %
-    %         E_vec3=epsilon_j_mat(iS,:);
-    %         figure;
-    %
-    %         axes('FontSize',24);
-    %
-    %         hold on
-    %         grid on
-    %         plot(0,0,'b','LineWidth',2)
-    %         plot(0,0,'r','LineWidth',2)
-    %         plot(0,0,'g','LineWidth',2)
-    %         plot(0,0,'k','LineWidth',2)
-    %         plot(sort(epsilon_j_mat(iS,:)),(1:N)/N,'.','LineWidth',2)
-    %         mu = fsolve(@(mu)(s)-1/mu*log(sinh(mu*sigma)/(mu*sigma)),1,options);
-    %
-    %             plot(E_vec3,log(E_vec3/exp((s-sigma)/2))/sigma,':r','LineWidth',2)
-    %             plot(E_vec3,log(E_vec3/E_vec3(1))/log(E_vec3(end)/E_vec3(1)),':r','LineWidth',2)
-    %
-    %
-    % %         plot(E_vec3, (E_vec3/E_vec3(end)).^(mu),'r:','LineWidth',2)
-    %         plot(E_vec3, 1/N*(E_vec3/E_vec3(1)).^(mu),'r:','LineWidth',2)
-    %
-    %         %         plot(E_vec3,log(E_vec3/exp((s-sigma)/2))/sigma,[colors(iAlpha),'.-'],'LineWidth',1)
-    %
-    % %         plot(E_vec3, 1/N*(E_vec3/E_vec3(1)).^(mu_alpha),'--g','LineWidth',2)
-    %         plot(E_vec3, (E_vec3/E_vec3(N)).^(mu_alpha),'--g','LineWidth',2)
-    %         z=(2304/sigma^4*E_vec3);
-    % %         z=E_vec3;
-    %         NumStates = sigma^2/(24*pi^2)*1./(besselj(mu,sqrt(z)).^2+bessely(mu,sqrt(z)).^2);
-    %
-    %         plot(z,NumStates,'--k','LineWidth',2)
-    %         xlabel('\epsilon');
-    %         ylabel('N(\epsilon)');
-    %         legend(['numerics      ';...
-    %             '\mu_s         ';...
-    %             '{\mu_{\alpha}}';...
-    %             'J_{\mu}       '],'Location','SouthEast')
-    %         title(['\alpha=',num2str(alpha),', s=',num2str(s_vec(iS))]);
-    %         axis([epsilon_j_mat(iS,1) epsilon_j_mat(iS,end) 1/N 1])
-    % %                 legend(num2str(alpha_vec'))
-    %         axtype(3)
+    
 end
 %end %iAlpha
-%% Plot electrostatic potential along real axis 
+%% Plot electrostatic potential along real axis
 for iS=1
     
     s=s_vec(iS);
-   
+    
     [kappa,signKappa,expKappa,E_vec] = thoulessKappa(epsilon_j_mat(iS,1:end),N,g);
     kappa_p = kappa(signKappa>0);
     E_vec_p = E_vec(signKappa>0);
@@ -293,15 +243,12 @@ set(gca,'FontSize',24);
 % hold on; grid on;
 xlabel('Re[\lambda]');ylabel('Im[\lambda]');
 
-%% Scatter diagram of the spectrum
+%% Scatter diagram of the spectrum. Color corresponds to s
 iS_max=100;
 E=epsilon_s_mat(1:10:iS_max,:).';
 C=round(repmat(s_vec(1:10:iS_max)',1,N)');
 figure;scatter(-real(E(:)),imag(E(:)),30,(C(:)))
-%%
-for iS=1:length(s_vec)
-    figure; plot(-epsilon_s_mat(iS,:),'.')
-end
+
 %% Analytical formula for V(epsilon) for Large S (weak disorder)
 a=exp((s-sigma)/2);
 b=exp((s+sigma)/2);
@@ -325,7 +272,7 @@ plot(x,(kappa_large_S_1)/sigma,'--b','LineWidth',2)
 %% Small S (strong disorder), "French" expressions
 figure;
 D0=sqrt(2*(cosh(s)-1)/s^2);
-x0=logspace(-10,log10(max(E_vec)),1e5);
+x0=logspace(-10,log10(max(epsilon_j_mat(iS,:))),1e5);
 x=sqrt(384*D0.^3/sigma^4*x0);
 
 options = optimset('TolX',1e-11,'TolFun',1e-11);
@@ -390,7 +337,7 @@ Epsilon_n = 2*cosh(s/2)-2*cos((0:N-1)*2*pi/N);
 
 options = optimset('TolX',1e-11,'TolFun',1e-11);
 % mu = fsolve(@(mu)s-1/mu*log(sinh(mu*sigma)/(mu*sigma)),100,options)
-mu=0
+% mu=1
 epsilon_j=epsilon_j_mat(iS,:);
 x=linspace(min(epsilon_j),max(epsilon_j),10000);
 x0=logspace(log10(min(abs(epsilon_j))),log10(max(epsilon_j)),1e4);
@@ -405,7 +352,7 @@ plot(x0,log(x0/exp((s-sigma)/2))*N/sigma,'--r','LineWidth',2)
 plot(x0,sqrt(x0)*N/pi,'--g','LineWidth',2);
 plot(sort(Epsilon_n),1:N,'--g','LineWidth',2);
 
-NumStates = N*sigma^2/(24*pi^2)*1./(besselj(mu,sqrt(z)).^2+bessely(mu,sqrt(z)).^2);
+NumStates = N*sigma^2/(pi^2)./(besselj(mu,sqrt(z)).^2+bessely(mu,sqrt(z)).^2);
 plot(x0,NumStates,'-.k','LineWidth',2)
 %     plot(x0,x0.^mu,':c','LineWidth',2);
 % plot(x0,N*(x0/x0(end)).^(1/(1+2*Delta)),':c','LineWidth',2);

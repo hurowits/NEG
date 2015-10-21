@@ -2460,25 +2460,82 @@ as in \Eq{e32} of the text.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{ Ring with white disorder (”French”) }
 \label{A9}
-
-The density of states and electrostatic potential can be obtained analytically
+In the continuum limit, 
+the density of states and electrostatic potential can be obtained analytically
 for a an open ($L\to \infty$) one dimensional diffusion problem 
 with a stochastic force field that is gaussian white noise 
-with variance $\text{Var}(\mathcal{E}) = \sigma/a^2$ \cite{odh3}. 
-All of the couplings are the same, $D_0=a^2 w \equiv 1$.
-We summarize these results here in our notations.
+with variance $\text{Var}(\mathcal{E}) = \sigma_g^2/a^2$ \cite{odh3}. 
+First we present the basic equations in the continuum limit and proceed to present a summary of the results here in our notations.
+
+
+We begin with the Langevin equation
 %
 \beq
-\tilde{\epsilon} \equiv 16\frac{D_0^3}{\sigma^2} \epsilon 
+\frac{dx}{dt} = \frac{1}{\gamma} F\left[x(t)\right] + \eta(t)
+\eeq
+%
+where the environment is represented by thermal white noise 
+%
+\beq
+\overline{\eta(t)} &=& 0 \\ 
+\overline{\eta(t)\eta(t')} &=& \frac{2kT}{\gamma} \delta(t-t')
+\eeq
+%
+and in the absence of disorder, by the Einstein relation we have 
+%
+\beq
+D_0 = \frac{kT}{\gamma}
+\eeq
+%
+The random force is gaussian 
+%
+\beq
+\langle F \rangle &=& F_0 \\ 
+\langle F(x)F(x') \rangle - F_0^2 &=& \sigma_g^2 \delta(x-x')
+\eeq
+%
+where the overline represents averaging over thermal histories per given realization of disorder
+and brackets represent ensemble average over different realizations of disorder. 
+The equation for the probability distributions corresponding to the Langevin equation is the Fokker-Planck equation
+%
+\beq
+\frac{\partial P}{\partial t} = D_0 \frac{\partial^2 P}{\partial x^2} - \frac{1}{\gamma} \frac{\partial }{\partial x} \left[ F(x) P\right]
+\eeq
+%
+The drift velocity is thus 
+%
+\beq
+u = \frac{F}{\gamma}
+\eeq
+%
+along with the diffusion coefficient $D_0$, we have that 
+%
+\beq
+\frac{u}{D_0} \ = \ \frac{F}{kT} \ \equiv \ s
+\eeq
+%
+and does not depend on $\gamma$. 
+%
+The Fokker Planck equation can be obtained by taking the limit $a\to 0$ of the rate equation \Eq{e1} with transition rates 
+%
+\beq
+w_{n,n+1} &=& \frac{D_0}{a^2}\exp\left[-a\frac{F_{n+1}}{2kT}\right]\\
+w_{n+1,n} &=& \frac{D_0}{a^2}\exp\left[a\frac{F_{n+1}}{2kT}\right]\\
+\eeq
+%
+So, in our language this is like having $D_0 = \overline{w} a^2$.
+The dimensionless energy is 
+\beq
+\tilde{\epsilon} \equiv 16\frac{D_0^3}{\sigma_g^4} \epsilon 
 \eeq
 %
 So the integrated density of states is 
 %
 \be{931}
-\mathcal{N}(\tilde{\epsilon} )   \ &=& \ \frac{\sigma N}{2D_0^2\pi^2}\frac{1}{ M_{\mu}^2 (\sqrt{\tilde{\epsilon} })}
+\mathcal{N}(\tilde{\epsilon} )   \ &=& \ \frac{\sigma_g^2 N}{2D_0^2\pi^2}\frac{1}{ M_{\mu}^2 (\sqrt{\tilde{\epsilon} })}
 \eeq
 %
-Where $\mu$ for gaussian white noise is ${\mu=2s/ \sigma^2}$.
+Where $\mu$ for gaussian white noise is ${\mu=2s/ \sigma_g^2}$.
 Note that in the limit $\epsilon\to \infty$ the free particle result is recovered
 %
 \beq
@@ -2488,7 +2545,7 @@ Note that in the limit $\epsilon\to \infty$ the free particle result is recovere
 The electrostatic potential is
 %
 \beq
- V(\tilde{\epsilon} ) \ = \ -\sqrt{\tilde{\epsilon} } \frac{M'_{\mu}(\sqrt{\tilde{\epsilon} })}{M_{\mu}(\sqrt{\tilde{\epsilon} })} \frac{\sigma}{4D_0^2}, \ \ \tilde{\epsilon}  \geq 0
+ V(\tilde{\epsilon} ) \ = \ -\sqrt{\tilde{\epsilon} } \frac{M'_{\mu}(\sqrt{\tilde{\epsilon} })}{M_{\mu}(\sqrt{\tilde{\epsilon} })} \frac{\sigma_g^2}{4D_0^2}, \ \ \tilde{\epsilon}  \geq 0
 \eeq
 %
 where
@@ -2622,8 +2679,14 @@ equation 17 of \cite{nef} becomes
 \,\exp\left(-\sum_{x=n+1}^{n{+}r} \mathcal{E}_x \right) \right]^{-1} 
 \eeq
 %
-we have shown that ${\overleftarrow{G}_n = \exp(-\mathcal{E}_{\circlearrowleft}) \, \overrightarrow{G}_n}$
-and that $p_n = I/( \overleftarrow{G}_n - \overrightarrow{G}_n)$, thus
+It is easily seen that ${\overleftarrow{G}_n = \exp(-S) \, \overrightarrow{G}_n}$
+and by definition, 
+%
+\beq
+p_n = I/( \overleftarrow{G}_n - \overrightarrow{G}_n)
+\eeq
+%
+so we have
 %
 \beq
 p_n &\  \propto \ & 
