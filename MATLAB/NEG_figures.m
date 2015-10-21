@@ -1,4 +1,4 @@
-%% Complexity saturation1
+%% Complexity saturation 1 (Fig 7a of NEG)
 colors = 'rb'
 figure;
 axes('FontSize',24);
@@ -36,7 +36,7 @@ ylabel('# complex eigenvalues')
 
 % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100.eps'])
 
-%% Complexity saturation 2
+%% Complexity saturation 2 (Fig 7b of NEG)
 figure;
 axes('FontSize',24);
 hold on;
@@ -92,7 +92,7 @@ legend(['s_{\mu}         ';...
     's= \mu\sigma^2/6'],'Location','SouthEast')
 axis([0 20 0 6])
 % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/s_mu.eps'])
-%% Integrated Density of states
+%% Generate gallery of plots of N(epsilon)
 flagLegend=1;
 for iS=[10,20,22,27,32,35,37,40,70,100]
     
