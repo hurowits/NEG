@@ -131,5 +131,3 @@ xlabel('$M/N$','Interpreter','Latex');
 ylabel('$s_c/s_{1/2}$','Interpreter','Latex')
 % % axis([0 1 0 1])
 % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog.eps'])
-
-% save('s_c_sparseFieldDisorder');

@@ -22,8 +22,8 @@ x0 = linspace(-1,1,N);
 x0 = x0(randInd1) - mean(x0);
 %% 
 colors='rgbkm'
-s_vec=[s_1_2,s_1*1.1]; %affinity values 
-t_end=5000000;         %End time of simulation
+s_vec=[s_1_2*0.5,s_1*1.1]; %affinity values 
+t_end=5000;         %End time of simulation
 r0=(round(rand(1)*N)); %Initial position
 for iS=1:length(s_vec)
     s=s_vec(iS)

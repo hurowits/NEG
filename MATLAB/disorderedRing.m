@@ -6,7 +6,7 @@ colors='rgbckymrgbckym'
 options = optimset('TolX',1e-11,'TolFun',1e-11);
 % N=500;
 N_vec = 100:100:2000;[100,500,1000,1500,2000];
-N_vec=5000 ;
+N_vec=500 ;
 numRealizations=1;
 N=N_vec(1);
 randInd1 = randperm(N);
@@ -14,7 +14,7 @@ randInd2 = randperm(N);
 % iRR=10;
 
 sigma_vec=[3 5];
-sigma_vec=2;
+sigma_vec=5;
 % sigma=0;
 % alpha_vec =.7;0.5;[0.1, 0.5, 1, 2, Inf ]; [100,1.1,1,0.9]
 alpha_vec=Inf;0.5;.39;.9;.5;.7;
@@ -28,8 +28,8 @@ iC=1;
 iAlpha=1;
 for iSigma=1:length(sigma_vec)
     for iR = 1:numRealizations
-        randInd1 = randperm(N);
-        randInd2 = randperm(N);
+%         randInd1 = randperm(N);
+%         randInd2 = randperm(N);
         iR
         for iN=1:length(N_vec)
             N=N_vec(iN);
@@ -68,12 +68,13 @@ for iSigma=1:length(sigma_vec)
             %             mu_vec=[0.3,0.5,0.7,1,1.5,2,4]
             %             mu_vec=200;
             %             s_vec=1./mu_vec.*log(sinh(sigma*mu_vec)./sigma./mu_vec);
-            s_vec=[s_1_2*0.7,s_1_2,.9*s_1,s_2,2*sigma];
+            s_vec=[s_1_2*0.7,s_1_2,.8*s_1,s_2,sigma,2*sigma];
+%             s_vec=s_1_2*0.5
             %             s_vec=[linspace(0,1,10),linspace(1,5,5),20];;s_1*0.9
-            %             s_vec=30;
-            s_vec=linspace(0,10,200);
+%             %             s_vec=30;
+%             s_vec=linspace(0,10,200);
             %             s_vec=10
-            % s_vec=0.9*s_1
+%             s_vec=0.8*s_1
             %             s_vec= 2*sigma;
             %             s_vec=s_1_2/2;[s_1_2/2,s_1,2*sigma];[0,s_1_2,s_1,s_2,2*sigma];[1,3,5];
             %             s_vec=2*sigma;
@@ -81,7 +82,7 @@ for iSigma=1:length(sigma_vec)
             %             s_vec=2*sigma;
             %             s_vec=s_2;s_1_2/2
             %             s_vec=linspace(0,1e1,100);
-            s_vec=s_1;
+%             s_vec=s_1_2/2;
             for iS=1:length(s_vec)
                 %                 mu=mu_vec(iS);
                 
@@ -145,54 +146,60 @@ for iS=1:length(s_vec)
     set(gca,'FontSize',24)
     hold on;
     grid on
-    plot(sort(epsilon_j_mat(iS,:)),(1:N)/N,'bo','LineWidth',4)
+    h1=plot(sort(epsilon_j_mat(iS,:)),(1:N)/N,'bo','LineWidth',4)
     
     %         if (s<sigma)
     if (mu==0)
-        plot(x,1/N*log(x/x(1)),'--k','LineWidth',4)
+       h2= plot(x,1/N*log(x/x(1)),'--k','LineWidth',4)
     else
-        plot(x(1:end),1/N*(x(1:end)/x(1)).^mu,'--k','LineWidth',4)
+        h2=plot(x(4:end),4/N*(x(4:end)/x(4)).^mu,'--k','LineWidth',4)
     end
     %         else
     if (alpha>=1)
-        plot(x,log(x/exp((s-sigma)/2))/sigma,'--r','LineWidth',4)
+        h4=plot(x,log(x/exp((s-sigma)/2))/sigma,'--r','LineWidth',4)
     else
         %             plot(x,log(x/exp((s-sigma)/2)/min(g))/((alpha+1)*sigma),'--r','LineWidth',2)
         %             plot(x,log(exp(1)*x/x(end)),'--r','LineWidth',4)
     end
     %         end
-    plot(x,(x/x(end)).^mu_alpha,'--g','LineWidth',4)
+   h3= plot(x,(x/x(end)).^mu_alpha,'--g','LineWidth',4)
     if (s==0)
         %             plot(x,1./log(x).^2,['r',':'])
         %           plot(x,1./log(x).^2,[colors(iC),':'])
     end
     plot([exp((s-sigma)/2) exp((s-sigma)/2)], [1/N 1],':k','LineWidth',4)
-    plot(x(1:end),NumStates(1:end)./(NumStates(1))*1/N,'--r')
+    h5=plot(x(4:end),NumStates(4:end)./(NumStates(4))*4/N,'--c','LineWidth',4)
     %
     iC = iC+1;
-    xlabel('\epsilon')
-    ylabel('N(\epsilon)')
-    if (iS==1 && iAlpha==5)
-        legend(['Numerics    ';...
-            '\mu_s       ';...
-            %                 'log-box     ';...
-            '\mu_{\alpha}'],'Location','SouthEast');
+    xlabel('$\epsilon$','Interpreter','Latex')
+    ylabel('$N(\epsilon)$','Interpreter','Latex')
+    if (iS==1 && iAlpha==1)
+        legend_h=legend([h1,h2,h3,h5,h4],...
+        {'Numerics';...
+         '$\epsilon^{\mu_s}$';...
+         '$\sqrt{\epsilon}$';...
+         '$J_{\mu_s}(\epsilon)$';...
+         'log-box'},'Location','NorthWest');
+     set(legend,'Interpreter','Latex')
+%      set(legend_h,'Color','none')
     end
     axtype(3);
-    %               title(['\alpha = ',num2str(alpha),', \mu_{\alpha} = ',num2str(mu_alpha),', \mu_s = ',num2str(mu)]);
-    axis([x(1) x(end) 1/N 1])
-    %      print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_',num2str(iS),'_',num2str(iAlpha),'.eps'])
+    title(['$\mu_s$ = ',num2str(mu)],'Interpreter','Latex');
+    axis([x(4) x(end) 1/N 1])
+%          print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_',num2str(iS),'_',num2str(iAlpha),'.eps'])
+% print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_',num2str(iS),'_french.eps'])
     %      print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_0.eps'])
     %     end
     
 end
+% save('N_E_french.mat');
 %end %iAlpha
 %% Plot electrostatic potential along real axis
-for iS=1
+for iS=3%1:length(s_vec)
     
     s=s_vec(iS);
-    
-    [kappa,signKappa,expKappa,E_vec] = thoulessKappa(epsilon_j_mat(iS,1:end),N,g);
+    E_vec=linspace(epsilon_j_mat(iS,1),epsilon_j_mat(iS,end)*1.1,1e5);
+    [kappa,signKappa,expKappa,E_vec] = thoulessKappa(epsilon_j_mat(iS,1:end),N,g,E_vec);
     kappa_p = kappa(signKappa>0);
     E_vec_p = E_vec(signKappa>0);
     [peaks_p,ind_p]=findpeaks(kappa_p);
@@ -226,23 +233,23 @@ for iS=1
     %         title(['s = ',num2str(s),', \mu = ',num2str(mu_vec(iS)), ', \sigma = ',num2str(sigma),', \alpha = ',num2str(alpha)]);
     %     plot(E_vec,(kappa/N),'r--')
     
-    xlabel('\epsilon');
-    ylabel('V(\epsilon)');
+    xlabel('$\epsilon$','Interpreter','Latex');
+    ylabel('$V(\epsilon)$','Interpreter','Latex');
     
     legend([h1,h2],...
         {'V(\epsilon)';...
         'V(0)'},...
-        'Location','SouthEast')
+        'Location','SouthEast','Interpreter','Latex')
     hold off
 end
 %% Plot spectrum in complex plane
 figure;
-h=plot(-epsilon_s_mat(1,:),'.','MarkerSize',20);
+h=plot(-epsilon_s_mat(3,:),'.','MarkerSize',20);
 % axis([-1e-2 200 -40 40])
 set(gca,'FontSize',24);
 % hold on; grid on;
 xlabel('Re[\lambda]');ylabel('Im[\lambda]');
-
+axis([0 6 -0.12 0.12])
 %% Scatter diagram of the spectrum. Color corresponds to s
 iS_max=100;
 E=epsilon_s_mat(1:10:iS_max,:).';
