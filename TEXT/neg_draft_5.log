@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  21 OCT 2015 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  22 OCT 2015 15:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -606,31 +606,37 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 446.
  [3 <..//Figs/polar_1_a-eps-converted-to.pdf> <..//Figs/polar_2_a-eps-converted
 -to.pdf>]
-Package epstopdf Info: Source file: <..//Figs/N_E_0.eps>
-(epstopdf)                    date: 2015-08-12 11:32:44
-(epstopdf)                    size: 90752 bytes
-(epstopdf)             Output file: <..//Figs/N_E_0-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-12 11:32:49
-(epstopdf)                    size: 140364 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/N_E_0-eps-converte
-d-to.pdf ..//Figs/N_E_0.eps>
-(epstopdf)             \includegraphics on input line 617.
-Package epstopdf Info: Output file is already uptodate.
+Package epstopdf Info: Source file: <..//Figs/N_E_1_1_french.eps>
+(epstopdf)                    date: 2015-10-22 15:23:13
+(epstopdf)                    size: 208406 bytes
+(epstopdf)             Output file: <..//Figs/N_E_1_1_french-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-22 12:15:48
+(epstopdf)                    size: 117780 bytes
+(epstopdf)             Command: <epstopdf --outfile=..//Figs/N_E_1_1_french-eps
+-converted-to.pdf ..//Figs/N_E_1_1_french.eps>
+(epstopdf)             \includegraphics on input line 620.
+runsystem(epstopdf --outfile=..//Figs/N_E_1_1_french-eps-converted-to.pdf ..//F
+igs/N_E_1_1_french.eps)...executed.
 
-<..//Figs/N_E_0-eps-converted-to.pdf, id=238, 530.98375pt x 426.59375pt>
-File: ..//Figs/N_E_0-eps-converted-to.pdf Graphic file (type pdf)
+Package epstopdf Info: Result file: <..//Figs/N_E_1_1_french-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-10-22 15:23:15
+(epstopdf)                    size: 117789 bytes.
 
-<use ..//Figs/N_E_0-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/N_E_0-eps-converted-to.pdf used on input line
- 617.
-(pdftex.def)             Requested size: 177.08057pt x 142.26378pt.
+<..//Figs/N_E_1_1_french-eps-converted-to.pdf, id=243, 533.995pt x 438.63875pt>
+File: ..//Figs/N_E_1_1_french-eps-converted-to.pdf Graphic file (type pdf)
+<use ..//Figs/N_E_1_1_french-eps-converted-to.pdf>
+Package pdftex.def Info: ..//Figs/N_E_1_1_french-eps-converted-to.pdf used on i
+nput line 620.
+(pdftex.def)             Requested size: 173.1878pt x 142.26378pt.
 
-Underfull \hbox (badness 1082) in paragraph at lines 624--624
+Underfull \hbox (badness 1082) in paragraph at lines 627--627
 \OT1/ptm/m/n/9 sites. The sys-tem is char-ac-ter-ized by a per-co-la-tion ex-po
 -nent
  []
 
-[4 <..//Figs/N_E_0-eps-converted-to.pdf>]
+[4 <..//Figs/N_E_1_1_french-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <..//Figs/V_E_1_2.eps>
 (epstopdf)                    date: 2015-09-25 16:12:13
 (epstopdf)                    size: 97227 bytes
@@ -639,15 +645,15 @@ Package epstopdf Info: Source file: <..//Figs/V_E_1_2.eps>
 (epstopdf)                    size: 31071 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_1_2-eps-conver
 ted-to.pdf ..//Figs/V_E_1_2.eps>
-(epstopdf)             \includegraphics on input line 672.
+(epstopdf)             \includegraphics on input line 675.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_E_1_2-eps-converted-to.pdf, id=263, 541.02126pt x 419.5675pt>
+<..//Figs/V_E_1_2-eps-converted-to.pdf, id=277, 541.02126pt x 419.5675pt>
 File: ..//Figs/V_E_1_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/V_E_1_2-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_E_1_2-eps-converted-to.pdf used on input li
-ne 672.
+ne 675.
 (pdftex.def)             Requested size: 165.09792pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/V_E_1.eps>
 (epstopdf)                    date: 2015-09-25 16:10:50
@@ -657,15 +663,15 @@ Package epstopdf Info: Source file: <..//Figs/V_E_1.eps>
 (epstopdf)                    size: 35450 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_1-eps-converte
 d-to.pdf ..//Figs/V_E_1.eps>
-(epstopdf)             \includegraphics on input line 673.
+(epstopdf)             \includegraphics on input line 676.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_E_1-eps-converted-to.pdf, id=264, 533.995pt x 419.5675pt>
+<..//Figs/V_E_1-eps-converted-to.pdf, id=278, 533.995pt x 419.5675pt>
 File: ..//Figs/V_E_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/V_E_1-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_E_1-eps-converted-to.pdf used on input line
- 673.
+ 676.
 (pdftex.def)             Requested size: 162.95378pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/V_E_2.eps>
 (epstopdf)                    date: 2015-09-25 16:09:54
@@ -675,15 +681,15 @@ Package epstopdf Info: Source file: <..//Figs/V_E_2.eps>
 (epstopdf)                    size: 31080 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_2-eps-converte
 d-to.pdf ..//Figs/V_E_2.eps>
-(epstopdf)             \includegraphics on input line 674.
+(epstopdf)             \includegraphics on input line 677.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_E_2-eps-converted-to.pdf, id=265, 548.0475pt x 419.5675pt>
+<..//Figs/V_E_2-eps-converted-to.pdf, id=279, 548.0475pt x 419.5675pt>
 File: ..//Figs/V_E_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/V_E_2-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_E_2-eps-converted-to.pdf used on input line
- 674.
+ 677.
 (pdftex.def)             Requested size: 167.24205pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/spectrum_1_2.eps>
 (epstopdf)                    date: 2015-09-25 17:00:24
@@ -694,15 +700,15 @@ Package epstopdf Info: Source file: <..//Figs/spectrum_1_2.eps>
 (epstopdf)                    size: 20442 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_1_2-eps-c
 onverted-to.pdf ..//Figs/spectrum_1_2.eps>
-(epstopdf)             \includegraphics on input line 676.
+(epstopdf)             \includegraphics on input line 679.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_1_2-eps-converted-to.pdf, id=266, 548.0475pt x 419.5675pt>
+<..//Figs/spectrum_1_2-eps-converted-to.pdf, id=280, 548.0475pt x 419.5675pt>
 File: ..//Figs/spectrum_1_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/spectrum_1_2-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/spectrum_1_2-eps-converted-to.pdf used on inp
-ut line 676.
+ut line 679.
 (pdftex.def)             Requested size: 167.24205pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/spectrum_1.eps>
 (epstopdf)                    date: 2015-09-25 16:08:28
@@ -712,15 +718,15 @@ Package epstopdf Info: Source file: <..//Figs/spectrum_1.eps>
 (epstopdf)                    size: 21229 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_1-eps-con
 verted-to.pdf ..//Figs/spectrum_1.eps>
-(epstopdf)             \includegraphics on input line 677.
+(epstopdf)             \includegraphics on input line 680.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_1-eps-converted-to.pdf, id=267, 544.0325pt x 419.5675pt>
+<..//Figs/spectrum_1-eps-converted-to.pdf, id=281, 544.0325pt x 419.5675pt>
 File: ..//Figs/spectrum_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/spectrum_1-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/spectrum_1-eps-converted-to.pdf used on input
- line 677.
+ line 680.
 (pdftex.def)             Requested size: 166.01683pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/spectrum_2.eps>
 (epstopdf)                    date: 2015-09-25 16:15:10
@@ -730,52 +736,52 @@ Package epstopdf Info: Source file: <..//Figs/spectrum_2.eps>
 (epstopdf)                    size: 21028 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_2-eps-con
 verted-to.pdf ..//Figs/spectrum_2.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 681.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_2-eps-converted-to.pdf, id=268, 548.0475pt x 419.5675pt>
+<..//Figs/spectrum_2-eps-converted-to.pdf, id=282, 548.0475pt x 419.5675pt>
 File: ..//Figs/spectrum_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/spectrum_2-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/spectrum_2-eps-converted-to.pdf used on input
- line 678.
+ line 681.
 (pdftex.def)             Requested size: 167.24205pt x 128.0374pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 695.
+(hyperref)                removing `math shift' on input line 698.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 695.
+(hyperref)                removing `subscript' on input line 698.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 695.
+(hyperref)                removing `math shift' on input line 698.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 748.
+(hyperref)                removing `math shift' on input line 751.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 748.
+(hyperref)                removing `subscript' on input line 751.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 748.
+(hyperref)                removing `math shift' on input line 751.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 765.
+(hyperref)                removing `math shift' on input line 768.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 765.
+(hyperref)                removing `subscript' on input line 768.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 765.
+(hyperref)                removing `math shift' on input line 768.
 
 [5 <..//Figs/V_E_1_2-eps-converted-to.pdf> <..//Figs/V_E_1-eps-converted-to.pdf
 > <..//Figs/V_E_2-eps-converted-to.pdf> <..//Figs/spectrum_1_2-eps-converted-to
@@ -790,53 +796,53 @@ ed-to.pdf>
 (epstopdf)                    size: 104151 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/s_c_sparse_100_log
 log-eps-converted-to.pdf ..//Figs/s_c_sparse_100_loglog.eps>
-(epstopdf)             \includegraphics on input line 852.
+(epstopdf)             \includegraphics on input line 855.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/s_c_sparse_100_loglog-eps-converted-to.pdf, id=348, 539.01375pt x 426
+<..//Figs/s_c_sparse_100_loglog-eps-converted-to.pdf, id=362, 539.01375pt x 426
 .59375pt>
 File: ..//Figs/s_c_sparse_100_loglog-eps-converted-to.pdf Graphic file (type pd
 f)
  <use ..//Figs/s_c_sparse_100_loglog-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/s_c_sparse_100_loglog-eps-converted-to.pdf us
-ed on input line 852.
+ed on input line 855.
 (pdftex.def)             Requested size: 179.75853pt x 142.26378pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 861.
+(hyperref)                removing `math shift' on input line 864.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 861.
+(hyperref)                removing `subscript' on input line 864.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 861.
+(hyperref)                removing `math shift' on input line 864.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--888
+Underfull \hbox (badness 10000) in paragraph at lines 884--891
 \OT1/ptm/m/n/10 and is re-lated to the elec-tro-static po-ten-tial by
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 881--888
+Underfull \hbox (badness 2401) in paragraph at lines 884--891
 []$\OT1/ptm/m/n/10 . Note that the en-ve-lope func-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--894
+Underfull \hbox (badness 10000) in paragraph at lines 893--897
 \OT1/ptm/m/n/10 For $\OML/ztmcm/m/it/10 S=G \OMS/ztmcm/m/n/10 ^^] \OT1/ztmcm/m/
 n/10 1$ \OT1/ptm/m/n/10 this equa-tion be-comes ap-prox-i-mately
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 890--894
+Underfull \hbox (badness 1584) in paragraph at lines 893--897
 []$\OT1/ptm/m/n/10 . The so-lu-tion is given in terms of the
  []
 
 [6 <..//Figs/s_c_sparse_100_loglog-eps-converted-to.pdf>]
-Underfull \hbox (badness 1448) in paragraph at lines 1084--1088
+Underfull \hbox (badness 1448) in paragraph at lines 1087--1091
 \OT1/ptm/m/n/10 The gap is de-ter-mined by in-te-grat-ing the elec-tric field,
  []
 
@@ -850,16 +856,16 @@ Package epstopdf Info: Source file: <..//Figs/gap_D_sigma5_N_1000.eps>
 (epstopdf)                    size: 9462 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/gap_D_sigma5_N_100
 0-eps-converted-to.pdf ..//Figs/gap_D_sigma5_N_1000.eps>
-(epstopdf)             \includegraphics on input line 1127.
+(epstopdf)             \includegraphics on input line 1130.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf, id=415, 530.98375pt x 419.5
+<..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf, id=429, 530.98375pt x 419.5
 675pt>
 File: ..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf Graphic file (type pdf)
 
  <use ..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf used
- on input line 1127.
+ on input line 1130.
 (pdftex.def)             Requested size: 216.0519pt x 170.71652pt.
 Package epstopdf Info: Source file: <..//Figs/V_E_s_inf.eps>
 (epstopdf)                    date: 2015-08-12 16:56:11
@@ -869,15 +875,15 @@ Package epstopdf Info: Source file: <..//Figs/V_E_s_inf.eps>
 (epstopdf)                    size: 47449 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_s_inf-eps-conv
 erted-to.pdf ..//Figs/V_E_s_inf.eps>
-(epstopdf)             \includegraphics on input line 1145.
+(epstopdf)             \includegraphics on input line 1148.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_E_s_inf-eps-converted-to.pdf, id=422, 524.96124pt x 413.545pt>
+<..//Figs/V_E_s_inf-eps-converted-to.pdf, id=436, 524.96124pt x 413.545pt>
 File: ..//Figs/V_E_s_inf-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/V_E_s_inf-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_E_s_inf-eps-converted-to.pdf used on input 
-line 1145.
+line 1148.
 (pdftex.def)             Requested size: 176.407pt x 138.96278pt.
 Package epstopdf Info: Source file: <..//Figs/electrostatics_large_S.eps>
 (epstopdf)                    date: 2015-05-25 19:04:12
@@ -888,16 +894,16 @@ ted-to.pdf>
 (epstopdf)                    size: 1113046 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/electrostatics_lar
 ge_S-eps-converted-to.pdf ..//Figs/electrostatics_large_S.eps>
-(epstopdf)             \includegraphics on input line 1146.
+(epstopdf)             \includegraphics on input line 1149.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/electrostatics_large_S-eps-converted-to.pdf, id=423, 483.8075pt x 413
+<..//Figs/electrostatics_large_S-eps-converted-to.pdf, id=437, 483.8075pt x 413
 .545pt>
 File: ..//Figs/electrostatics_large_S-eps-converted-to.pdf Graphic file (type p
 df)
  <use ..//Figs/electrostatics_large_S-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/electrostatics_large_S-eps-converted-to.pdf u
-sed on input line 1146.
+sed on input line 1149.
 (pdftex.def)             Requested size: 213.39566pt x 182.40207pt.
 Package epstopdf Info: Source file: <..//Figs/electrostatics_large_S_zoom.eps>
 (epstopdf)                    date: 2015-05-25 20:36:30
@@ -908,16 +914,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 109118 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/electrostatics_lar
 ge_S_zoom-eps-converted-to.pdf ..//Figs/electrostatics_large_S_zoom.eps>
-(epstopdf)             \includegraphics on input line 1147.
+(epstopdf)             \includegraphics on input line 1150.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf, id=424, 443.6575pt 
+<..//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf, id=438, 443.6575pt 
 x 405.515pt>
 File: ..//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use ..//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/electrostatics_large_S_zoom-eps-converted-to.
-pdf used on input line 1147.
+pdf used on input line 1150.
 (pdftex.def)             Requested size: 213.39566pt x 195.04718pt.
 Missing character: There is no Ó in font ptmr7t!
 Missing character: There is no Ó in font ptmr7t!
@@ -929,28 +935,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1171.
+(hyperref)                removing `math shift' on input line 1174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gg' on input line 1171.
+(hyperref)                removing `\gg' on input line 1174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1171.
+(hyperref)                removing `subscript' on input line 1174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\infty' on input line 1171.
+(hyperref)                removing `\infty' on input line 1174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1171.
+(hyperref)                removing `math shift' on input line 1174.
 
 [8 <..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf> <..//Figs/V_E_s_inf-eps-
 converted-to.pdf> <..//Figs/electrostatics_large_S-eps-converted-to.pdf> <..//F
 igs/electrostatics_large_S_zoom-eps-converted-to.pdf>]
-Overfull \hbox (13.12341pt too wide) in alignment at lines 1184--1192
+Overfull \hbox (13.12341pt too wide) in alignment at lines 1187--1195
  [][][] []
  []
 
@@ -963,15 +969,15 @@ df>
 (epstopdf)                    size: 8593 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/numComplex_100-eps
 -converted-to.pdf ..//Figs/numComplex_100.eps>
-(epstopdf)             \includegraphics on input line 1249.
+(epstopdf)             \includegraphics on input line 1252.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/numComplex_100-eps-converted-to.pdf, id=485, 533.995pt x 419.5675pt>
+<..//Figs/numComplex_100-eps-converted-to.pdf, id=499, 533.995pt x 419.5675pt>
 File: ..//Figs/numComplex_100-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/numComplex_100-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/numComplex_100-eps-converted-to.pdf used on i
-nput line 1249.
+nput line 1252.
 (pdftex.def)             Requested size: 195.54617pt x 153.6447pt.
 Package epstopdf Info: Source file: <..//Figs/numComplex_100_alpha.eps>
 (epstopdf)                    date: 2015-10-06 18:02:52
@@ -982,16 +988,16 @@ d-to.pdf>
 (epstopdf)                    size: 10856 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/numComplex_100_alp
 ha-eps-converted-to.pdf ..//Figs/numComplex_100_alpha.eps>
-(epstopdf)             \includegraphics on input line 1250.
+(epstopdf)             \includegraphics on input line 1253.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/numComplex_100_alpha-eps-converted-to.pdf, id=486, 533.995pt x 419.56
+<..//Figs/numComplex_100_alpha-eps-converted-to.pdf, id=500, 533.995pt x 419.56
 75pt>
 File: ..//Figs/numComplex_100_alpha-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ..//Figs/numComplex_100_alpha-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/numComplex_100_alpha-eps-converted-to.pdf use
-d on input line 1250.
+d on input line 1253.
 (pdftex.def)             Requested size: 195.54617pt x 153.6447pt.
 
 
@@ -1012,32 +1018,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--65
 ) [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1402.
+(hyperref)                removing `math shift' on input line 1405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1402.
+(hyperref)                removing `math shift' on input line 1405.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1445--1456
+Underfull \hbox (badness 10000) in paragraph at lines 1448--1459
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1458.
+(hyperref)                removing `math shift' on input line 1461.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1458.
+(hyperref)                removing `subscript' on input line 1461.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 1458.
+(hyperref)                removing `\mu' on input line 1461.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1458.
+(hyperref)                removing `math shift' on input line 1461.
 
 [11] [12] [13]
 Package epstopdf Info: Source file: <..//Figs/V_clean_1.eps>
@@ -1048,15 +1054,15 @@ Package epstopdf Info: Source file: <..//Figs/V_clean_1.eps>
 (epstopdf)                    size: 121196 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_clean_1-eps-conv
 erted-to.pdf ..//Figs/V_clean_1.eps>
-(epstopdf)             \includegraphics on input line 1670.
+(epstopdf)             \includegraphics on input line 1673.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_clean_1-eps-converted-to.pdf, id=608, 530.98375pt x 419.5675pt>
+<..//Figs/V_clean_1-eps-converted-to.pdf, id=622, 530.98375pt x 419.5675pt>
 File: ..//Figs/V_clean_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/V_clean_1-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_clean_1-eps-converted-to.pdf used on input 
-line 1670.
+line 1673.
 (pdftex.def)             Requested size: 180.03784pt x 142.26378pt.
 Package epstopdf Info: Source file: <..//Figs/V_clean_2.eps>
 (epstopdf)                    date: 2015-09-22 10:15:08
@@ -1066,25 +1072,25 @@ Package epstopdf Info: Source file: <..//Figs/V_clean_2.eps>
 (epstopdf)                    size: 220375 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_clean_2-eps-conv
 erted-to.pdf ..//Figs/V_clean_2.eps>
-(epstopdf)             \includegraphics on input line 1671.
+(epstopdf)             \includegraphics on input line 1674.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_clean_2-eps-converted-to.pdf, id=609, 530.98375pt x 419.5675pt>
+<..//Figs/V_clean_2-eps-converted-to.pdf, id=623, 530.98375pt x 419.5675pt>
 File: ..//Figs/V_clean_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ..//Figs/V_clean_2-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_clean_2-eps-converted-to.pdf used on input 
-line 1671.
+line 1674.
 (pdftex.def)             Requested size: 180.03784pt x 142.26378pt.
  [14 <..//Figs/V_clean_1-eps-converted-to.pdf> <..//Figs/V_clean_2-eps-converte
 d-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1782.
+(hyperref)                removing `math shift' on input line 1785.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1782.
+(hyperref)                removing `math shift' on input line 1785.
 
 [15] [16]
 Package epstopdf Info: Source file: <..//Figs/gRing_ES_vs_cont.eps>
@@ -1096,14 +1102,14 @@ Package epstopdf Info: Source file: <..//Figs/gRing_ES_vs_cont.eps>
 (epstopdf)                    size: 65006 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/gRing_ES_vs_cont-e
 ps-converted-to.pdf ..//Figs/gRing_ES_vs_cont.eps>
-(epstopdf)             \includegraphics on input line 2171.
+(epstopdf)             \includegraphics on input line 2174.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/gRing_ES_vs_cont-eps-converted-to.pdf, id=680, 554.07pt x 419.5675pt>
+<..//Figs/gRing_ES_vs_cont-eps-converted-to.pdf, id=694, 554.07pt x 419.5675pt>
 File: ..//Figs/gRing_ES_vs_cont-eps-converted-to.pdf Graphic file (type pdf)
 <use ..//Figs/gRing_ES_vs_cont-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/gRing_ES_vs_cont-eps-converted-to.pdf used on
- input line 2171.
+ input line 2174.
 (pdftex.def)             Requested size: 187.86559pt x 142.26378pt.
 Package epstopdf Info: Source file: <..//Figs/gRing_ES_vs_cont2.eps>
 (epstopdf)                    date: 2015-10-13 10:25:47
@@ -1114,15 +1120,15 @@ o.pdf>
 (epstopdf)                    size: 64676 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/gRing_ES_vs_cont2-
 eps-converted-to.pdf ..//Figs/gRing_ES_vs_cont2.eps>
-(epstopdf)             \includegraphics on input line 2172.
+(epstopdf)             \includegraphics on input line 2175.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/gRing_ES_vs_cont2-eps-converted-to.pdf, id=681, 554.07pt x 419.5675pt
+<..//Figs/gRing_ES_vs_cont2-eps-converted-to.pdf, id=695, 554.07pt x 419.5675pt
 >
 File: ..//Figs/gRing_ES_vs_cont2-eps-converted-to.pdf Graphic file (type pdf)
  <use ..//Figs/gRing_ES_vs_cont2-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/gRing_ES_vs_cont2-eps-converted-to.pdf used o
-n input line 2172.
+n input line 2175.
 (pdftex.def)             Requested size: 187.86559pt x 142.26378pt.
  [17 <..//Figs/gRing_ES_vs_cont-eps-converted-to.pdf> <..//Figs/gRing_ES_vs_con
 t2-eps-converted-to.pdf>]
@@ -1130,156 +1136,123 @@ Missing character: There is no Ó in font ptmb7t!
 Missing character: There is no Ó in font ptmb7t!
  [18]
 Package epstopdf Info: Source file: <../Figs/N_E_1_french.eps>
-(epstopdf)                    date: 2015-10-21 15:15:08
-(epstopdf)                    size: 259545 bytes
+(epstopdf)                    date: 2015-10-22 10:32:23
+(epstopdf)                    size: 276094 bytes
 (epstopdf)             Output file: <../Figs/N_E_1_french-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-10-21 15:06:43
-(epstopdf)                    size: 104944 bytes
+(epstopdf)                    date: 2015-10-22 10:32:29
+(epstopdf)                    size: 155031 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Figs/N_E_1_french-eps-co
 nverted-to.pdf ../Figs/N_E_1_french.eps>
-(epstopdf)             \includegraphics on input line 2572.
-runsystem(epstopdf --outfile=../Figs/N_E_1_french-eps-converted-to.pdf ../Figs/
-N_E_1_french.eps)...executed.
+(epstopdf)             \includegraphics on input line 2575.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Figs/N_E_1_french-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-10-21 15:15:14
-(epstopdf)                    size: 113686 bytes.
-
-<../Figs/N_E_1_french-eps-converted-to.pdf, id=730, 530.98375pt x 438.63875pt>
+<../Figs/N_E_1_french-eps-converted-to.pdf, id=744, 530.98375pt x 438.63875pt>
 File: ../Figs/N_E_1_french-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Figs/N_E_1_french-eps-converted-to.pdf>
 Package pdftex.def Info: ../Figs/N_E_1_french-eps-converted-to.pdf used on inpu
-t line 2572.
+t line 2575.
 (pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
 Package epstopdf Info: Source file: <../Figs/N_E_2_french.eps>
-(epstopdf)                    date: 2015-10-21 15:15:09
-(epstopdf)                    size: 216473 bytes
+(epstopdf)                    date: 2015-10-22 10:32:24
+(epstopdf)                    size: 236025 bytes
 (epstopdf)             Output file: <../Figs/N_E_2_french-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-10-21 15:06:44
-(epstopdf)                    size: 117638 bytes
+(epstopdf)                    date: 2015-10-22 10:32:29
+(epstopdf)                    size: 171393 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Figs/N_E_2_french-eps-co
 nverted-to.pdf ../Figs/N_E_2_french.eps>
-(epstopdf)             \includegraphics on input line 2573.
-runsystem(epstopdf --outfile=../Figs/N_E_2_french-eps-converted-to.pdf ../Figs/
-N_E_2_french.eps)...executed.
+(epstopdf)             \includegraphics on input line 2576.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Figs/N_E_2_french-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-10-21 15:15:14
-(epstopdf)                    size: 121528 bytes.
-
-<../Figs/N_E_2_french-eps-converted-to.pdf, id=731, 530.98375pt x 438.63875pt>
+<../Figs/N_E_2_french-eps-converted-to.pdf, id=745, 530.98375pt x 438.63875pt>
 File: ../Figs/N_E_2_french-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Figs/N_E_2_french-eps-converted-to.pdf>
 Package pdftex.def Info: ../Figs/N_E_2_french-eps-converted-to.pdf used on inpu
-t line 2573.
+t line 2576.
 (pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
 Package epstopdf Info: Source file: <../Figs/N_E_3_french.eps>
-(epstopdf)                    date: 2015-10-21 15:15:10
-(epstopdf)                    size: 220814 bytes
+(epstopdf)                    date: 2015-10-22 10:32:25
+(epstopdf)                    size: 243148 bytes
 (epstopdf)             Output file: <../Figs/N_E_3_french-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-10-21 15:06:44
-(epstopdf)                    size: 127860 bytes
+(epstopdf)                    date: 2015-10-22 10:32:29
+(epstopdf)                    size: 186008 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Figs/N_E_3_french-eps-co
 nverted-to.pdf ../Figs/N_E_3_french.eps>
-(epstopdf)             \includegraphics on input line 2574.
-runsystem(epstopdf --outfile=../Figs/N_E_3_french-eps-converted-to.pdf ../Figs/
-N_E_3_french.eps)...executed.
+(epstopdf)             \includegraphics on input line 2577.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Figs/N_E_3_french-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-10-21 15:15:14
-(epstopdf)                    size: 128678 bytes.
-
-<../Figs/N_E_3_french-eps-converted-to.pdf, id=732, 530.98375pt x 438.63875pt>
+<../Figs/N_E_3_french-eps-converted-to.pdf, id=746, 530.98375pt x 438.63875pt>
 File: ../Figs/N_E_3_french-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Figs/N_E_3_french-eps-converted-to.pdf>
 Package pdftex.def Info: ../Figs/N_E_3_french-eps-converted-to.pdf used on inpu
-t line 2574.
+t line 2577.
 (pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
 Package epstopdf Info: Source file: <../Figs/N_E_4_french.eps>
-(epstopdf)                    date: 2015-10-21 15:15:10
-(epstopdf)                    size: 227308 bytes
+(epstopdf)                    date: 2015-10-22 10:32:25
+(epstopdf)                    size: 255204 bytes
 (epstopdf)             Output file: <../Figs/N_E_4_french-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-10-21 15:06:44
-(epstopdf)                    size: 135458 bytes
+(epstopdf)                    date: 2015-10-22 10:32:30
+(epstopdf)                    size: 210315 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Figs/N_E_4_french-eps-co
 nverted-to.pdf ../Figs/N_E_4_french.eps>
-(epstopdf)             \includegraphics on input line 2576.
-runsystem(epstopdf --outfile=../Figs/N_E_4_french-eps-converted-to.pdf ../Figs/
-N_E_4_french.eps)...executed.
+(epstopdf)             \includegraphics on input line 2579.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Figs/N_E_4_french-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-10-21 15:15:15
-(epstopdf)                    size: 137573 bytes.
-
-<../Figs/N_E_4_french-eps-converted-to.pdf, id=733, 530.98375pt x 438.63875pt>
+<../Figs/N_E_4_french-eps-converted-to.pdf, id=747, 530.98375pt x 438.63875pt>
 File: ../Figs/N_E_4_french-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Figs/N_E_4_french-eps-converted-to.pdf>
 Package pdftex.def Info: ../Figs/N_E_4_french-eps-converted-to.pdf used on inpu
-t line 2576.
+t line 2579.
 (pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
 Package epstopdf Info: Source file: <../Figs/N_E_5_french.eps>
-(epstopdf)                    date: 2015-10-21 15:15:11
-(epstopdf)                    size: 222809 bytes
+(epstopdf)                    date: 2015-10-22 10:32:26
+(epstopdf)                    size: 257185 bytes
 (epstopdf)             Output file: <../Figs/N_E_5_french-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-10-21 15:06:45
-(epstopdf)                    size: 137819 bytes
+(epstopdf)                    date: 2015-10-22 10:32:30
+(epstopdf)                    size: 227358 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Figs/N_E_5_french-eps-co
 nverted-to.pdf ../Figs/N_E_5_french.eps>
-(epstopdf)             \includegraphics on input line 2577.
-runsystem(epstopdf --outfile=../Figs/N_E_5_french-eps-converted-to.pdf ../Figs/
-N_E_5_french.eps)...executed.
+(epstopdf)             \includegraphics on input line 2580.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Figs/N_E_5_french-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-10-21 15:15:15
-(epstopdf)                    size: 138051 bytes.
-
-<../Figs/N_E_5_french-eps-converted-to.pdf, id=734, 530.98375pt x 438.63875pt>
+<../Figs/N_E_5_french-eps-converted-to.pdf, id=748, 530.98375pt x 438.63875pt>
 File: ../Figs/N_E_5_french-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Figs/N_E_5_french-eps-converted-to.pdf>
 Package pdftex.def Info: ../Figs/N_E_5_french-eps-converted-to.pdf used on inpu
-t line 2577.
+t line 2580.
 (pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
 Package epstopdf Info: Source file: <../Figs/N_E_6_french.eps>
-(epstopdf)                    date: 2015-10-21 15:15:11
-(epstopdf)                    size: 228186 bytes
+(epstopdf)                    date: 2015-10-22 10:32:26
+(epstopdf)                    size: 268640 bytes
 (epstopdf)             Output file: <../Figs/N_E_6_french-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-10-21 15:06:45
-(epstopdf)                    size: 147467 bytes
+(epstopdf)                    date: 2015-10-22 10:32:31
+(epstopdf)                    size: 251134 bytes
 (epstopdf)             Command: <epstopdf --outfile=../Figs/N_E_6_french-eps-co
 nverted-to.pdf ../Figs/N_E_6_french.eps>
-(epstopdf)             \includegraphics on input line 2578.
-runsystem(epstopdf --outfile=../Figs/N_E_6_french-eps-converted-to.pdf ../Figs/
-N_E_6_french.eps)...executed.
+(epstopdf)             \includegraphics on input line 2581.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <../Figs/N_E_6_french-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-10-21 15:15:15
-(epstopdf)                    size: 145797 bytes.
-
-<../Figs/N_E_6_french-eps-converted-to.pdf, id=735, 530.98375pt x 438.63875pt>
+<../Figs/N_E_6_french-eps-converted-to.pdf, id=749, 530.98375pt x 438.63875pt>
 File: ../Figs/N_E_6_french-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../Figs/N_E_6_french-eps-converted-to.pdf>
 Package pdftex.def Info: ../Figs/N_E_6_french-eps-converted-to.pdf used on inpu
-t line 2578.
+t line 2581.
 (pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
- [19]
+ [19] [20 <../Figs/N_E_1_french-eps-converted-to.pdf> <../Figs/N_E_2_french-eps
+-converted-to.pdf> <../Figs/N_E_3_french-eps-converted-to.pdf> <../Figs/N_E_4_f
+rench-eps-converted-to.pdf> <../Figs/N_E_5_french-eps-converted-to.pdf> <../Fig
+s/N_E_6_french-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <..//Figs/V_R_stepbystep_point.eps>
 (epstopdf)                    date: 2015-10-04 13:35:36
 (epstopdf)                    size: 34659 bytes
@@ -1289,16 +1262,16 @@ d-to.pdf>
 (epstopdf)                    size: 29706 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_R_stepbystep_poi
 nt-eps-converted-to.pdf ..//Figs/V_R_stepbystep_point.eps>
-(epstopdf)             \includegraphics on input line 2657.
+(epstopdf)             \includegraphics on input line 2662.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_R_stepbystep_point-eps-converted-to.pdf, id=756, 485.815pt x 419.56
+<..//Figs/V_R_stepbystep_point-eps-converted-to.pdf, id=889, 485.815pt x 419.56
 75pt>
 File: ..//Figs/V_R_stepbystep_point-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ..//Figs/V_R_stepbystep_point-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_R_stepbystep_point-eps-converted-to.pdf use
-d on input line 2657.
+d on input line 2662.
 (pdftex.def)             Requested size: 131.77966pt x 113.81102pt.
 Package epstopdf Info: Source file: <..//Figs/V_R_stepbystep_uniform.eps>
 (epstopdf)                    date: 2015-10-04 13:35:51
@@ -1309,16 +1282,16 @@ ted-to.pdf>
 (epstopdf)                    size: 32162 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_R_stepbystep_uni
 form-eps-converted-to.pdf ..//Figs/V_R_stepbystep_uniform.eps>
-(epstopdf)             \includegraphics on input line 2658.
+(epstopdf)             \includegraphics on input line 2663.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_R_stepbystep_uniform-eps-converted-to.pdf, id=757, 482.80376pt x 41
+<..//Figs/V_R_stepbystep_uniform-eps-converted-to.pdf, id=890, 482.80376pt x 41
 9.5675pt>
 File: ..//Figs/V_R_stepbystep_uniform-eps-converted-to.pdf Graphic file (type p
 df)
  <use ..//Figs/V_R_stepbystep_uniform-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_R_stepbystep_uniform-eps-converted-to.pdf u
-sed on input line 2658.
+sed on input line 2663.
 (pdftex.def)             Requested size: 130.96284pt x 113.81102pt.
 Package epstopdf Info: Source file: <..//Figs/V_R_stepbystep_continuum.eps>
 (epstopdf)                    date: 2015-10-04 13:35:55
@@ -1329,28 +1302,25 @@ erted-to.pdf>
 (epstopdf)                    size: 33722 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/V_R_stepbystep_con
 tinuum-eps-converted-to.pdf ..//Figs/V_R_stepbystep_continuum.eps>
-(epstopdf)             \includegraphics on input line 2659.
+(epstopdf)             \includegraphics on input line 2664.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_R_stepbystep_continuum-eps-converted-to.pdf, id=758, 482.80376pt x 
+<..//Figs/V_R_stepbystep_continuum-eps-converted-to.pdf, id=891, 482.80376pt x 
 419.5675pt>
 File: ..//Figs/V_R_stepbystep_continuum-eps-converted-to.pdf Graphic file (type
  pdf)
  <use ..//Figs/V_R_stepbystep_continuum-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/V_R_stepbystep_continuum-eps-converted-to.pdf
- used on input line 2659.
+ used on input line 2664.
 (pdftex.def)             Requested size: 130.96284pt x 113.81102pt.
 
-[20 <../Figs/N_E_1_french-eps-converted-to.pdf> <../Figs/N_E_2_french-eps-conve
-rted-to.pdf> <../Figs/N_E_3_french-eps-converted-to.pdf> <../Figs/N_E_4_french-
-eps-converted-to.pdf> <../Figs/N_E_5_french-eps-converted-to.pdf> <../Figs/N_E_
-6_french-eps-converted-to.pdf>] [21 <..//Figs/V_R_stepbystep_point-eps-converte
-d-to.pdf> <..//Figs/V_R_stepbystep_uniform-eps-converted-to.pdf> <..//Figs/V_R_
-stepbystep_continuum-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2714.
+[21 <..//Figs/V_R_stepbystep_point-eps-converted-to.pdf> <..//Figs/V_R_stepbyst
+ep_uniform-eps-converted-to.pdf> <..//Figs/V_R_stepbystep_continuum-eps-convert
+ed-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2719.
  (./neg_draft_5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2714.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2714.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2719.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2719.
 
 Package rerunfilecheck Info: File `neg_draft_5.out' has not changed.
 (rerunfilecheck)             Checksum: 5A836A955D48BFC85BBEA25A07CE55AD;2256.
@@ -1361,10 +1331,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 9054 strings out of 493089
- 130348 string characters out of 6134842
- 242771 words of memory out of 5000000
- 12065 multiletter control sequences out of 15000+600000
+ 9056 strings out of 493089
+ 130406 string characters out of 6134842
+ 242914 words of memory out of 5000000
+ 12066 multiletter control sequences out of 15000+600000
  70578 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,21n,31p,1189b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1385,10 +1355,10 @@ ype1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/wasy2-ps/wasy7.pfb>
-Output written on neg_draft_5.pdf (21 pages, 3277676 bytes).
+Output written on neg_draft_5.pdf (21 pages, 3671286 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 856 compressed objects within 9 object streams
- 221 named destinations out of 1000 (max. 500000)
+ 1032 PDF objects out of 1200 (max. 8388607)
+ 867 compressed objects within 9 object streams
+ 222 named destinations out of 1000 (max. 500000)
  386 words of extra memory for PDF output out of 10000 (max. 10000000)
 

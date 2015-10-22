@@ -6,7 +6,7 @@ colors='rgbckymrgbckym'
 options = optimset('TolX',1e-11,'TolFun',1e-11);
 % N=500;
 N_vec = 100:100:2000;[100,500,1000,1500,2000];
-N_vec=500 ;
+N_vec=3000 ;
 numRealizations=1;
 N=N_vec(1);
 randInd1 = randperm(N);
@@ -14,10 +14,10 @@ randInd2 = randperm(N);
 % iRR=10;
 
 sigma_vec=[3 5];
-sigma_vec=5;
+sigma_vec=2;
 % sigma=0;
 % alpha_vec =.7;0.5;[0.1, 0.5, 1, 2, Inf ]; [100,1.1,1,0.9]
-alpha_vec=Inf;0.5;.39;.9;.5;.7;
+alpha_vec=0.5;0.5;.39;.9;.5;.7;
 % alpha_vec = 0.5;
 % alpha_vec=2
 % alpha_vec=0.4
@@ -82,7 +82,7 @@ for iSigma=1:length(sigma_vec)
             %             s_vec=2*sigma;
             %             s_vec=s_2;s_1_2/2
             %             s_vec=linspace(0,1e1,100);
-%             s_vec=s_1_2/2;
+            s_vec=s_1
             for iS=1:length(s_vec)
                 %                 mu=mu_vec(iS);
                 
@@ -147,16 +147,17 @@ for iS=1:length(s_vec)
     hold on;
     grid on
     h1=plot(sort(epsilon_j_mat(iS,:)),(1:N)/N,'bo','LineWidth',4)
-    
+        h5=plot(x(1:end),NumStates(1:end)./(NumStates(1))*1/N,'-r','LineWidth',2)
+
     %         if (s<sigma)
     if (mu==0)
        h2= plot(x,1/N*log(x/x(1)),'--k','LineWidth',4)
     else
-        h2=plot(x(4:end),4/N*(x(4:end)/x(4)).^mu,'--k','LineWidth',4)
+        h2=plot(x(1:end),1/N*(x(1:end)/x(1)).^mu,'--k','LineWidth',4)
     end
     %         else
     if (alpha>=1)
-        h4=plot(x,log(x/exp((s-sigma)/2))/sigma,'--r','LineWidth',4)
+        h4=plot(x,log(x/exp((s-sigma)/2))/sigma,'--.r','LineWidth',4)
     else
         %             plot(x,log(x/exp((s-sigma)/2)/min(g))/((alpha+1)*sigma),'--r','LineWidth',2)
         %             plot(x,log(exp(1)*x/x(end)),'--r','LineWidth',4)
@@ -168,25 +169,32 @@ for iS=1:length(s_vec)
         %           plot(x,1./log(x).^2,[colors(iC),':'])
     end
     plot([exp((s-sigma)/2) exp((s-sigma)/2)], [1/N 1],':k','LineWidth',4)
-    h5=plot(x(4:end),NumStates(4:end)./(NumStates(4))*4/N,'--c','LineWidth',4)
     %
     iC = iC+1;
     xlabel('$\epsilon$','Interpreter','Latex')
     ylabel('$N(\epsilon)$','Interpreter','Latex')
     if (iS==1 && iAlpha==1)
-        legend_h=legend([h1,h2,h3,h5,h4],...
+%         legend_h=legend([h1,h2,h3,h5,h4],...
+%         {'Numerics';...
+%          '$\epsilon^{\mu_s}$';...
+%          '$\sqrt{\epsilon}$';...
+%          '$J_{\mu_s}(\epsilon)$';...
+%          'log-box'},'Location','NorthWest');
+%      set(legend,'Interpreter','Latex')
+
+legend_h=legend([h1,h2,h3,h5],...
         {'Numerics';...
          '$\epsilon^{\mu_s}$';...
-         '$\sqrt{\epsilon}$';...
-         '$J_{\mu_s}(\epsilon)$';...
-         'log-box'},'Location','NorthWest');
+         '$\epsilon^{\mu_{\alpha}}$';...
+         '$J_{\mu_s}(\epsilon)$'},'Location','SouthEast');
      set(legend,'Interpreter','Latex')
 %      set(legend_h,'Color','none')
     end
     axtype(3);
     title(['$\mu_s$ = ',num2str(mu)],'Interpreter','Latex');
-    axis([x(4) x(end) 1/N 1])
+    axis([x(1) x(end) 1/N 1])
 %          print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_',num2str(iS),'_',num2str(iAlpha),'.eps'])
+% %          print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_',num2str(iS),'_',num2str(iAlpha),'_french.eps'])
 % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_',num2str(iS),'_french.eps'])
     %      print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/N_E_0.eps'])
     %     end
@@ -267,9 +275,9 @@ plot(x,(kappa_large_S_1)/sigma,'--b','LineWidth',2)
 % plot(x,real(kappa_large_S_3)/sigma,'--b','LineWidth',2)
 %% Small S (strong disorder), "French" expressions
 figure;
-D0=sqrt(2*(cosh(s)-1)/s^2);
+D0=1;sqrt(2*(cosh(s)-1)/s^2);
 x0=logspace(-10,log10(max(epsilon_j_mat(iS,:))),1e5);
-x=sqrt(384*D0.^3/sigma^4*x0);
+x=sqrt(144*16*D0.^3/sigma^4*x0);
 
 options = optimset('TolX',1e-11,'TolFun',1e-11);
 mu = fsolve(@(mu)(s)-1/mu*log(sinh(mu*sigma)/(mu*sigma)),1,options);
