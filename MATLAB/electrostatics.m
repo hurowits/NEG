@@ -2,16 +2,17 @@
 %Input: epsilon_j_mat(iS,:)
 %       s_vec(iS)
 %       g        
-iS=1
+iS=3
 s=s_vec(iS);
 
 allCharges = epsilon_j_mat(iS,:);           %set charge locations
-maxCharge = N;                             %truncate charge vector
+% maxCharge = 4;                             %truncate charge vector
+maxCharge = 160;                             %truncate charge vector
 charges=allCharges(allCharges<=maxCharge);  
 delta_X=diff(charges);
 charges=charges(1:end-1);
 
-x_vec=[linspace(-1,maxCharge,1000)];        %x values to evaluate V,E
+x_vec=[linspace(0,maxCharge,1000)];        %x values to evaluate V,E
 y_vec=[linspace(0,maxCharge/2,1000)];       %y values to evaluate V,E
 
 % y_vec=[linspace(-DX/2,-1e-2,1000),linspace(1e-2,DX/2,1000)];
@@ -41,27 +42,34 @@ end
 %%
 %Set coordinates to begin drawing field lines from
 startx = charges;%+delta_X/2;
+startx =linspace(charges(1),maxCharge,10);
 starty1 = zeros(size(startx))+1e-15;
 starty2 = zeros(size(startx))-1e-15;
 
 figure;
 axes('FontSize',24);
 hold on;
-    imagesc(x_vec,y_vec,phi,[1.4 3.2]);colormap(jet)
-    imagesc(x_vec,-y_vec,(phi),[1.4 3.2])
+imagesc(x_vec,y_vec,phi,[s/2-.3, s/2+.3]);colormap(flipud(RdBu)/255)
+    imagesc(x_vec,-y_vec,(phi))
+%     imagesc(x_vec,y_vec,phi,[1.4 3.2]);colormap(jet)
+%     imagesc(x_vec,-y_vec,(phi),[1.4 3.2])
 %     plot(charges,zeros(size(charges)),'g*')
-plot(charges,zeros(size(startx)),'k.')
-plot(startx(1),0,'*r')
-contour(x,y,phi,20,'k') ;
-contour(x,-y,phi,20,'k') ;
-
-
+%     plot(charges,zeros(size(charges)),'k.')
+h=plot(charges(charges<=maxCharge),zeros(size(charges(charges<=maxCharge))),'k.','MarkerSize',40)
+set(h,'Color',[0.3 0.3 0.3])
+% set(h,'Color',[.5 0 .5])
+% set(gch,'Color',[0.1 0.1 0.1])
+% plot(startx(1),0,'*r')
+[CC,h_c1]=contour(x,y,phi,10,'k') ;
+[CC,h_c2]=contour(x,-y,phi,10,'k') ;
+% set(h_c1,'Color',[1 0.2 0])
+% set(h_c2,'Color',[1 0.2 0])
 
 s1=streamline(x,y,-E_x,-E_y,startx,starty1);
-set(s1,'Color','blue');
+set(s1,'Color','k');
 
 s2=streamline(x,-y,-E_x,E_y,startx,starty2);
-set(s2,'Color','blue');
+set(s2,'Color','k');
 
 % 
 % s1=streamline(x,y,-E_x,-E_y,charges(1),1e-15);
@@ -73,21 +81,24 @@ set(s2,'Color','blue');
 
 
 
-[C,h]=contour(x,y,phi,[s/2 s/2],'r','LineWidth',4);
+% [C,h]=contour(x,y,phi,[s/2 s/2],'r','LineWidth',15);
+% set(h,'Color',[1 1 1])
 % contour(x,y,phi,[log(2*(cosh(s/2)-1)) log(2*(cosh(s/2)-1))],'r','LineWidth',4);
-contour(x,-y,phi,[s/2 s/2],'r','LineWidth',4);
-% plot(-epsilon_s_mat(iS,:),'.k')
+% [C,h]=contour(x,-y,phi,[s/2 s/2],'r','LineWidth',15);
+% set(h,'Color',[1 1 1])
+h=plot(-epsilon_s_mat(iS,real(-epsilon_s_mat(iS,:))<maxCharge),'.','MarkerSize',20)
+set(h,'Color',[0 .7 0])
 % plot(startx,zeros(size(startx)),'c*')
 % axis([0 4.2 -2.1 2.1])
 % axis square
 xlabel('Re[\lambda]')
 ylabel('Im[\lambda]')
 axis([0 maxCharge -maxCharge/2 maxCharge/2 ])
-axis([0 32 -16 16 ])
+% axis([0 32 -16 16 ])
 % axis square
-title(['s=',num2str(s)])
+% title(['s=',num2str(s)])
 %     hold off
-F(iS)=getframe;
+colorbar
 % colorbar
 %     print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_',num2str(iS),'.eps'])
 %%
