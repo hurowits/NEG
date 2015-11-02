@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  29 OCT 2015 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  2 NOV 2015 15:46
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -684,52 +684,52 @@ Package pdftex.def Info: ..//Figs/V_E_2b-eps-converted-to.pdf used on input lin
 e 678.
 (pdftex.def)             Requested size: 167.50847pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/spectrum_electrostatics1_2.eps>
-(epstopdf)                    date: 2015-10-29 14:50:00
-(epstopdf)                    size: 656247 bytes
+(epstopdf)                    date: 2015-11-02 15:34:53
+(epstopdf)                    size: 79953 bytes
 (epstopdf)             Output file: <..//Figs/spectrum_electrostatics1_2-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2015-10-29 14:50:08
-(epstopdf)                    size: 189824 bytes
+(epstopdf)                    date: 2015-11-02 15:34:56
+(epstopdf)                    size: 68655 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_electrost
 atics1_2-eps-converted-to.pdf ..//Figs/spectrum_electrostatics1_2.eps>
 (epstopdf)             \includegraphics on input line 680.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_electrostatics1_2-eps-converted-to.pdf, id=250, 524.96124pt 
-x 418.56375pt>
+<..//Figs/spectrum_electrostatics1_2-eps-converted-to.pdf, id=250, 532.99126pt 
+x 419.5675pt>
 File: ..//Figs/spectrum_electrostatics1_2-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use ..//Figs/spectrum_electrostatics1_2-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/spectrum_electrostatics1_2-eps-converted-to.p
 df used on input line 680.
-(pdftex.def)             Requested size: 160.58154pt x 128.0374pt.
+(pdftex.def)             Requested size: 162.64749pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/spectrum_electrostatics1.eps>
-(epstopdf)                    date: 2015-10-29 14:42:01
-(epstopdf)                    size: 1806683 bytes
+(epstopdf)                    date: 2015-11-02 15:22:51
+(epstopdf)                    size: 157190 bytes
 (epstopdf)             Output file: <..//Figs/spectrum_electrostatics1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2015-10-29 14:42:03
-(epstopdf)                    size: 342319 bytes
+(epstopdf)                    date: 2015-11-02 15:22:54
+(epstopdf)                    size: 86638 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_electrost
 atics1-eps-converted-to.pdf ..//Figs/spectrum_electrostatics1.eps>
 (epstopdf)             \includegraphics on input line 681.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_electrostatics1-eps-converted-to.pdf, id=251, 526.96875pt x 
-418.56375pt>
+<..//Figs/spectrum_electrostatics1-eps-converted-to.pdf, id=251, 532.99126pt x 
+419.5675pt>
 File: ..//Figs/spectrum_electrostatics1-eps-converted-to.pdf Graphic file (type
  pdf)
  <use ..//Figs/spectrum_electrostatics1-eps-converted-to.pdf>
 Package pdftex.def Info: ..//Figs/spectrum_electrostatics1-eps-converted-to.pdf
  used on input line 681.
-(pdftex.def)             Requested size: 161.19562pt x 128.0374pt.
+(pdftex.def)             Requested size: 162.64749pt x 128.0374pt.
 Package epstopdf Info: Source file: <..//Figs/spectrum_electrostatics2.eps>
-(epstopdf)                    date: 2015-10-29 17:26:04
-(epstopdf)                    size: 1256332 bytes
+(epstopdf)                    date: 2015-11-02 15:45:54
+(epstopdf)                    size: 814020 bytes
 (epstopdf)             Output file: <..//Figs/spectrum_electrostatics2-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2015-10-29 14:42:56
-(epstopdf)                    size: 354891 bytes
+(epstopdf)                    date: 2015-11-02 15:18:24
+(epstopdf)                    size: 205935 bytes
 (epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_electrost
 atics2-eps-converted-to.pdf ..//Figs/spectrum_electrostatics2.eps>
 (epstopdf)             \includegraphics on input line 682.
@@ -738,8 +738,8 @@ runsystem(epstopdf --outfile=..//Figs/spectrum_electrostatics2-eps-converted-to
 
 Package epstopdf Info: Result file: <..//Figs/spectrum_electrostatics2-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2015-10-29 17:26:07
-(epstopdf)                    size: 338482 bytes.
+(epstopdf)                    date: 2015-11-02 15:46:03
+(epstopdf)                    size: 198321 bytes.
 
 <..//Figs/spectrum_electrostatics2-eps-converted-to.pdf, id=252, 526.96875pt x 
 419.5675pt>
@@ -1337,7 +1337,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  9059 strings out of 493089
  130659 string characters out of 6134842
- 248657 words of memory out of 5000000
+ 248659 words of memory out of 5000000
  12068 multiletter control sequences out of 15000+600000
  70578 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1359,7 +1359,7 @@ ype1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/wasy2-ps/wasy7.pfb>
-Output written on neg_draft_5.pdf (22 pages, 4467461 bytes).
+Output written on neg_draft_5.pdf (22 pages, 3950491 bytes).
 PDF statistics:
  1070 PDF objects out of 1200 (max. 8388607)
  889 compressed objects within 9 object streams

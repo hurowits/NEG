@@ -7,7 +7,7 @@ s=s_vec(iS);
 
 allCharges = epsilon_j_mat(iS,:);           %set charge locations
 % maxCharge = 4;                             %truncate charge vector
-maxCharge = 160;                             %truncate charge vector
+maxCharge = 200;                             %truncate charge vector
 charges=allCharges(allCharges<=maxCharge);  
 delta_X=diff(charges);
 charges=charges(1:end-1);
@@ -60,8 +60,8 @@ set(h,'Color',[0.3 0.3 0.3])
 % set(h,'Color',[.5 0 .5])
 % set(gch,'Color',[0.1 0.1 0.1])
 % plot(startx(1),0,'*r')
-[CC,h_c1]=contour(x,y,phi,10,'k') ;
-[CC,h_c2]=contour(x,-y,phi,10,'k') ;
+% [CC,h_c1]=contour(x,y,phi,10,'k') ;
+% [CC,h_c2]=contour(x,-y,phi,10,'k') ;
 % set(h_c1,'Color',[1 0.2 0])
 % set(h_c2,'Color',[1 0.2 0])
 

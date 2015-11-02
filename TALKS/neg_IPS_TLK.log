@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  1 NOV 2015 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  2 NOV 2015 15:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -609,279 +609,31 @@ Overfull \vbox (12.06425pt too high) has occurred while \output is active []
 [2
 
 ]
-Overfull \hbox (26.25941pt too wide) in alignment at lines 292--296
-[][][] []
- []
-
-
-LaTeX Warning: File `sparse_network2.eps' not found on input line 347.
-
-Package epstopdf Info: Source file: <sparse_network2.eps>
-(epstopdf)             Output file: <sparse_network2-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=sparse_network2-eps-convert
-ed-to.pdf sparse_network2.eps>
-(epstopdf)             \includegraphics on input line 347.
-Package epstopdf Info: Output file is already uptodate.
-
-./neg_IPS_TLK.tex:347: Package pdftex.def Error: File `sparse_network2-eps-conv
-erted-to.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.347 ...raphics[height=25mm]{sparse_network2.eps}
-                                                  
-? 
-
-./neg_IPS_TLK.tex:349: LaTeX Error: File `V_x' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.349 \includegraphics[height=3.5cm]{V_x}
-                                         
-? 
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[3
-
-]
-
-./neg_IPS_TLK.tex:379: LaTeX Error: File `v_D_rat' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.379 \includegraphics[height=.7\hsize]{v_D_rat}
-                                                
-? 
-
-./neg_IPS_TLK.tex:385: LaTeX Error: File `a_inf' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.385 \includegraphics[height=.7\hsize]{a_inf}
-                                              
-? 
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[4
-
-]
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (13.0767pt too high) has occurred while \output is active []
-
-
-[5
-
-]
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (13.0767pt too high) has occurred while \output is active []
-
-
-[6
-
-]
-
-LaTeX Warning: Slide 7 overfull by 24.99242pt on input line 633.
-
-
-Overfull \vbox (2.12402pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[7
-
-]
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[8
-
-]
-
-LaTeX Warning: File `a_inf.eps' not found on input line 781.
-
-Package epstopdf Info: Source file: <a_inf.eps>
-(epstopdf)             Output file: <a_inf-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=a_inf-eps-converted-to.pdf 
-a_inf.eps>
-(epstopdf)             \includegraphics on input line 781.
-Package epstopdf Info: Output file is already uptodate.
-
-./neg_IPS_TLK.tex:781: Package pdftex.def Error: File `a_inf-eps-converted-to.p
-df' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.781 \includegraphics[height=.7\hsize]{a_inf.eps}
-                                                  
-? 
-
-LaTeX Warning: Slide 9 overfull by 12.5604pt on input line 817.
-
-
-Overfull \vbox (2.04962pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[9
-
-]
-
-LaTeX Warning: Slide 10 overfull by 18.54889pt on input line 883.
-
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[10
-
-]
-
-LaTeX Warning: File `vda.eps' not found on input line 925.
-
-Package epstopdf Info: Source file: <vda.eps>
-(epstopdf)             Output file: <vda-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=vda-eps-converted-to.pdf vd
-a.eps>
-(epstopdf)             \includegraphics on input line 925.
-Package epstopdf Info: Output file is already uptodate.
-
-./neg_IPS_TLK.tex:925: Package pdftex.def Error: File `vda-eps-converted-to.pdf
-' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.925 \includegraphics[height=.8\hsize]{vda.eps}
-                                                
-? 
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[11
-
-]
-
-LaTeX Warning: Slide 12 overfull by 23.55035pt on input line 1014.
-
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (13.0767pt too high) has occurred while \output is active []
-
-
-[12
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1063
-.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1063.
-
-
-Overfull \vbox (9.49998pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (12.06425pt too high) has occurred while \output is active []
-
-
-[13
-
-]
 
 *******************************************************
 ***** !! PRINT THIS DOCUMENT IN LANDSCAPE MODE !! *****
 *******************************************************
 (./neg_IPS_TLK.aux) ) 
 Here is how much of TeX's memory you used:
- 9992 strings out of 493089
- 169150 string characters out of 6134842
- 234733 words of memory out of 5000000
- 13270 multiletter control sequences out of 15000+600000
- 24943 words of font info for 98 fonts, out of 8000000 for 9000
+ 9897 strings out of 493089
+ 167918 string characters out of 6134842
+ 227733 words of memory out of 5000000
+ 13206 multiletter control sequences out of 15000+600000
+ 12604 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,25n,40p,512b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,512b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-mextra/cmex7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cmextra/cmex8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mib10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmext
-ra/cmmib8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy8.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.
-pfb>
-Output written on neg_IPS_TLK.pdf (13 pages, 361025 bytes).
+nts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb>
+Output written on neg_IPS_TLK.pdf (2 pages, 139033 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 51 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
