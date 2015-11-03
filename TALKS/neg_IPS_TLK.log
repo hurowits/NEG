@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  2 NOV 2015 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  2 NOV 2015 16:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -609,6 +609,33 @@ Overfull \vbox (12.06425pt too high) has occurred while \output is active []
 [2
 
 ]
+Overfull \vbox (9.49998pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (12.06425pt too high) has occurred while \output is active []
+
+
+[3
+
+]
+Overfull \vbox (9.49998pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (12.06425pt too high) has occurred while \output is active []
+
+
+[4
+
+]
+Overfull \vbox (9.49998pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (12.06425pt too high) has occurred while \output is active []
+
+
+[5
+
+]
 
 *******************************************************
 ***** !! PRINT THIS DOCUMENT IN LANDSCAPE MODE !! *****
@@ -625,15 +652,16 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb>
-Output written on neg_IPS_TLK.pdf (2 pages, 139033 bytes).
+nts/cm/cmbx7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb>
+Output written on neg_IPS_TLK.pdf (5 pages, 149854 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

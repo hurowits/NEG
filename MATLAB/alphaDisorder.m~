@@ -6,10 +6,10 @@ alpha_vec=[0.1:0.1:1.5];
 sigma=0
 
 options = optimset('TolX',1e-11,'TolFun',1e-11);
-numRealizations=100;
+numRealizations=20;
 N=500;
 %
-M_vec=[10,100,500];%,500];
+M_vec=[19,100,500];%,500];
 s_vec = linspace(0,1,200);
 % s_vec=logspace(-5,1,200);
 % save('data/InitializationData_s_c_Vs_alpha')
@@ -131,7 +131,7 @@ for iM=1:length(M_vec)
     s_c=squeeze(s_c_mat(iM,:,2:end));
     s_c(s_c==0)=Inf;
     %     max(abs(s_c_mat),1)
-    
+    BreakPlot(x,y,y_break_start,y_break_end,break_type)
     plot(alpha_vec(2:end),(abs(s_c))*M_vec(iM),[colors(iM),'.'],'MarkerSize',10)
     y=mean(abs(s_c),1);
     % y(end)=1;
