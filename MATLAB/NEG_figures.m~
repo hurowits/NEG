@@ -27,24 +27,19 @@ for iSigma = 1:2
     %     plot(s_vec(s_vec<s_1_2),zeros(size(s_vec(s_vec<s_1_2))),'k','LineWidth',3);
     %     plot(s_vec(s_vec>s_1_2),N*ones(size(s_vec(s_vec>s_1_2))),'k','LineWidth',3);
     %     plot(s_vec,N*pcntComplex*ones(size(s_vec)),'-.k','LineWidth',4)
-    p_h(iSigma)=plot(s_vec,N*pcntComplex*ones(size(s_vec)),['k','--'],'LineWidth',4)
+    plot(s_vec,N*pcntComplex*ones(size(s_vec)),['k','--'],'LineWidth',4)
     %     plot([s_1_2 s_1_2],[0 N],'k','LineWidth',3);
     %     plot([s_1_2,s_1_2],[0, N],[colors(iSigma),'--'],'LineWidth',2);
-    p_v(iSigma)=plot([s_1,s_1],[0, N],[colors(iSigma),'--'],'LineWidth',2);
+    plot([s_1,s_1],[0, N],[colors(iSigma),'--'],'LineWidth',2);
     %     plot([s_1,s_1],[0, N],[colors(iSigma),'--'],'LineWidth',2);
     %     plot([sigma,sigma],[0, 1.2*N],[colors(iSigma),'--'],'LineWidth',2);
     
 end
-
-set(p_h(1),'Color',[0.5,0,0])
-set(p_h(2),'Color',[0,0,0.5])
-set(p_v(1),'Color',[0.5,0,0])
-set(p_v(2),'Color',[0,0,0.5])
-xlabel('s','Interpreter','Latex');
-ylabel('# complex  eigenvalues$')
-legend([h1(1),h2(2)],{'$\sigma=3$';'$\sigma=5$'},'Interpreter','Latex')
+xlabel('s');
+ylabel('# complex eigenvalues')
+legend([h1(1),h2(2)],{'\sigma=3';'\sigma=5'})
 % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100.eps'])
-% print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100_alpha_sigma.eps'])
+
 %% Complexity saturation 2 (Fig 7b of NEG)
 figure;
 axes('FontSize',24);

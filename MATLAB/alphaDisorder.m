@@ -1,6 +1,6 @@
 %Find s_c vs. alpga
 %% Initialization
-clear all
+% clear all
 iP=6;
 alpha_vec=[0.1:0.1:1.5];
 sigma=0
@@ -10,14 +10,16 @@ numRealizations=100;
 N=500;
 %
 M_vec=[10,100,500];%,500];
-s_vec = linspace(0,1,200);
+% s_vec = linspace(0,1,200);
 % s_vec=logspace(-5,1,200);
 % save('data/InitializationData_s_c_Vs_alpha')
 for iM=1:length(M_vec)
     
     N=M_vec(iM);
+    s_vec=[linspace(0,10/N,1e2)];
+    
     epsilon_s_mat=zeros(length(s_vec),N);
-    for iA=1:length(alpha_vec)
+    for iA=4%length(alpha_vec)
         alpha = alpha_vec(iA);
         for iR = 1:numRealizations
             
@@ -71,7 +73,7 @@ for iM=1:length(M_vec)
                 %                                     break
                 %                                 end
             end
-            save('data/alphaData2')
+            save('data/alphaData3')
             display(['saving epsilon_s_mat_N_',num2str(N),'_iAlpha_',num2str(iA),'_iR_',num2str(iR)])
             %             save(['data/epsilon_s_mat_N_',num2str(N),'_iAlpha_',num2str(iA),'_iR_',num2str(iR)],'epsilon_s_mat','randInd1','randInd2')
             display('done')
@@ -120,6 +122,8 @@ end
 % end
 % s_c_mat=[s_c_mat(1:10,:);s_c_mat(12:20,:)]
 %%
+% s_c_mat2=s_c_mat;
+% s_c_mat2(s_c_mat2==0)=Inf;
 colors='bgr'
 
 markerStyle='osd'
@@ -127,16 +131,23 @@ figure(1);
 axes('FontSize',24);
 hold on;
 grid on
-
-for iM=1:length(M_vec)
-    s_c=squeeze(s_c_mat(iM,:,3:end));
-    s_c(s_c==0)=Inf;
+shiftFactor=0.01;
+for iM=2:length(M_vec)
+    M=M_vec(iM);
+    s_c=squeeze(s_c_mat(iM,:,4:end))*M;
     %     max(abs(s_c_mat),1)
-    
-    plot(alpha_vec(3:end),(abs(s_c))*M_vec(iM),[colors(iM),'.'],'MarkerSize',10)
-    y=mean(abs(s_c),1);
+%     y=mean(abs(s_c),1);
+s_c2=s_c;        
+s_c2(s_c==0)=Inf;
+    y = sum(s_c2,1)./sum(s_c~=0,1);
+
+%     y(y==0)=NaN;
+    plot(alpha_vec(4:end)+iM*shiftFactor,(abs(s_c)),[colors(iM),'.'],'MarkerSize',10)
+%     h(iM)=plot(alpha_vec(1:end)+iM*shiftFactor,y,[colors(iM),markerStyle(iM)],'MarkerSize',10,'MarkerFaceColor',colors(iM));
+    h(iM)=plot(alpha_vec(4:end)+iM*shiftFactor,y,[colors(iM)],'LineWidth',4);
     % y(end)=1;
-    h(iM)=plot(alpha_vec(3:end),y*M_vec(iM),[colors(iM),markerStyle(iM)],'MarkerSize',10,'MarkerFaceColor',colors(iM));
+    
+    
     
    
     xlabel('$\alpha$','Interpreter','Latex');
@@ -145,17 +156,26 @@ for iM=1:length(M_vec)
     % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog.eps'])
 end
 legend(h(1:end),{['N=',num2str(M_vec(1))];['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
-
+% legend(h(2:end),{['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
 axtype(2)
+%%
+% [h1,x]=hist(log10(squeeze(s_c_mat2(3,:,3:6)).*M_vec(3)),10)
+[h1,x]=hist(log10(squeeze(s_c_mat(3,:,3:6)).*M_vec(3)),10)
+handle=plot((-h1)/max(h1(:)),10.^x,'--r','LineWidth',2)
 
-[h1,x]=hist(log10(squeeze(s_c_mat2(3,:,3:6)).*M_vec(3)),10)
-handle=plot((-h1)/max(2*h1(:)),10.^x,'-o','LineWidth',4)
- ah=axes('position',get(gca,'position'),...
+
+
+
+set(handle(1),'Marker','.')
+set(handle(2),'Marker','s')
+set(handle(3),'Marker','d')
+set(handle(4),'Marker','o')
+% 
+ah=axes('position',get(gca,'position'),...
             'visible','off','FontSize',20);
-repmat('$\alpha$',[4,1])
-        
-hleg=legend(ah,handle,[repmat('$\alpha$ = ',[4,1]),num2str(alpha_vec(3:6)')],'Location','SouthWest')
+hleg=legend(ah,handle,[repmat('$\alpha =$',[4,1]),num2str(alpha_vec(3:6)')],'Location','SouthWest')
 set(hleg,'Interpreter','Latex')
+
 % [h,x]=hist((squeeze(s_c_mat2(1:3,:,3))'.*repmat(M_vec(1:3),[numRealizations,1])),10);
 %%
 [h,x]=hist(log10(squeeze(s_c_mat2(3,:,3:6)).*M_vec(3)),10)

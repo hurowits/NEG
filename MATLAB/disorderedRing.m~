@@ -1,23 +1,23 @@
 %% Initialization
 
-% clear all
+clear all
 colors='rgbckymrgbckym'
 
 options = optimset('TolX',1e-11,'TolFun',1e-11);
 % N=500;
 N_vec = 100:100:2000;[100,500,1000,1500,2000];
-N_vec=100;
-numRealizations=30;
+N_vec=500 ;
+numRealizations=1;
 N=N_vec(1);
 randInd1 = randperm(N);
 randInd2 = randperm(N);
 % iRR=10;
 
 sigma_vec=[3 5];
-% sigma_vec=0;
+sigma_vec=0;
 % sigma=0;
 % alpha_vec =.7;0.5;[0.1, 0.5, 1, 2, Inf ]; [100,1.1,1,0.9]
-alpha_vec=0.9;0.3;0.5;0.5;.39;.9;.5;.7;
+alpha_vec=Inf;0.5;0.5;.39;.9;.5;.7;
 % alpha_vec = 0.5;
 % alpha_vec=2
 % alpha_vec=0.4
@@ -28,8 +28,8 @@ iC=1;
 iAlpha=1;
 for iSigma=1:length(sigma_vec)
     for iR = 1:numRealizations
-        randInd1 = randperm(N);
-        randInd2 = randperm(N);
+%         randInd1 = randperm(N);
+%         randInd2 = randperm(N);
         iR
         for iN=1:length(N_vec)
             N=N_vec(iN);
@@ -82,10 +82,10 @@ for iSigma=1:length(sigma_vec)
             %             s_vec=2*sigma;
             %             s_vec=s_2;s_1_2/2
             %             s_vec=linspace(0,1e1,100);
-            s_vec=linspace(0,5,1e2);
+            s_vec=linspace(0,1,1e3)
             for iS=1:length(s_vec)
                 %                 mu=mu_vec(iS);
-                
+                c
                 
                 s = s_vec(iS);
                 %     s=4;
