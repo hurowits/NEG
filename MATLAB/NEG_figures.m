@@ -41,7 +41,7 @@ set(p_h(2),'Color',[0,0,0.5])
 set(p_v(1),'Color',[0.5,0,0])
 set(p_v(2),'Color',[0,0,0.5])
 xlabel('s','Interpreter','Latex');
-ylabel('# complex  eigenvalues$')
+ylabel('# complex  eigenvalues')
 legend([h1(1),h2(2)],{'$\sigma=3$';'$\sigma=5$'},'Interpreter','Latex')
 % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100.eps'])
 % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100_alpha_sigma.eps'])
