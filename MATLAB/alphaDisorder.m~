@@ -124,15 +124,15 @@ end
 %%
 % s_c_mat2=s_c_mat;
 % s_c_mat2(s_c_mat2==0)=Inf;
-colors='rbg'
+colors='gbr'
 
 markerStyle='osd'
 figure(1);
 axes('FontSize',24);
 hold on;
-grid on
-shiftFactor=0.01;
-for iM=2:length(M_vec)
+% grid on
+shiftFactor=0.02;
+for iM=1:length(M_vec)
     M=M_vec(iM);
     s_c=squeeze(s_c_mat(iM,:,1:end))*M;
     %     max(abs(s_c_mat),1)
@@ -147,9 +147,9 @@ s_c2(s_c==0)=Inf;
     end
     
 %     y(y==0)=NaN;
-    h_d=plot(alpha_vec(1:end)+iM*shiftFactor,(abs(s_c2)),[colors(iM),'.'],'MarkerSize',10)
+    plot(alpha_vec(1:end)+iM*shiftFactor,(abs(s_c2)),[colors(iM),'.'],'MarkerSize',10)
 %     h(iM)=plot(alpha_vec(1:end)+iM*shiftFactor,y,[colors(iM),markerStyle(iM)],'MarkerSize',10,'MarkerFaceColor',colors(iM));
-    h_y=(iM)=plot(alpha_vec(1:end)+iM*shiftFactor,y,[colors(iM)],'LineWidth',4);
+    h(iM)=plot(alpha_vec(1:end)+iM*shiftFactor,y,[colors(iM)],'LineWidth',4);
     % y(end)=1;
     
     
@@ -160,12 +160,12 @@ s_c2(s_c==0)=Inf;
     % % axis([0 1 0 1])
     % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog.eps'])
 end
-% legend(h(1:end),{['N=',num2str(M_vec(1))];['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
+legend(h(1:end),{['N=',num2str(M_vec(1))];['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
 % plot(alpha_vec,exp(-2./(1+alpha_vec)))
 
-legend(h(2:end),{['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
+% legend(h(1:end),{['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
 axtype(2)
-% axis([0 1 0 40])
+axis([0 1.5 0 100])
 %%
 [h1,x]=hist(log10(squeeze(s_c_mat(2:3,:,4))'.*repmat(M_vec(2:3),[numRealizations,1])))
 handle=plot((-h1)/max(h1(:)),10.^x,'LineWidth',2)

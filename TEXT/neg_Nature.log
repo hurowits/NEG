@@ -1,109 +1,78 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  22 OCT 2015 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  6 NOV 2015 14:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**neg_Nature.tex
-(./neg_Nature.tex
+**neg_nature.tex
+(./neg_nature.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revtex4-1.cls
-Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
-ex4/ for documentation)
- Copyright (c) 2009 The American Physical Society.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
  mailto:revtex@aps.org
  Licensed under the LPPL:
 http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
- Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
- Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
-ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
-. Baxter web at superscript.com)]
-LaTeX Info: Redefining \@centercr on input line 308.
-Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
-\eqncolsep=\skip41
-Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
-note on input line 433.
-Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
 \intertabularlinepenalty=\count79
 \@tbpen=\count80
 \@arstrutbox@hline=\box26
-Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
-Class revtex4-1 Info: Making \typeout \long on input line 2046.
-ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
-\c@affil=\count81
-\c@collab=\count82
-\absbox=\box27
-ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
-. Baxter web at superscript.com)]
-\c@linecount=\count83
-\output@latex=\toks14
-\box@size@1=\box28
-\box@size@2=\box29
-\@protection@box=\box30
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
 \@topmark@saved=\toks15
-\footins@saved=\box31
-\footins@recovered=\box32
-\column@recovered=\box33
-\pagesofar=\box34
-\footsofar=\box35
-\pagegrid@col=\count84
-Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
- \\  on input line 5578.
-\c@part=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-\c@figure=\count91
-\fbox@1=\box36
-\c@table=\count92
-\fbox@2=\box37
-\c@video=\count93
-\fbox@4=\box38
-\@bibdataout=\write3
-\widetext@top=\box39
-\widetext@bot=\box40
-Class revtex4-1 Info: Selecting society aps on input line 7542.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps4-1.rtx
-File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
-mentation)
-Class revtex4-1 Info: RevTeX society APS selected on input line 31.
-)
-Class revtex4-1 Info: Selecting journal pre on input line 7544.
-Class revtex4-1 Info: APS journal PRE selected on input line 7545.
-
-
-Class revtex4-1 Warning: No type size specified, using default 10.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
-File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
-documentation)
-Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip44
-\bibsep=\skip45
+\bibhang=\skip43
+\bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count94
+\c@NAT@ctr=\count92
 )
-Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+\widetext@top=\box32
+\widetext@bot=\box33
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revsymb4-1.sty
-Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
-or documentation)
-LaTeX Info: Redefining \REV@mathfrak on input line 119.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
 ))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex4/10pt.rtx
+File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
@@ -128,7 +97,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count95
+\Gread@gobject=\count93
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -206,7 +175,7 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -216,9 +185,7 @@ Package: amstext 2000/06/29 v2.01
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen104
-)
-LaTeX Info: Redefining \text on input line 39.
-)
+))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
@@ -226,30 +193,30 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count96
+\inf@bad=\count94
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count97
-\leftroot@=\count98
+\uproot@=\count95
+\leftroot@=\count96
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count99
-\DOTSCASE@=\count100
+\classnum@=\count97
+\DOTSCASE@=\count98
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box41
-\strutbox@=\box42
+\Mathstrutbox@=\box34
+\strutbox@=\box35
 \big@size=\dimen106
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
 \dotsspace@=\muskip11
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
 \tag@help=\toks18
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
 \andhelp@=\toks19
 \eqnshift@=\dimen107
 \alignsep@=\dimen108
@@ -258,8 +225,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen111
 \lineht@=\dimen112
 \@envbody=\toks20
-\multlinegap=\skip47
-\multlinetaggap=\skip48
+\multlinegap=\skip46
+\multlinetaggap=\skip47
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -369,13 +336,13 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen113
-\Hy@linkcounter=\count108
-\Hy@pagecounter=\count109
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count110
+\Hy@SavedSpaceFactor=\count108
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -387,11 +354,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-LaTeX Info: Redefining \href on input line 4952.
-\c@Hy@tempcnt=\count111
+\c@Hy@tempcnt=\count109
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen114
-\Fld@menulength=\count112
+\Fld@menulength=\count110
 \Field@Width=\dimen115
 \Fld@charsize=\dimen116
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -403,34 +369,67 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count113
-\c@Item=\count114
-\c@Hfootnote=\count115
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count116
-\c@bookmark@seq@number=\count117
+\Fld@listcount=\count114
+\c@bookmark@seq@number=\count115
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip48
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 98.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 98.
+(./neg_nature.aux
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 98.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 98.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 98.
+LaTeX Warning: Label `e1' multiply defined.
 
-(./neg_Nature.aux)
-\openout1 = `neg_Nature.aux'.
+
+LaTeX Warning: Label `e2' multiply defined.
+
+
+LaTeX Warning: Label `e3' multiply defined.
+
+
+LaTeX Warning: Label `e4' multiply defined.
+
+
+LaTeX Warning: Label `e18' multiply defined.
+
+
+LaTeX Warning: Label `e20' multiply defined.
+
+
+LaTeX Warning: Label `e22' multiply defined.
+
+
+LaTeX Warning: Label `e21' multiply defined.
+
+
+LaTeX Warning: Label `e21' multiply defined.
+
+
+LaTeX Warning: Label `e23' multiply defined.
+
+
+LaTeX Warning: Label `e19' multiply defined.
+
+
+LaTeX Warning: Label `e24' multiply defined.
+
+
+LaTeX Warning: Label `e101' multiply defined.
+
+)
+\openout1 = `neg_nature.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
@@ -447,472 +446,987 @@ LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 98.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+Class revtex4 Info: Patching LaTeX tabular. on input line 98.
+Class revtex4 Info: cite was not loaded (OK!) on input line 98.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 98.
+
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
+\scratchcounter=\count116
 \scratchdimen=\dimen117
-\scratchbox=\box43
-\nofMPsegments=\count119
-\nofMParguments=\count120
+\scratchbox=\box36
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count121
+\MPscratchCnt=\count119
 \MPscratchDim=\dimen118
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks23
 )
-\AtBeginShipoutBox=\box44
+\AtBeginShipoutBox=\box37
+
+
+Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
 Package hyperref Info: Link coloring OFF on input line 98.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count122
 )
 LaTeX Info: Redefining \ref on input line 98.
 LaTeX Info: Redefining \pageref on input line 98.
 LaTeX Info: Redefining \nameref on input line 98.
 
-(./neg_Nature.out) (./neg_Nature.out)
-\@outlinefile=\write4
-\openout4 = `neg_Nature.out'.
-
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 98.
-\openout3 = `neg_NatureNotes.bib'.
+(./neg_nature.out) (./neg_nature.out)
+\@outlinefile=\write3
+\openout3 = `neg_nature.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
-5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 113.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 14
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
-5.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 14
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
-5.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 14
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
-5.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 14
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 165.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 143.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7.4> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 165.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 165.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 165.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 143.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 143.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 16
-5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 14
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-Package epstopdf Info: Source file: <..//Figs/polar_1_a.eps>
-(epstopdf)                    date: 2015-10-13 16:31:46
-(epstopdf)                    size: 54443 bytes
-(epstopdf)             Output file: <..//Figs/polar_1_a-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-13 16:32:04
-(epstopdf)                    size: 25250 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/polar_1_a-eps-conv
-erted-to.pdf ..//Figs/polar_1_a.eps>
-(epstopdf)             \includegraphics on input line 197.
-Package epstopdf Info: Output file is already uptodate.
-
-<..//Figs/polar_1_a-eps-converted-to.pdf, id=34, 408.52625pt x 409.53pt>
-File: ..//Figs/polar_1_a-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ..//Figs/polar_1_a-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/polar_1_a-eps-converted-to.pdf used on input 
-line 197.
-(pdftex.def)             Requested size: 184.48964pt x 184.9429pt.
-Package epstopdf Info: Source file: <..//Figs/polar_2_a.eps>
-(epstopdf)                    date: 2015-10-13 16:31:38
-(epstopdf)                    size: 71173 bytes
-(epstopdf)             Output file: <..//Figs/polar_2_a-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-13 16:32:04
-(epstopdf)                    size: 42165 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/polar_2_a-eps-conv
-erted-to.pdf ..//Figs/polar_2_a.eps>
-(epstopdf)             \includegraphics on input line 198.
-Package epstopdf Info: Output file is already uptodate.
-
-<..//Figs/polar_2_a-eps-converted-to.pdf, id=35, 418.56375pt x 409.53pt>
-File: ..//Figs/polar_2_a-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ..//Figs/polar_2_a-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/polar_2_a-eps-converted-to.pdf used on input 
-line 198.
-(pdftex.def)             Requested size: 189.02255pt x 184.9429pt.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 204.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 212.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 204.
-LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 204.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 212.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 204.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 212.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 204.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 204.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 212.
 
-
-LaTeX Warning: Reference `Ap12' on page 1 undefined on input line 204.
-
-
-LaTeX Warning: Reference `Ap12' on page 1 undefined on input line 204.
-
-Package epstopdf Info: Source file: <..//Figs/N_E_1_1_french.eps>
-(epstopdf)                    date: 2015-10-22 15:23:13
-(epstopdf)                    size: 208406 bytes
-(epstopdf)             Output file: <..//Figs/N_E_1_1_french-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-10-22 15:23:15
-(epstopdf)                    size: 117789 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/N_E_1_1_french-eps
--converted-to.pdf ..//Figs/N_E_1_1_french.eps>
-(epstopdf)             \includegraphics on input line 209.
-Package epstopdf Info: Output file is already uptodate.
-
-<..//Figs/N_E_1_1_french-eps-converted-to.pdf, id=36, 533.995pt x 438.63875pt>
-File: ..//Figs/N_E_1_1_french-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ..//Figs/N_E_1_1_french-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/N_E_1_1_french-eps-converted-to.pdf used on i
-nput line 209.
-(pdftex.def)             Requested size: 173.1878pt x 142.26378pt.
-
-Underfull \hbox (badness 1082) in paragraph at lines 217--217
-\OT1/ptm/m/n/9 sites. The sys-tem is char-ac-ter-ized by a per-co-la-tion ex-po
--nent
+Underfull \hbox (badness 1221) in paragraph at lines 264--272
+\OT1/ptm/m/n/10 with no gap. The ex-po-nent is re-lated to the bias via
  []
 
-Package epstopdf Info: Source file: <..//Figs/V_E_1_2.eps>
-(epstopdf)                    date: 2015-09-25 16:12:13
-(epstopdf)                    size: 97227 bytes
-(epstopdf)             Output file: <..//Figs/V_E_1_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-25 16:12:33
-(epstopdf)                    size: 31071 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_1_2-eps-conver
-ted-to.pdf ..//Figs/V_E_1_2.eps>
-(epstopdf)             \includegraphics on input line 223.
+
+Underfull \hbox (badness 1314) in paragraph at lines 274--287
+\OT1/ptm/m/n/10 Unlike Gaus-sian dis-or-der the range of pos-si-ble rates is
+ []
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `XXX' on page 2 undefined on input line 320.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+ []
+
+[3]
+
+Package natbib Warning: Citation `Alexander' on page 4 undefined on input line 
+514.
+
+
+Package natbib Warning: Citation `Alexander' on page 4 undefined on input line 
+643.
+
+[4]
+
+LaTeX Warning: Reference `nes' on page 5 undefined on input line 672.
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 669--690
+[]\OT1/ptm/b/n/10 Sliding transition.--  \OT1/ptm/m/n/10 Con-sider a sam-ple of
+ $\OML/ztmcm/m/it/10 N$ \OT1/ptm/m/n/10 sites.
+ []
+
+[5]
+
+Package natbib Warning: Citation `det1' on page 6 undefined on input line 817.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 859.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\epsilon' on input line 859.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 859.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 916.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 916.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 916.
+
+[6]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1049.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1049.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1049.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1067.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1067.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1067.
+
+[7]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1133.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1133.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1133.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1153--1160
+\OT1/ptm/m/n/10 and is re-lated to the elec-tro-static po-ten-tial by
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 1153--1160
+[]$\OT1/ptm/m/n/10 . Note that the en-ve-lope func-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1166
+\OT1/ptm/m/n/10 For $\OML/ztmcm/m/it/10 S=G \OMS/ztmcm/m/n/10 ^^] \OT1/ztmcm/m/
+n/10 1$ \OT1/ptm/m/n/10 this equa-tion be-comes ap-prox-i-mately
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 1162--1166
+[]$\OT1/ptm/m/n/10 . The so-lu-tion is given in terms of the
+ []
+
+[8]
+Underfull \hbox (badness 1448) in paragraph at lines 1299--1303
+\OT1/ptm/m/n/10 The gap is de-ter-mined by in-te-grat-ing the elec-tric field,
+ []
+
+[9]
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/polar_
+1_a.eps>
+(epstopdf)                    date: 2015-10-13 16:31:46
+(epstopdf)                    size: 54443 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/polar_
+1_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-13 16:32:04
+(epstopdf)                    size: 25250 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/polar_1_a-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/pol
+ar_1_a.eps>
+(epstopdf)             \includegraphics on input line 1346.
 Package epstopdf Info: Output file is already uptodate.
-<..//Figs/V_E_1_2-eps-converted-to.pdf, id=39, 541.02126pt x 419.5675pt>
-File: ..//Figs/V_E_1_2-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ..//Figs/V_E_1_2-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/V_E_1_2-eps-converted-to.pdf used on input li
-ne 223.
-(pdftex.def)             Requested size: 165.09792pt x 128.0374pt.
-Package epstopdf Info: Source file: <..//Figs/V_E_1.eps>
-(epstopdf)                    date: 2015-09-25 16:10:50
-(epstopdf)                    size: 99143 bytes
-(epstopdf)             Output file: <..//Figs/V_E_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-25 16:10:52
-(epstopdf)                    size: 35450 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_1-eps-converte
-d-to.pdf ..//Figs/V_E_1.eps>
-(epstopdf)             \includegraphics on input line 224.
+</Users/danielhurowitz/PROJ/NEG/Figs/polar_1_a-eps-converted-to.pdf, id=368, 40
+8.52625pt x 409.53pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/polar_1_a-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/polar_1_a-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/polar_1_a-eps-conv
+erted-to.pdf used on input line 1346.
+(pdftex.def)             Requested size: 184.48964pt x 184.9429pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/polar_
+2_a.eps>
+(epstopdf)                    date: 2015-10-13 16:31:38
+(epstopdf)                    size: 71173 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/polar_
+2_a-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-13 16:32:04
+(epstopdf)                    size: 42165 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/polar_2_a-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/pol
+ar_2_a.eps>
+(epstopdf)             \includegraphics on input line 1347.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_E_1-eps-converted-to.pdf, id=40, 533.995pt x 419.5675pt>
-File: ..//Figs/V_E_1-eps-converted-to.pdf Graphic file (type pdf)
+</Users/danielhurowitz/PROJ/NEG/Figs/polar_2_a-eps-converted-to.pdf, id=369, 41
+8.56375pt x 409.53pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/polar_2_a-eps-converted-to.pdf Graphi
+c file (type pdf)
 
-<use ..//Figs/V_E_1-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/V_E_1-eps-converted-to.pdf used on input line
- 224.
-(pdftex.def)             Requested size: 162.95378pt x 128.0374pt.
-Package epstopdf Info: Source file: <..//Figs/V_E_2.eps>
-(epstopdf)                    date: 2015-09-25 16:09:54
-(epstopdf)                    size: 72283 bytes
-(epstopdf)             Output file: <..//Figs/V_E_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-25 16:09:57
-(epstopdf)                    size: 31080 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_2-eps-converte
-d-to.pdf ..//Figs/V_E_2.eps>
-(epstopdf)             \includegraphics on input line 225.
+<use /Users/danielhurowitz/PROJ/NEG/Figs/polar_2_a-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/polar_2_a-eps-conv
+erted-to.pdf used on input line 1347.
+(pdftex.def)             Requested size: 189.02255pt x 184.9429pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/s_c_sp
+arse_100_loglog.eps>
+(epstopdf)                    date: 2015-10-21 14:59:42
+(epstopdf)                    size: 158550 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/s_c_sp
+arse_100_loglog-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-21 14:59:44
+(epstopdf)                    size: 104151 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/s_c_sparse_100_loglog-eps-converted-to.pdf /Users/danielhurowitz/PROJ/
+NEG/Figs/s_c_sparse_100_loglog.eps>
+(epstopdf)             \includegraphics on input line 1364.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/V_E_2-eps-converted-to.pdf, id=41, 548.0475pt x 419.5675pt>
-File: ..//Figs/V_E_2-eps-converted-to.pdf Graphic file (type pdf)
+</Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog-eps-converted-to.pdf
+, id=372, 539.01375pt x 426.59375pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog-eps-converted-t
+o.pdf Graphic file (type pdf)
 
-<use ..//Figs/V_E_2-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/V_E_2-eps-converted-to.pdf used on input line
- 225.
-(pdftex.def)             Requested size: 167.24205pt x 128.0374pt.
-Package epstopdf Info: Source file: <..//Figs/spectrum_1_2.eps>
-(epstopdf)                    date: 2015-09-25 17:00:24
-(epstopdf)                    size: 14728 bytes
-(epstopdf)             Output file: <..//Figs/spectrum_1_2-eps-converted-to.pdf
->
-(epstopdf)                    date: 2015-09-25 17:00:28
-(epstopdf)                    size: 20442 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_1_2-eps-c
-onverted-to.pdf ..//Figs/spectrum_1_2.eps>
-(epstopdf)             \includegraphics on input line 227.
+<use /Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog-eps-converted-to
+.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_log
+log-eps-converted-to.pdf used on input line 1364.
+(pdftex.def)             Requested size: 179.75853pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/s_c_vs
+_alpha.eps>
+(epstopdf)                    date: 2015-11-05 11:57:09
+(epstopdf)                    size: 405738 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/s_c_vs
+_alpha-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-05 11:57:10
+(epstopdf)                    size: 339093 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/s_c_vs_alpha-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/
+s_c_vs_alpha.eps>
+(epstopdf)             \includegraphics on input line 1365.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_1_2-eps-converted-to.pdf, id=42, 548.0475pt x 419.5675pt>
-File: ..//Figs/spectrum_1_2-eps-converted-to.pdf Graphic file (type pdf)
+</Users/danielhurowitz/PROJ/NEG/Figs/s_c_vs_alpha-eps-converted-to.pdf, id=373,
+ 544.0325pt x 420.57124pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/s_c_vs_alpha-eps-converted-to.pdf Gra
+phic file (type pdf)
 
-<use ..//Figs/spectrum_1_2-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/spectrum_1_2-eps-converted-to.pdf used on inp
-ut line 227.
-(pdftex.def)             Requested size: 167.24205pt x 128.0374pt.
-Package epstopdf Info: Source file: <..//Figs/spectrum_1.eps>
-(epstopdf)                    date: 2015-09-25 16:08:28
-(epstopdf)                    size: 13480 bytes
-(epstopdf)             Output file: <..//Figs/spectrum_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-25 16:08:31
-(epstopdf)                    size: 21229 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_1-eps-con
-verted-to.pdf ..//Figs/spectrum_1.eps>
-(epstopdf)             \includegraphics on input line 228.
+<use /Users/danielhurowitz/PROJ/NEG/Figs/s_c_vs_alpha-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/s_c_vs_alpha-eps-c
+onverted-to.pdf used on input line 1365.
+(pdftex.def)             Requested size: 184.02226pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/numCom
+plex_100_alpha_sigma.eps>
+(epstopdf)                    date: 2015-11-05 10:18:10
+(epstopdf)                    size: 127285 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/numCom
+plex_100_alpha_sigma-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-05 10:18:14
+(epstopdf)                    size: 15946 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/numComplex_100_alpha_sigma-eps-converted-to.pdf /Users/danielhurowitz/
+PROJ/NEG/Figs/numComplex_100_alpha_sigma.eps>
+(epstopdf)             \includegraphics on input line 1381.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_1-eps-converted-to.pdf, id=43, 544.0325pt x 419.5675pt>
-File: ..//Figs/spectrum_1-eps-converted-to.pdf Graphic file (type pdf)
+</Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100_alpha_sigma-eps-converted-t
+o.pdf, id=376, 533.995pt x 413.545pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100_alpha_sigma-eps-conver
+ted-to.pdf Graphic file (type pdf)
 
-<use ..//Figs/spectrum_1-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/spectrum_1-eps-converted-to.pdf used on input
- line 228.
-(pdftex.def)             Requested size: 166.01683pt x 128.0374pt.
-Package epstopdf Info: Source file: <..//Figs/spectrum_2.eps>
-(epstopdf)                    date: 2015-09-25 16:15:10
-(epstopdf)                    size: 13283 bytes
-(epstopdf)             Output file: <..//Figs/spectrum_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-25 16:15:12
-(epstopdf)                    size: 21028 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/spectrum_2-eps-con
-verted-to.pdf ..//Figs/spectrum_2.eps>
-(epstopdf)             \includegraphics on input line 229.
+<use /Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100_alpha_sigma-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100_alp
+ha_sigma-eps-converted-to.pdf used on input line 1381.
+(pdftex.def)             Requested size: 198.39801pt x 153.6447pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_
+1_french.eps>
+(epstopdf)                    date: 2015-10-22 15:23:13
+(epstopdf)                    size: 208406 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_
+1_french-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 15:23:15
+(epstopdf)                    size: 117789 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/N_E_1_1_french-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Fig
+s/N_E_1_1_french.eps>
+(epstopdf)             \includegraphics on input line 1408.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/spectrum_2-eps-converted-to.pdf, id=44, 548.0475pt x 419.5675pt>
-File: ..//Figs/spectrum_2-eps-converted-to.pdf Graphic file (type pdf)
+</Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_1_french-eps-converted-to.pdf, id=38
+1, 533.995pt x 438.63875pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_1_french-eps-converted-to.pdf G
+raphic file (type pdf)
 
-<use ..//Figs/spectrum_2-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/spectrum_2-eps-converted-to.pdf used on input
- line 229.
-(pdftex.def)             Requested size: 167.24205pt x 128.0374pt.
-Package epstopdf Info: Source file: <..//Figs/gap_D_sigma5_N_1000.eps>
-(epstopdf)                    date: 2015-08-25 16:42:01
-(epstopdf)                    size: 12343 bytes
-(epstopdf)             Output file: <..//Figs/gap_D_sigma5_N_1000-eps-converted
+<use /Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_1_french-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_1_french-eps
+-converted-to.pdf used on input line 1408.
+(pdftex.def)             Requested size: 173.1878pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_
+french.eps>
+(epstopdf)                    date: 2015-10-22 10:32:23
+(epstopdf)                    size: 276094 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_
+french-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 10:32:29
+(epstopdf)                    size: 155031 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/N_E_1_french-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/
+N_E_1_french.eps>
+(epstopdf)             \includegraphics on input line 1425.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_french-eps-converted-to.pdf, id=382,
+ 530.98375pt x 438.63875pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_french-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_french-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_french-eps-c
+onverted-to.pdf used on input line 1425.
+(pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_2_
+french.eps>
+(epstopdf)                    date: 2015-10-22 10:32:24
+(epstopdf)                    size: 236025 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_2_
+french-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 10:32:29
+(epstopdf)                    size: 171393 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/N_E_2_french-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/
+N_E_2_french.eps>
+(epstopdf)             \includegraphics on input line 1426.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/N_E_2_french-eps-converted-to.pdf, id=383,
+ 530.98375pt x 438.63875pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_2_french-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/N_E_2_french-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_2_french-eps-c
+onverted-to.pdf used on input line 1426.
+(pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_3_
+french.eps>
+(epstopdf)                    date: 2015-10-22 10:32:25
+(epstopdf)                    size: 243148 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_3_
+french-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 10:32:29
+(epstopdf)                    size: 186008 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/N_E_3_french-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/
+N_E_3_french.eps>
+(epstopdf)             \includegraphics on input line 1427.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/N_E_3_french-eps-converted-to.pdf, id=384,
+ 530.98375pt x 438.63875pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_3_french-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/N_E_3_french-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_3_french-eps-c
+onverted-to.pdf used on input line 1427.
+(pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_4_
+french.eps>
+(epstopdf)                    date: 2015-10-22 10:32:25
+(epstopdf)                    size: 255204 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_4_
+french-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 10:32:30
+(epstopdf)                    size: 210315 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/N_E_4_french-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/
+N_E_4_french.eps>
+(epstopdf)             \includegraphics on input line 1429.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/N_E_4_french-eps-converted-to.pdf, id=385,
+ 530.98375pt x 438.63875pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_4_french-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/N_E_4_french-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_4_french-eps-c
+onverted-to.pdf used on input line 1429.
+(pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_5_
+french.eps>
+(epstopdf)                    date: 2015-10-22 10:32:26
+(epstopdf)                    size: 257185 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_5_
+french-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 10:32:30
+(epstopdf)                    size: 227358 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/N_E_5_french-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/
+N_E_5_french.eps>
+(epstopdf)             \includegraphics on input line 1430.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/N_E_5_french-eps-converted-to.pdf, id=386,
+ 530.98375pt x 438.63875pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_5_french-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/N_E_5_french-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_5_french-eps-c
+onverted-to.pdf used on input line 1430.
+(pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_6_
+french.eps>
+(epstopdf)                    date: 2015-10-22 10:32:26
+(epstopdf)                    size: 268640 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/N_E_6_
+french-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-22 10:32:31
+(epstopdf)                    size: 251134 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/N_E_6_french-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/
+N_E_6_french.eps>
+(epstopdf)             \includegraphics on input line 1431.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/N_E_6_french-eps-converted-to.pdf, id=387,
+ 530.98375pt x 438.63875pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_6_french-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/N_E_6_french-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/N_E_6_french-eps-c
+onverted-to.pdf used on input line 1431.
+(pdftex.def)             Requested size: 154.99411pt x 128.0374pt.
+
+
+LaTeX Warning: Float too large for page by 146.41983pt on input line 1438.
+
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_1_
+2b.eps>
+(epstopdf)                    date: 2015-10-29 17:01:01
+(epstopdf)                    size: 225302 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_1_
+2b-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-29 17:01:03
+(epstopdf)                    size: 29660 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_E_1_2b-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/V_E_
+1_2b.eps>
+(epstopdf)             \includegraphics on input line 1445.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/V_E_1_2b-eps-converted-to.pdf, id=388, 533
+.995pt x 413.545pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_1_2b-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_E_1_2b-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_1_2b-eps-conve
+rted-to.pdf used on input line 1445.
+(pdftex.def)             Requested size: 165.33304pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_1b
+.eps>
+(epstopdf)                    date: 2015-10-29 17:00:43
+(epstopdf)                    size: 236844 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_1b
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-29 17:01:03
+(epstopdf)                    size: 41137 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_E_1b-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/V_E_1b
+.eps>
+(epstopdf)             \includegraphics on input line 1446.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/V_E_1b-eps-converted-to.pdf, id=389, 526.9
+6875pt x 413.545pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_1b-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_E_1b-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_1b-eps-convert
+ed-to.pdf used on input line 1446.
+(pdftex.def)             Requested size: 163.1576pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_2b
+.eps>
+(epstopdf)                    date: 2015-10-29 17:00:15
+(epstopdf)                    size: 205009 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_2b
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-29 17:00:18
+(epstopdf)                    size: 32847 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_E_2b-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/V_E_2b
+.eps>
+(epstopdf)             \includegraphics on input line 1447.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/V_E_2b-eps-converted-to.pdf, id=390, 541.0
+2126pt x 413.545pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_2b-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_E_2b-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_2b-eps-convert
+ed-to.pdf used on input line 1447.
+(pdftex.def)             Requested size: 167.50847pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/spectr
+um_electrostatics1_2.eps>
+(epstopdf)                    date: 2015-11-02 15:34:53
+(epstopdf)                    size: 79953 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/spectr
+um_electrostatics1_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-02 15:34:56
+(epstopdf)                    size: 68655 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/spectrum_electrostatics1_2-eps-converted-to.pdf /Users/danielhurowitz/
+PROJ/NEG/Figs/spectrum_electrostatics1_2.eps>
+(epstopdf)             \includegraphics on input line 1449.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics1_2-eps-converted-t
+o.pdf, id=391, 532.99126pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics1_2-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics1_2-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrost
+atics1_2-eps-converted-to.pdf used on input line 1449.
+(pdftex.def)             Requested size: 162.64749pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/spectr
+um_electrostatics1.eps>
+(epstopdf)                    date: 2015-11-02 15:22:51
+(epstopdf)                    size: 157190 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/spectr
+um_electrostatics1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-02 15:22:54
+(epstopdf)                    size: 86638 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/spectrum_electrostatics1-eps-converted-to.pdf /Users/danielhurowitz/PR
+OJ/NEG/Figs/spectrum_electrostatics1.eps>
+(epstopdf)             \includegraphics on input line 1450.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics1-eps-converted-to.
+pdf, id=392, 532.99126pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics1-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics1-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2015-08-25 16:42:04
-(epstopdf)                    size: 9462 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/gap_D_sigma5_N_100
-0-eps-converted-to.pdf ..//Figs/gap_D_sigma5_N_1000.eps>
-(epstopdf)             \includegraphics on input line 245.
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrost
+atics1-eps-converted-to.pdf used on input line 1450.
+(pdftex.def)             Requested size: 162.64749pt x 128.0374pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/spectr
+um_electrostatics2.eps>
+(epstopdf)                    date: 2015-11-02 15:45:54
+(epstopdf)                    size: 814020 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/spectr
+um_electrostatics2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-02 15:46:03
+(epstopdf)                    size: 198321 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/spectrum_electrostatics2-eps-converted-to.pdf /Users/danielhurowitz/PR
+OJ/NEG/Figs/spectrum_electrostatics2.eps>
+(epstopdf)             \includegraphics on input line 1451.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf, id=47, 530.98375pt x 419.56
-75pt>
-File: ..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf Graphic file (type pdf)
+</Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics2-eps-converted-to.
+pdf, id=393, 526.96875pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics2-eps-converte
+d-to.pdf Graphic file (type pdf)
 
- <use ..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf used
- on input line 245.
-(pdftex.def)             Requested size: 216.0519pt x 170.71652pt.
-
-
-LaTeX Warning: Reference `e13' on page 1 undefined on input line 251.
-
-
-LaTeX Warning: Reference `e52' on page 1 undefined on input line 251.
+<use /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrostatics2-eps-converted
+-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/spectrum_electrost
+atics2-eps-converted-to.pdf used on input line 1451.
+(pdftex.def)             Requested size: 160.80966pt x 128.0374pt.
 
 
-LaTeX Warning: Reference `e13' on page 1 undefined on input line 251.
+LaTeX Warning: Float too large for page by 220.17282pt on input line 1467.
 
-
-LaTeX Warning: Reference `e52' on page 1 undefined on input line 251.
-
-Package epstopdf Info: Source file: <..//Figs/V_E_s_inf.eps>
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_s_
+inf.eps>
 (epstopdf)                    date: 2015-08-12 16:56:11
 (epstopdf)                    size: 89749 bytes
-(epstopdf)             Output file: <..//Figs/V_E_s_inf-eps-converted-to.pdf>
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_E_s_
+inf-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-08-12 16:56:25
 (epstopdf)                    size: 47449 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/V_E_s_inf-eps-conv
-erted-to.pdf ..//Figs/V_E_s_inf.eps>
-(epstopdf)             \includegraphics on input line 263.
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_E_s_inf-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/V_E
+_s_inf.eps>
+(epstopdf)             \includegraphics on input line 1473.
 Package epstopdf Info: Output file is already uptodate.
-<..//Figs/V_E_s_inf-eps-converted-to.pdf, id=50, 524.96124pt x 413.545pt>
-File: ..//Figs/V_E_s_inf-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ..//Figs/V_E_s_inf-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/V_E_s_inf-eps-converted-to.pdf used on input 
-line 263.
+</Users/danielhurowitz/PROJ/NEG/Figs/V_E_s_inf-eps-converted-to.pdf, id=394, 52
+4.96124pt x 413.545pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_s_inf-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_E_s_inf-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_E_s_inf-eps-conv
+erted-to.pdf used on input line 1473.
 (pdftex.def)             Requested size: 176.407pt x 138.96278pt.
-Package epstopdf Info: Source file: <..//Figs/electrostatics_large_S.eps>
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/electr
+ostatics_large_S.eps>
 (epstopdf)                    date: 2015-05-25 19:04:12
 (epstopdf)                    size: 3594035 bytes
-(epstopdf)             Output file: <..//Figs/electrostatics_large_S-eps-conver
-ted-to.pdf>
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/electr
+ostatics_large_S-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-05-25 19:04:13
 (epstopdf)                    size: 1113046 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/electrostatics_lar
-ge_S-eps-converted-to.pdf ..//Figs/electrostatics_large_S.eps>
-(epstopdf)             \includegraphics on input line 264.
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/electrostatics_large_S-eps-converted-to.pdf /Users/danielhurowitz/PROJ
+/NEG/Figs/electrostatics_large_S.eps>
+(epstopdf)             \includegraphics on input line 1474.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/electrostatics_large_S-eps-converted-to.pdf, id=51, 483.8075pt x 413.
-545pt>
-File: ..//Figs/electrostatics_large_S-eps-converted-to.pdf Graphic file (type p
-df)
- <use ..//Figs/electrostatics_large_S-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/electrostatics_large_S-eps-converted-to.pdf u
-sed on input line 264.
+</Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_large_S-eps-converted-to.pd
+f, id=395, 483.8075pt x 413.545pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_large_S-eps-converted-
+to.pdf Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_large_S-eps-converted-t
+o.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_lar
+ge_S-eps-converted-to.pdf used on input line 1474.
 (pdftex.def)             Requested size: 213.39566pt x 182.40207pt.
-Package epstopdf Info: Source file: <..//Figs/electrostatics_large_S_zoom.eps>
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/electr
+ostatics_large_S_zoom.eps>
 (epstopdf)                    date: 2015-05-25 20:36:30
 (epstopdf)                    size: 1837823 bytes
-(epstopdf)             Output file: <..//Figs/electrostatics_large_S_zoom-eps-c
-onverted-to.pdf>
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/electr
+ostatics_large_S_zoom-eps-converted-to.pdf>
 (epstopdf)                    date: 2015-05-25 20:36:34
 (epstopdf)                    size: 109118 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/electrostatics_lar
-ge_S_zoom-eps-converted-to.pdf ..//Figs/electrostatics_large_S_zoom.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/electrostatics_large_S_zoom-eps-converted-to.pdf /Users/danielhurowitz
+/PROJ/NEG/Figs/electrostatics_large_S_zoom.eps>
+(epstopdf)             \includegraphics on input line 1475.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf, id=52, 443.6575pt x
- 405.515pt>
-File: ..//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use ..//Figs/electrostatics_large_S_zoom-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/electrostatics_large_S_zoom-eps-converted-to.
-pdf used on input line 265.
+</Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_large_S_zoom-eps-converted-
+to.pdf, id=396, 443.6575pt x 405.515pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_large_S_zoom-eps-conve
+rted-to.pdf Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_large_S_zoom-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/electrostatics_lar
+ge_S_zoom-eps-converted-to.pdf used on input line 1475.
 (pdftex.def)             Requested size: 213.39566pt x 195.04718pt.
-
-
-LaTeX Warning: Reference `e43' on page 1 undefined on input line 284.
-
-Missing character: There is no Ó in font ptmr7t!
-Missing character: There is no Ó in font ptmr7t!
-
-LaTeX Warning: Reference `e22' on page 1 undefined on input line 284.
-
-
-LaTeX Warning: Reference `e43' on page 1 undefined on input line 284.
-
-Missing character: There is no Ó in font ptmr7t!
-Missing character: There is no Ó in font ptmr7t!
-
-LaTeX Warning: Reference `e22' on page 1 undefined on input line 284.
-
-Package epstopdf Info: Source file: <..//Figs/numComplex_100.eps>
-(epstopdf)                    date: 2015-08-24 15:18:05
-(epstopdf)                    size: 20912 bytes
-(epstopdf)             Output file: <..//Figs/numComplex_100-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-08-24 15:18:10
-(epstopdf)                    size: 8593 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/numComplex_100-eps
--converted-to.pdf ..//Figs/numComplex_100.eps>
-(epstopdf)             \includegraphics on input line 289.
-Package epstopdf Info: Output file is already uptodate.
-<..//Figs/numComplex_100-eps-converted-to.pdf, id=53, 533.995pt x 419.5675pt>
-File: ..//Figs/numComplex_100-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ..//Figs/numComplex_100-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/numComplex_100-eps-converted-to.pdf used on i
-nput line 289.
-(pdftex.def)             Requested size: 195.54617pt x 153.6447pt.
-Package epstopdf Info: Source file: <..//Figs/numComplex_100_alpha.eps>
-(epstopdf)                    date: 2015-10-06 18:02:52
-(epstopdf)                    size: 24774 bytes
-(epstopdf)             Output file: <..//Figs/numComplex_100_alpha-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2015-10-06 18:03:04
-(epstopdf)                    size: 10856 bytes
-(epstopdf)             Command: <epstopdf --outfile=..//Figs/numComplex_100_alp
-ha-eps-converted-to.pdf ..//Figs/numComplex_100_alpha.eps>
-(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_R_st
+epbystep_point.eps>
+(epstopdf)                    date: 2015-10-04 13:35:36
+(epstopdf)                    size: 34659 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_R_st
+epbystep_point-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-04 13:35:38
+(epstopdf)                    size: 29706 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_R_stepbystep_point-eps-converted-to.pdf /Users/danielhurowitz/PROJ/N
+EG/Figs/V_R_stepbystep_point.eps>
+(epstopdf)             \includegraphics on input line 1503.
 Package epstopdf Info: Output file is already uptodate.
 
-<..//Figs/numComplex_100_alpha-eps-converted-to.pdf, id=54, 533.995pt x 419.567
-5pt>
-File: ..//Figs/numComplex_100_alpha-eps-converted-to.pdf Graphic file (type pdf
-)
- <use ..//Figs/numComplex_100_alpha-eps-converted-to.pdf>
-Package pdftex.def Info: ..//Figs/numComplex_100_alpha-eps-converted-to.pdf use
-d on input line 290.
-(pdftex.def)             Requested size: 195.54617pt x 153.6447pt.
+</Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_point-eps-converted-to.pdf,
+ id=401, 485.815pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_point-eps-converted-to
+.pdf Graphic file (type pdf)
 
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_point-eps-converted-to.
+pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_poi
+nt-eps-converted-to.pdf used on input line 1503.
+(pdftex.def)             Requested size: 131.77966pt x 113.81102pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_R_st
+epbystep_uniform.eps>
+(epstopdf)                    date: 2015-10-04 13:35:51
+(epstopdf)                    size: 37870 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_R_st
+epbystep_uniform-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-04 13:35:58
+(epstopdf)                    size: 32162 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_R_stepbystep_uniform-eps-converted-to.pdf /Users/danielhurowitz/PROJ
+/NEG/Figs/V_R_stepbystep_uniform.eps>
+(epstopdf)             \includegraphics on input line 1504.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `e101' on page 1 undefined on input line 303.
+</Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_uniform-eps-converted-to.pd
+f, id=402, 482.80376pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_uniform-eps-converted-
+to.pdf Graphic file (type pdf)
 
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_uniform-eps-converted-t
+o.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_uni
+form-eps-converted-to.pdf used on input line 1504.
+(pdftex.def)             Requested size: 130.96284pt x 113.81102pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_R_st
+epbystep_continuum.eps>
+(epstopdf)                    date: 2015-10-04 13:35:55
+(epstopdf)                    size: 42869 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_R_st
+epbystep_continuum-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-04 13:35:58
+(epstopdf)                    size: 33722 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_R_stepbystep_continuum-eps-converted-to.pdf /Users/danielhurowitz/PR
+OJ/NEG/Figs/V_R_stepbystep_continuum.eps>
+(epstopdf)             \includegraphics on input line 1505.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: Reference `e101' on page 1 undefined on input line 303.
+</Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_continuum-eps-converted-to.
+pdf, id=403, 482.80376pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_continuum-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_continuum-eps-converted
+-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_con
+tinuum-eps-converted-to.pdf used on input line 1505.
+(pdftex.def)             Requested size: 130.96284pt x 113.81102pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_clea
+n_1.eps>
+(epstopdf)                    date: 2015-09-22 10:13:35
+(epstopdf)                    size: 105596 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_clea
+n_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-22 10:15:00
+(epstopdf)                    size: 121196 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_clean_1-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/V_c
+lean_1.eps>
+(epstopdf)             \includegraphics on input line 1522.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+</Users/danielhurowitz/PROJ/NEG/Figs/V_clean_1-eps-converted-to.pdf, id=404, 53
+0.98375pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_clean_1-eps-converted-to.pdf Graphi
+c file (type pdf)
 
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <..//F
-igs/polar_1_a-eps-converted-to.pdf> <..//Figs/polar_2_a-eps-converted-to.pdf>]
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_clean_1-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_clean_1-eps-conv
+erted-to.pdf used on input line 1522.
+(pdftex.def)             Requested size: 180.03784pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/V_clea
+n_2.eps>
+(epstopdf)                    date: 2015-09-22 10:15:08
+(epstopdf)                    size: 151633 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/V_clea
+n_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-09-22 10:15:15
+(epstopdf)                    size: 220375 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/V_clean_2-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/Figs/V_c
+lean_2.eps>
+(epstopdf)             \includegraphics on input line 1523.
+Package epstopdf Info: Output file is already uptodate.
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 308.
+</Users/danielhurowitz/PROJ/NEG/Figs/V_clean_2-eps-converted-to.pdf, id=405, 53
+0.98375pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/V_clean_2-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/V_clean_2-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_clean_2-eps-conv
+erted-to.pdf used on input line 1523.
+(pdftex.def)             Requested size: 180.03784pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
+ES_vs_cont.eps>
+(epstopdf)                    date: 2015-10-13 10:25:17
+(epstopdf)                    size: 117826 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
+ES_vs_cont-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-13 10:25:49
+(epstopdf)                    size: 65006 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/F
+igs/gRing_ES_vs_cont.eps>
+(epstopdf)             \includegraphics on input line 1536.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf, id=
+406, 554.07pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-e
+ps-converted-to.pdf used on input line 1536.
+(pdftex.def)             Requested size: 187.86559pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
+ES_vs_cont2.eps>
+(epstopdf)                    date: 2015-10-13 10:25:47
+(epstopdf)                    size: 117370 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
+ES_vs_cont2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-13 10:25:50
+(epstopdf)                    size: 64676 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/
+Figs/gRing_ES_vs_cont2.eps>
+(epstopdf)             \includegraphics on input line 1537.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf, id
+=407, 554.07pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf
+>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-
+eps-converted-to.pdf used on input line 1537.
+(pdftex.def)             Requested size: 187.86559pt x 142.26378pt.
+Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/gap_D_
+sigma5_N_1000.eps>
+(epstopdf)                    date: 2015-08-25 16:42:01
+(epstopdf)                    size: 12343 bytes
+(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/gap_D_
+sigma5_N_1000-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-25 16:42:04
+(epstopdf)                    size: 9462 bytes
+(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
+NEG/Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NE
+G/Figs/gap_D_sigma5_N_1000.eps>
+(epstopdf)             \includegraphics on input line 1554.
+Package epstopdf Info: Output file is already uptodate.
+
+</Users/danielhurowitz/PROJ/NEG/Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf, 
+id=408, 530.98375pt x 419.5675pt>
+File: /Users/danielhurowitz/PROJ/NEG/Figs/gap_D_sigma5_N_1000-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use /Users/danielhurowitz/PROJ/NEG/Figs/gap_D_sigma5_N_1000-eps-converted-to.p
+df>
+Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/gap_D_sigma5_N_100
+0-eps-converted-to.pdf used on input line 1554.
+(pdftex.def)             Requested size: 216.0519pt x 170.71652pt.
+ (./neg_nature.bbl [10 </Users/danielhurowitz/PROJ/NEG/Figs/polar_1_a-eps-conve
+rted-to.pdf> </Users/danielhurowitz/PROJ/NEG/Figs/polar_2_a-eps-converted-to.pd
+f> </Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog-eps-converted-to.
+pdf> </Users/danielhurowitz/PROJ/NEG/Figs/s_c_vs_alpha-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
 
 
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
-[2 <..//Figs/N_E_1_1_french-eps-converted-to.pdf>] [3 <..//Figs/V_E_1_2-eps-con
-verted-to.pdf> <..//Figs/V_E_1-eps-converted-to.pdf> <..//Figs/V_E_2-eps-conver
-ted-to.pdf> <..//Figs/spectrum_1_2-eps-converted-to.pdf> <..//Figs/spectrum_1-e
-ps-converted-to.pdf> <..//Figs/spectrum_2-eps-converted-to.pdf>]
+[11 </Users/danielhurowitz/PROJ/NEG/Figs/numComplex_100_alpha_sigma-eps-convert
+ed-to.pdf> </Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_1_french-eps-converted-to
+.pdf> </Users/danielhurowitz/PROJ/NEG/Figs/N_E_1_french-eps-converted-to.pdf> <
+/Users/danielhurowitz/PROJ/NEG/Figs/N_E_2_french-eps-converted-to.pdf> </Users/
+danielhurowitz/PROJ/NEG/Figs/N_E_3_french-eps-converted-to.pdf> </Users/danielh
+urowitz/PROJ/NEG/Figs/N_E_4_french-eps-converted-to.pdf> </Users/danielhurowitz
+/PROJ/NEG/Figs/N_E_5_french-eps-converted-to.pdf> </Users/danielhurowitz/PROJ/N
+EG/Figs/N_E_6_french-eps-converted-to.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 308.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-[4 <..//Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf> <..//Figs/V_E_s_inf-eps-
-converted-to.pdf> <..//Figs/electrostatics_large_S-eps-converted-to.pdf> <..//F
-igs/electrostatics_large_S_zoom-eps-converted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 308.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
 
 
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
-[5 <..//Figs/numComplex_100-eps-converted-to.pdf> <..//Figs/numComplex_100_alph
-a-eps-converted-to.pdf>] (./neg_Nature.bbl
+[12 </Users/danielhurowitz/PROJ/NEG/Figs/V_E_1_2b-eps-converted-to.pdf> </Users
+/danielhurowitz/PROJ/NEG/Figs/V_E_1b-eps-converted-to.pdf> </Users/danielhurowi
+tz/PROJ/NEG/Figs/V_E_2b-eps-converted-to.pdf> </Users/danielhurowitz/PROJ/NEG/F
+igs/spectrum_electrostatics1_2-eps-converted-to.pdf> </Users/danielhurowitz/PRO
+J/NEG/Figs/spectrum_electrostatics1-eps-converted-to.pdf> </Users/danielhurowit
+z/PROJ/NEG/Figs/spectrum_electrostatics2-eps-converted-to.pdf> </Users/danielhu
+rowitz/PROJ/NEG/Figs/V_E_s_inf-eps-converted-to.pdf> </Users/danielhurowitz/PRO
+J/NEG/Figs/electrostatics_large_S-eps-converted-to.pdf> </Users/danielhurowitz/
+PROJ/NEG/Figs/electrostatics_large_S_zoom-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
+
+
+Class revtex4 Warning: Deferred float stuck during \clearpage processing.
+
+[13 </Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_point-eps-converted-to.
+pdf> </Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_uniform-eps-converted-
+to.pdf> </Users/danielhurowitz/PROJ/NEG/Figs/V_R_stepbystep_continuum-eps-conve
+rted-to.pdf> </Users/danielhurowitz/PROJ/NEG/Figs/V_clean_1-eps-converted-to.pd
+f> </Users/danielhurowitz/PROJ/NEG/Figs/V_clean_2-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
+
+
+Class revtex4 Warning: Deferred float stuck during \clearpage processing.
+
+[14 </Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf>
+ </Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf> <
+/Users/danielhurowitz/PROJ/NEG/Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf>]
 Underfull \hbox (badness 3179) in paragraph at lines 58--65
  []\OT1/ptm/m/n/9 A. Amir, Y. Oreg,  and Y. Imry, []Pro-ceed-ings of the
  []
@@ -923,40 +1437,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--65
  , 1850 (2012)[],
  []
 
-) [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
- (./neg_Nature.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
-Package rerunfilecheck Info: File `neg_Nature.out' has not changed.
-(rerunfilecheck)             Checksum: 9B561CFC17682300334A0D9EC1CA2A25;160.
+) [15]
+
+Package natbib Warning: Citation `nef' on page 16 undefined on input line 1620.
+
+
+
+Package natbib Warning: Citation `nef' on page 16 undefined on input line 1628.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 1661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1669.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1669.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 1669.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1669.
+
+[16] [17]
+
+Package natbib Warning: Citation `det1' on page 18 undefined on input line 1802
+.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1879.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1879.
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 1922--1929
+
+ []
+
+[19] [20]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2120.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2120.
+
+[21] [22] [23] [24]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2535.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2535.
+[25] (./neg_nature.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2535.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2535.
+
+Package rerunfilecheck Info: File `neg_nature.out' has not changed.
+(rerunfilecheck)             Checksum: 3E38E1C51C235A056E1A310AF06EA72B;1887.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.55997pt have occured.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 8627 strings out of 493089
- 123210 string characters out of 6134842
- 244166 words of memory out of 5000000
- 11869 multiletter control sequences out of 15000+600000
- 49678 words of font info for 125 fonts, out of 8000000 for 9000
+ 8642 strings out of 493089
+ 127355 string characters out of 6134842
+ 243702 words of memory out of 5000000
+ 11646 multiletter control sequences out of 15000+600000
+ 72778 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,30p,1188b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,21n,31p,1108b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on neg_Nature.pdf (6 pages, 1681569 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8
+a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/wasy2-ps/wasy7.pfb>
+Output written on neg_nature.pdf (25 pages, 4304924 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
- 92 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1122 PDF objects out of 1200 (max. 8388607)
+ 933 compressed objects within 10 object streams
+ 237 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

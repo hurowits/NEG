@@ -19,7 +19,7 @@ for iM=1:length(M_vec)
     s_vec=[linspace(0,2,1e2)];
     
     epsilon_s_mat=zeros(length(s_vec),N);
-    for iA=4%16:length(alpha_vec)
+    for iA=15%16:length(alpha_vec)
         alpha = alpha_vec(iA);
         for iR = 1:numRealizations
             
@@ -73,7 +73,7 @@ for iM=1:length(M_vec)
                 %                                     break
                 %                                 end
             end
-            save('data/alphaData3')
+%             save('data/alphaData3')
 %             display(['saving epsilon_s_mat_N_',num2str(N),'_iAlpha_',num2str(iA),'_iR_',num2str(iR)])
             %             save(['data/epsilon_s_mat_N_',num2str(N),'_iAlpha_',num2str(iA),'_iR_',num2str(iR)],'epsilon_s_mat','randInd1','randInd2')
 %             display('done')
@@ -130,7 +130,7 @@ markerStyle='osd'
 figure(1);
 axes('FontSize',24);
 hold on;
-% grid on
+grid on
 shiftFactor=0.02;
 for iM=1:length(M_vec)
     M=M_vec(iM);
@@ -160,10 +160,10 @@ s_c2(s_c==0)=Inf;
     % % axis([0 1 0 1])
     % print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/s_c_sparse_100_loglog.eps'])
 end
-% legend(h(1:end),{['N=',num2str(M_vec(1))];['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
+legend(h(1:end),{['N=',num2str(M_vec(1))];['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
 % plot(alpha_vec,exp(-2./(1+alpha_vec)))
 
-legend(h(2:end),{['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
+% legend(h(1:end),{['N=',num2str(M_vec(2))];['N=',num2str(M_vec(3))]},'Interpreter','Latex');
 axtype(2)
 axis([0 1.5 0 100])
 %%

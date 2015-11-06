@@ -1,23 +1,23 @@
 %% Initialization
 
-% clear all
+clear all
 colors='rgbckymrgbckym'
 
 options = optimset('TolX',1e-11,'TolFun',1e-11);
 % N=500;
 N_vec = 100:100:2000;[100,500,1000,1500,2000];
 N_vec=100;
-numRealizations=30;
+numRealizations=1;
 N=N_vec(1);
 randInd1 = randperm(N);
 randInd2 = randperm(N);
 % iRR=10;
 
-sigma_vec=[3 5];
-% sigma_vec=0;
+% sigma_vec=[3 5];
+sigma_vec=0;
 % sigma=0;
 % alpha_vec =.7;0.5;[0.1, 0.5, 1, 2, Inf ]; [100,1.1,1,0.9]
-alpha_vec=0.9;0.3;0.5;0.5;.39;.9;.5;.7;
+alpha_vec=1.5;0.3;0.5;0.5;.39;.9;.5;.7;
 % alpha_vec = 0.5;
 % alpha_vec=2
 % alpha_vec=0.4
@@ -82,7 +82,7 @@ for iSigma=1:length(sigma_vec)
             %             s_vec=2*sigma;
             %             s_vec=s_2;s_1_2/2
             %             s_vec=linspace(0,1e1,100);
-            s_vec=linspace(0,5,1e2);
+            s_vec=linspace(0,10/N,1e2);
             for iS=1:length(s_vec)
                 %                 mu=mu_vec(iS);
                 
@@ -203,11 +203,11 @@ end
 % save('N_E_french.mat');
 %end %iAlpha
 %% Plot electrostatic potential along real axis
-for iS=3%1:length(s_vec)
+for iS=7:8%1:length(s_vec)
     
     s=s_vec(iS);
 %     E_vec=linspace(epsilon_j_mat(iS,1),epsilon_j_mat(iS,end)*1.1,1e5);
-E_vec=linspace(0,epsilon_j_mat(iS,end)*1.1,1e5);
+E_vec=linspace(0,epsilon_j_mat(iS,10)*1.1,1e5);
     [kappa,signKappa,expKappa,E_vec] = thoulessKappa(epsilon_j_mat(iS,1:end),N,g,E_vec);
     kappa_p = kappa(signKappa>0);
     E_vec_p = E_vec(signKappa>0);
@@ -216,28 +216,28 @@ E_vec=linspace(0,epsilon_j_mat(iS,end)*1.1,1e5);
     E_vec_m = E_vec(signKappa<0);
     [peaks_m,ind_m]=findpeaks(kappa_m);
     %%
-    a=.5 %stretching factor
+    a=1 %stretching factor
     figure;
     axes('FontSize',24);
     hold on;
     grid on
     
     %             plot(E_vec,kappa/N-sum(log(g))/N);
-    plot(E_vec.^a,signKappa.*(kappa/N))
+    plot(E_vec.^a,(kappa/N))
     % plot(E_vec,(kappa/N),'r')
     %     plot([E_vec(signKappa>0)],[log(expKappa(signKappa>0))/N]-sum(log(g))/N,'b','LineWidth',2);
     %         h1=  plot(E_vec,kappa/N,':r','LineWidth',4);
     
-    h1=  plot(E_vec(signKappa>0).^a,kappa(signKappa>0)/N,':b','LineWidth',3);
+    h1=  plot(E_vec(signKappa>0).^a,kappa(signKappa>0)/N,'.b','LineWidth',3);
     %     h1=  plot(E_vec(signKappa<0),kappa(signKappa<0)/N,':r','LineWidth',2);
     %         h1=  plot(E_vec(signKappa<0),kappa(signKappa<0)/N,'r','LineWidth',4);
     
-    h5=plot(E_vec_p(ind_p).^a,(peaks_p)/N,'g','LineWidth',4)
+%     h5=plot(E_vec_p(ind_p).^a,(peaks_p)/N,'g','LineWidth',4)
 %     set(h5,'Color',[0 1 0])
 %     h5=plot(E_vec.^a,kappa/N,'g','LineWidth',4)
     %     plot(E_vec_m(ind_m),-(peaks_m)/N,'--r','LineWidth',2)
     %             plot(E_vec,spline(E_vec(ind_p),peaks/N-sum(log(g))/N,E_vec),'--b','LineWidth',2)
-    h2 = plot(E_vec.^a,ones(1,length(E_vec))*s/2,'--r','LineWidth',4);
+%     h2 = plot(E_vec.^a,ones(1,length(E_vec))*s/2,'--r','LineWidth',4);
     %     plot(epsilon_j_mat(iS,:),ones(1,N)*s/2,'k*')
     h2=          plot(E_vec.^a,ones(1,length(E_vec))*log(2*cosh(N*s/2)-2)/N,'--r','LineWidth',4);
     %     plot(epsilon_j_mat(iS,:),ones(1,N)*log(2*cosh(N*s/2)-2)/N,'k*')
@@ -246,14 +246,14 @@ E_vec=linspace(0,epsilon_j_mat(iS,end)*1.1,1e5);
     %     plot(E_vec,(kappa/N),'r--')
     set(h1,'Color',[0 0 1])
 set(h2,'Color',[1 0 0])
-set(h5,'Color',[0 .7 0])
+% set(h5,'Color',[0 .7 0])
     xlabel('$\epsilon$','Interpreter','Latex');
     ylabel('$V(\epsilon)$','Interpreter','Latex');
     
-    legend([h5,h2],...
-        {'$V(\epsilon)$';...
-        '$V(0)$'},...
-        'Location','SouthEast','Interpreter','Latex')
+%     legend([h5,h2],...
+%         {'$V(\epsilon)$';...
+%         '$V(0)$'},...
+%         'Location','SouthEast','Interpreter','Latex')
     hold off
 end
 %% Plot spectrum in complex plane
