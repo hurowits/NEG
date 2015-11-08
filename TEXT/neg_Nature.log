@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  6 NOV 2015 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  8 NOV 2015 16:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1303,53 +1303,50 @@ c file (type pdf)
 Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/V_clean_2-eps-conv
 erted-to.pdf used on input line 1523.
 (pdftex.def)             Requested size: 180.03784pt x 142.26378pt.
-Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
-ES_vs_cont.eps>
-(epstopdf)                    date: 2015-10-13 10:25:17
-(epstopdf)                    size: 117826 bytes
-(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
-ES_vs_cont-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-13 10:25:49
-(epstopdf)                    size: 65006 bytes
-(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
-NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/F
-igs/gRing_ES_vs_cont.eps>
+Package epstopdf Info: Source file: <../gRing_ES_vs_cont.eps>
+(epstopdf)                    date: 2015-11-08 16:14:40
+(epstopdf)                    size: 250415 bytes
+(epstopdf)             Output file: <../gRing_ES_vs_cont-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=../gRing_ES_vs_cont-eps-con
+verted-to.pdf ../gRing_ES_vs_cont.eps>
 (epstopdf)             \includegraphics on input line 1536.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=../gRing_ES_vs_cont-eps-converted-to.pdf ../gRing_
+ES_vs_cont.eps)...executed.
 
-</Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf, id=
-406, 554.07pt x 419.5675pt>
-File: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf
- Graphic file (type pdf)
+Package epstopdf Info: Result file: <../gRing_ES_vs_cont-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-08 16:31:47
+(epstopdf)                    size: 67927 bytes.
 
-<use /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf>
-Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-e
-ps-converted-to.pdf used on input line 1536.
-(pdftex.def)             Requested size: 187.86559pt x 142.26378pt.
-Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
-ES_vs_cont2.eps>
-(epstopdf)                    date: 2015-10-13 10:25:47
-(epstopdf)                    size: 117370 bytes
-(epstopdf)             Output file: </Users/danielhurowitz/PROJ/NEG/Figs/gRing_
-ES_vs_cont2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-10-13 10:25:50
-(epstopdf)                    size: 64676 bytes
-(epstopdf)             Command: <epstopdf --outfile=/Users/danielhurowitz/PROJ/
-NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf /Users/danielhurowitz/PROJ/NEG/
-Figs/gRing_ES_vs_cont2.eps>
+<../gRing_ES_vs_cont-eps-converted-to.pdf, id=406, 554.07pt x 413.545pt>
+File: ../gRing_ES_vs_cont-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../gRing_ES_vs_cont-eps-converted-to.pdf>
+Package pdftex.def Info: ../gRing_ES_vs_cont-eps-converted-to.pdf used on input
+ line 1536.
+(pdftex.def)             Requested size: 190.60481pt x 142.26378pt.
+Package epstopdf Info: Source file: <../gRing_ES_vs_cont2.eps>
+(epstopdf)                    date: 2015-11-08 16:14:25
+(epstopdf)                    size: 250054 bytes
+(epstopdf)             Output file: <../gRing_ES_vs_cont2-eps-converted-to.pdf>
+
+(epstopdf)             Command: <epstopdf --outfile=../gRing_ES_vs_cont2-eps-co
+nverted-to.pdf ../gRing_ES_vs_cont2.eps>
 (epstopdf)             \includegraphics on input line 1537.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=../gRing_ES_vs_cont2-eps-converted-to.pdf ../gRing
+_ES_vs_cont2.eps)...executed.
 
-</Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf, id
-=407, 554.07pt x 419.5675pt>
-File: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pd
-f Graphic file (type pdf)
+Package epstopdf Info: Result file: <../gRing_ES_vs_cont2-eps-converted-to.pdf>
 
-<use /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf
->
-Package pdftex.def Info: /Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-
-eps-converted-to.pdf used on input line 1537.
-(pdftex.def)             Requested size: 187.86559pt x 142.26378pt.
+(epstopdf)                    date: 2015-11-08 16:31:47
+(epstopdf)                    size: 67659 bytes.
+
+<../gRing_ES_vs_cont2-eps-converted-to.pdf, id=407, 554.07pt x 413.545pt>
+File: ../gRing_ES_vs_cont2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../gRing_ES_vs_cont2-eps-converted-to.pdf>
+Package pdftex.def Info: ../gRing_ES_vs_cont2-eps-converted-to.pdf used on inpu
+t line 1537.
+(pdftex.def)             Requested size: 190.60481pt x 142.26378pt.
 Package epstopdf Info: Source file: </Users/danielhurowitz/PROJ/NEG/Figs/gap_D_
 sigma5_N_1000.eps>
 (epstopdf)                    date: 2015-08-25 16:42:01
@@ -1424,9 +1421,9 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
 
 Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
-[14 </Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont-eps-converted-to.pdf>
- </Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont2-eps-converted-to.pdf> <
-/Users/danielhurowitz/PROJ/NEG/Figs/gap_D_sigma5_N_1000-eps-converted-to.pdf>]
+[14 <../gRing_ES_vs_cont-eps-converted-to.pdf> <../gRing_ES_vs_cont2-eps-conver
+ted-to.pdf> </Users/danielhurowitz/PROJ/NEG/Figs/gap_D_sigma5_N_1000-eps-conver
+ted-to.pdf>]
 Underfull \hbox (badness 3179) in paragraph at lines 58--65
  []\OT1/ptm/m/n/9 A. Amir, Y. Oreg,  and Y. Imry, []Pro-ceed-ings of the
  []
@@ -1527,8 +1524,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8642 strings out of 493089
- 127355 string characters out of 6134842
- 243702 words of memory out of 5000000
+ 127091 string characters out of 6134842
+ 243779 words of memory out of 5000000
  11646 multiletter control sequences out of 15000+600000
  72778 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1551,10 +1548,10 @@ mes/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/wasy2-ps/wasy7.pfb>
-Output written on neg_nature.pdf (25 pages, 4304924 bytes).
+Output written on neg_nature.pdf (25 pages, 4308781 bytes).
 PDF statistics:
- 1122 PDF objects out of 1200 (max. 8388607)
- 933 compressed objects within 10 object streams
+ 1144 PDF objects out of 1200 (max. 8388607)
+ 947 compressed objects within 10 object streams
  237 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 
