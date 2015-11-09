@@ -23,6 +23,8 @@ ind2 = ind(1:10);
 [kappa,signKappa,expKappa,E_vec] = thoulessKappa([0 epsilon(ind)],N,g,[ epsilon]);
 [kappa2,signKappa2,expKappa2,E_vec2] = thoulessKappa([0 epsilon(ind2)],N,g,[ epsilon]);
 
+[kappa_wrong,signKappa_wrong,expKappa_wrong,E_vec] = thoulessKappa([ epsilon(ind)],N,g,[ epsilon]);
+
 figure;
 axes('FontSize',24)
 hold on
@@ -32,7 +34,9 @@ h1 = plot(epsilon,log(psi),'b','LineWidth',4);...
 % plot(epsilon,V)
 % ax=get(gca);
 % plot(E_vec,-E_vec'.*expKappa/g,'r')
-h2 = plot(E_vec,((kappa)-kappa(2)+ log(2*cosh(S/2)-2)),'g','LineWidth',4)
+h2 = plot(E_vec,((kappa)-kappa(2)+ log(2*cosh(S/2)-2)),'g','LineWidth',4);
+h4 = plot(E_vec,((kappa_wrong)-kappa_wrong(2)+ log(2*cosh(S/2)-2)),'y','LineWidth',4)
+
 h3=plot(E_vec,((kappa2)-kappa2(2)+ log(2*cosh(S/2)-2)),'--k','LineWidth',2)
 plot(epsilon,log(2*cosh(S/2)-2)*ones(1,length(epsilon)),'r--','LineWidth',4)
 
@@ -47,8 +51,8 @@ hold off
 xlabel('$\epsilon$','Interpreter','Latex');
 ylabel('$V(\epsilon)$','Interpreter','Latex')
 legend([h3,h2,h1],{'N = 10 ';['N = ',num2str(length(ind))];'N = \infty'},'Location','NorthWest');
-axis([-20 2000 -10 40])
-print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont.eps'])
+axis([-20 1400 -10 30])
+% print(gcf, '-depsc2', ['/Users/danielhurowitz/PROJ/NEG/Figs/gRing_ES_vs_cont.eps'])
 %%
 SpectDet=2*(cos(q) + 1/g * (q.^2+S^2/4)./(2*q) .*sin(q))-2;
 figure;

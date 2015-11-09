@@ -1,72 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: neg_Nature.aux
-The style file: apsrev4-1.bst
+The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Database file #1: neg_NatureNotes.bib
-Database file #2: neg_bib.bib.bib
-I was expecting a `,' or a `}'---line 386 of file neg_bib.bib.bib
+Database file #1: neg_bib.bib
+I was expecting a `,' or a `}'---line 386 of file neg_bib.bib
  :   
  :   title = {Nonequilibrium steady state and induced currents of a mesoscopically glassy system: Interplay of resistor-network theory and Sinai physics},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
-control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
-Warning--jnrlst (dependency: not reversed) set 1
+Warning--I didn't find a database entry for "french"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
-Control: key (0) 
-Control: author (8) initials jnrlst
-Control: editor formatted (1) identically to author
-Control: production of article title (-1) disabled
-Control: page (0) single
-Control: year (1) truncated
-Control: production of eprint (0) enabled
-You've used 23 entries,
-            5847 wiz_defined-function locations,
-            1789 strings with 19077 characters,
-and the built_in function-call counts, 20604 in all, are:
-= -- 1391
-> -- 457
-< -- 158
-+ -- 149
-- -- 117
-* -- 3057
-:= -- 2044
-add.period$ -- 21
-call.type$ -- 23
-change.case$ -- 84
-chr.to.int$ -- 31
-cite$ -- 23
-duplicate$ -- 1952
-empty$ -- 1496
-format.name$ -- 277
-if$ -- 4060
+You've used 14 entries,
+            3411 wiz_defined-function locations,
+            1272 strings with 12631 characters,
+and the built_in function-call counts, 9508 in all, are:
+= -- 586
+> -- 264
+< -- 42
++ -- 202
+- -- 64
+* -- 1293
+:= -- 1049
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 56
+chr.to.int$ -- 14
+cite$ -- 14
+duplicate$ -- 849
+empty$ -- 816
+format.name$ -- 176
+if$ -- 1824
 int.to.chr$ -- 1
-int.to.str$ -- 30
-missing$ -- 267
-newline$ -- 115
-num.names$ -- 63
-pop$ -- 837
+int.to.str$ -- 15
+missing$ -- 130
+newline$ -- 57
+num.names$ -- 42
+pop$ -- 201
 preamble$ -- 1
-purify$ -- 105
+purify$ -- 56
 quote$ -- 0
-skip$ -- 784
+skip$ -- 355
 stack$ -- 0
-substring$ -- 604
-swap$ -- 1809
-text.length$ -- 50
+substring$ -- 369
+swap$ -- 671
+text.length$ -- 33
 text.prefix$ -- 0
-top$ -- 10
-type$ -- 292
-warning$ -- 1
-while$ -- 74
+top$ -- 0
+type$ -- 84
+warning$ -- 0
+while$ -- 44
 width$ -- 0
-write$ -- 221
+write$ -- 172
 (There was 1 error message)
