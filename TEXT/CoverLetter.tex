@@ -1,0 +1,138 @@
+\documentclass[12pt]{article}
+%\renewcommand{\baselinestretch}{1.5} 
+\topmargin -1.5cm      
+\oddsidemargin -0.04cm   
+\evensidemargin -0.04cm  
+\textwidth 16.59cm
+\textheight 24cm 
+
+\pagestyle{empty}  % page numbers
+% \setlength{\parindent}{0cm}
+\setlength{\parskip}{0.3cm} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% special 
+\usepackage{ifthen}
+\usepackage{ifpdf}
+
+% fonts
+\usepackage{latexsym}
+\usepackage{amsmath} 
+\usepackage{amssymb} 
+\usepackage{bm}
+\usepackage{wasysym}
+
+
+\ifpdf
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\else
+\usepackage{graphicx}
+\usepackage{epsfig}
+\fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% math symbols I
+\newcommand{\sinc}{\mbox{sinc}}
+\newcommand{\const}{\mbox{const}}
+\newcommand{\trc}{\mbox{trace}}
+\newcommand{\intt}{\int\!\!\!\!\int }
+\newcommand{\ointt}{\int\!\!\!\!\int\!\!\!\!\!\circ\ }
+\newcommand{\ar}{\mathsf r}
+\newcommand{\im}{\mbox{Im}}
+\newcommand{\re}{\mbox{Re}}
+
+% math symbols II
+\newcommand{\eexp}{\mbox{e}^}
+\newcommand{\bra}{\left\langle}
+\newcommand{\ket}{\right\rangle}
+
+% Mass symbol
+\newcommand{\mass}{\mathsf{m}} 
+\newcommand{\Mass}{\mathsf{M}} 
+
+% more math commands
+\newcommand{\tbox}[1]{\mbox{\tiny #1}}
+\newcommand{\bmsf}[1]{\bm{\mathsf{#1}}} 
+\newcommand{\amatrix}[1]{\begin{matrix} #1 \end{matrix}} 
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+
+% equations
+\newcommand{\be}[1]{\begin{eqnarray}\ifthenelse{#1=-1}{\nonumber}{\ifthenelse{#1=0}{}{\label{e#1}}}}
+\newcommand{\ee}{\end{eqnarray}} 
+
+% arrangement
+\newcommand{\hide}[1]{}
+\newcommand{\drawline}{\begin{picture}(500,1)\line(1,0){500}\end{picture}}
+\newcommand{\bitem}{$\bullet$ \ \ \ }
+\newcommand{\Cn}[1]{\begin{center} #1 \end{center}}
+\newcommand{\mpg}[2][1.0\hsize]{\begin{minipage}[b]{#1}{#2}\end{minipage}}
+\newcommand{\mpgt}[2][1.0\hsize]{\begin{minipage}[t]{#1}{#2}\end{minipage}}
+\newcommand{\putgraph}[2][0.30\hsize]{\includegraphics[width=#1]{#2}}
+
+
+% Sections
+
+\newcommand{\sectM}[1]{\vspace*{3mm} \noindent\underline{\bf #1} \vspace*{3mm}}
+\newcommand{\sectS}[1]{\vspace*{3mm} \noindent{\bf #1}}
+
+
+
+\begin{document} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mpg[0.65\hsize]{\ \hide{\putgraph[0.85\hsize]{bgu_head}} \\ \ \\ \ \\ \ \\ }
+%
+\mpg[0.3\hsize]{
+%Prof. Doron Cohen \\
+%Department of Physics \\
+Ben-Gurion University \\
+Beer-Sheva 84105, Israel \\
+%\texttt{Tel: +972-8-6477557} \\
+%\texttt{Fax: +972-8-6472904} \\
+%dcohen@bgu.ac.il \\
+%http://www.bgu.ac.il/$\sim$dcohen\\
+Nov 10, 2015
+}
+
+\noindent
+{\bf To:} Nature Physics
+
+\noindent
+{\bf Re:} Cover letter
+
+\vspace*{8mm}
+
+\noindent
+Dear Editor,
+
+\vspace*{3mm}
+
+The submitted manuscript concerns the relaxation of a topologically closed circuit, whose dynamics is described by a conservative rate equation. Surprisingly, to the best of our knowledge, this fundamental theme has not been addressed in past literature. We were able to bridge between the work of Hatano, Nelson and followers regarding the spectrum of non-hermitian Hamiltonians; the works of Sinai, Derrida, and followers regarding random walk in random environment, and the works of Alexander and co workers regarding the percolation-related transition in ``glassy" resistor network systems. We believe that we address a fundamental and appealing 
+problem, of general-interest in statistical mechanics, with relevance for condensed-matter, physical-chemistry and biophysics (see introductory paragraphs for details and further references).   
+
+\vspace*{6mm}
+
+\hspace*{0.7\hsize}
+%
+\mpg[0.3\hsize]{
+Sincerely yours, \\ 
+\hide{\putgraph[3cm]{signtr_eng} \\} 
+\hspace*{2mm} Daniel Hurowitz, \\
+\hspace*{2mm} Doron Cohen }
+
+\end{document} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+

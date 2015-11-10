@@ -131,30 +131,32 @@ the implied spectral properties are dramatically different.
 %\end{abstract}
 
 
-It is essential to make a distinction between different versions of Einstein's Brownian motion 
-problem. The original version is like analyzing a simple {\em random walk}.    
-The resistor-network percolation problem \cite{Alexander}, 
-is like analyzing {\em random walk on a disordered lattice}, 
-and has diverse applications, e.g. in the context of ``glassy" electron dynamics \cite{ege,egt}. 
-But more generally we have to consider Sinai's spreading problem \cite{Sinai,odh1,odh3,BouchaudReview}, 
-aka {\em random walk in a random environment}, that has relevance 
-for studies in a biophysical context: 
-pulling pinned polymers, DNA denaturation \cite{DNA1, DNA2}, 
-population biology \cite{popbio,popbio2}, 
-and molecular motors \rmrk{[find refs for conservative molecular motors]}. 
+The original version of Einstein's Brownian motion problem
+is essentially equivalent to the analysis of a simple {\em random walk}. 
+The more complicated version is {\em random walk on a disordered lattice},  
+which is like a resistor-network problem, 
+involving a percolation-like transition \cite{Alexander}.  
+The latter has diverse applications, e.g. 
+in the context of ``glassy" electron dynamics \cite{ege,egt}. 
+%
+But more generally one has to consider Sinai's spreading problem \cite{Sinai,odh1,odh3,BouchaudReview}, 
+aka {\em random walk in a random environment}, 
+that has relevance e.g. for studies in a biophysical context: 
+population biology \cite{popbio,popbio2}, pulling pinned polymers and DNA denaturation \cite{DNA1,DNA2} and \rmrk{processive molecular motors} \cite{fisher1999force,rief2000myosin}.
+
 %
 In all these cases the dynamics can be regarded as a stochastic process 
 in which a particle hops from site to site.
-The rate equation can be written in matrix notation as 
+The rate equation \rmrk{for the site occupation probabilies $\bm{p}  = \{p_n\}$} can be written in matrix notation as 
 %
 \be{1}
 \frac{d\bm{p}}{dt} \ \ = \ \ \bm{W} \bm{p}, 
 \eeq
 %
-involving an $N\times N$ matrix ${\bm{W}}$ whose off-diagonal elements 
+involving a matrix ${\bm{W}}$ whose off-diagonal elements 
 are the transitions rates ${w_{nm}}$, 
-and with diagonal elements ${-\gamma_n}$ such that each column sums to zero. 
-In the case of a one-dimensional ring-shaped lattice with near-neighbor hopping
+and with diagonal elements ${-\gamma_n}$ such that each column sums to zero.
+Assuming near-neighbor hopping the ${\bm{W}}$ matrix takes the form
 %
 \be{2}
 \bm{W} \ \ = \ \ \left[\amatrix{
@@ -168,7 +170,7 @@ w_{2,1}     & -\gamma_2 & w_{2,3}   & ... \\
 In Einstein's theory $\bm{W}$ is symmetric, 
 and all the non-zero rates are the same; 
 In the resistor-network problem the rates
-have some distribution $P(w)$ that features 
+have some distribution $P(w)$ that features \cite{Alexander}
 %
 \be{4}
 P(w) \ \propto \ w^{\alpha-1} \ \ \ \ \text{(for small $w$)}
@@ -177,15 +179,35 @@ P(w) \ \propto \ w^{\alpha-1} \ \ \ \ \text{(for small $w$)}
 But in Sinai's problem $\bm{W}$ is allowed to be asymmetric.
 Accordingly the rates at the $n$th bond can be written 
 as $w_n\eexp{\pm\mathcal{E}_n/2}$ 
-for clockwise and anticlockwise transitions respectively. 
+for forward  and backward transitions respectively. 
 For the purpose of presentation we assume that the stochastic field~$\mathcal{E}$  
-is box distributed within ${[s-\sigma,s+\sigma]}$. 
+is box distributed within ${[s-\sigma,s+\sigma]}$.
+We refer to~$s$ as the bias:  
+it is the pulling force in the case of depinning polymers and DNA denaturation; 
+or the convective flow of bacteria relative to the nutrients in the case of population biology; 
+or the affinity of the chemical cycle in the case of molecular motors.
+
+Our interest is in the relaxation dynamics 
+of finite $N$-site ring-shaped circuits, 
+that are described by the stochastic equation \Eq{e1}.
+The $N$~sites might be physical locations in some lattice 
+structure, or can represent steps of some chemical-cycle. 
+For example, in the Brownian motor context $N$~is the number 
+of chemical-reactions required to advance the motor one pace. 
+%
+We are inspired by the study of of non-Hermitian quantum Hamiltonians 
+with regard to vortex depinning in type II superconductors \cite{Hatano1,Hatano2,Shnerb1};   
+molecular motors with {\em finite} processivity \cite{brm1,brm2}; 
+and related works \cite{Brouwer,Goldsheid,Zee}.
+In both examples \rmrk{conservation of probability} is violated.  
+In the first example the bias is the applied transverse magnetic field;  
+and $N$~is the number of defects to which the magnetic vortex can pin.
 
 
 \sect{Scope} 
 In this article we report how the spectral properties of the matrix $\bm{W}$ 
-depend on the parameters $(\alpha,\sigma,s)$. These parameters
-describe respectively the resistor-network disorder, 
+depend on the parameters $(\alpha,\sigma,s)$, as defined after \Eq{e2}. 
+These parameters describe respectively the resistor-network disorder, 
 the stochastic-field disorder, and the average bias field.    
 The eigenvalues $\{-\lambda_k\}$ of $\bm{W}$ are associated 
 with the relaxation modes of the system. 
@@ -196,7 +218,7 @@ Complex eigenvalues imply that the relaxation is not over-damped:
 one would be able to observe an oscillating density during relaxation, 
 as demonstrated in \Fig{traj}.    
 %
-The second row of \Fig{froots} provides some representative spectra.
+The first row of \Fig{froots} provides some representative spectra.
 As the bias~$s$ is increased a complex bubble appears at the bottom 
 of the band, implying delocalization of the eigenstates.   
 Our results for the complexity threshold~$s_c$ are summarized 
@@ -220,7 +242,7 @@ and to analyze the complexity-saturation effect.
 \hline 
 Type of disorder & Parameters &  $s_c$ & Remarks & Figure \\ 
 \hline
-Resistor-network disorder & $\alpha{<}\frac{1}{2}, \ \sigma{=}0$    &  $s_c = \infty$ &  non-percolating & \Fig{figSc}b  \\
+Resistor-network disorder & $\alpha{<}\frac{1}{2}, \ \sigma{=}0$    &  $s_c = \infty$ &  non-percolating &   \\
 Resistor-network disorder & $\frac{1}{2}{<}\alpha{<}1, \ \sigma{=}0$   &  $s_c \sim (1/N)$ & residual percolation & \Fig{figSc}b \\
 Sparse disorder & $(M/N) \ll 1$ &  $s_c \sim (1/N)$  &  both disorder types  &  \Fig{figSc}a \\
 Stochastic field disorder & $\alpha{>}1, \ \sigma{\ne}0$ & $s_c \approx s_{1/2}$ & percolating & \Fig{figCplxSat} \\
@@ -288,7 +310,7 @@ tangent to the origin (no gap).
 %
 The ``electrostatic field" that is associated with the secular equation 
 is represented by a few field-lines, while the background color provides 
-visualization of the corresponding potential. 
+visualization of the corresponding electrostatic potential. 
 The spectrum is obtained by looking  for the intersections 
 of the field lines with the equipotential line ${V(z)=V(0)}$ 
 that goes through the origin (indicated in white). 
@@ -306,12 +328,12 @@ The horizontal dashed line is~$V(0)$.
 %
 We first consider an opened ring, namely a disordered chain. 
 The asymmetry can be gauged away, and $\bm{W}$ becomes similar 
-to a symmetric matrix~$\bm{H}$. The statistics of its off-diagonal elements 
+to a symmetric matrix~$\bm{H}$ (see Methods). 
+The statistics of its off-diagonal elements 
 is characterized by~$\alpha$, 
 while the statistics of the diagonal elements 
 is also affected by~$\sigma$ and~$s$.   
-The eigenvalues ${-\epsilon_k}$ are real, 
-and  results for their spectral density are known.
+The eigenvalues $\{-\epsilon_k\}$ of $\bm{H}$ are real.
 In the absence of disorder they form a band ${[\epsilon_s,\epsilon_{\infty}]}$
 where ${\epsilon_{s,\infty}=2[\cosh(s/2)\mp1]}$. 
 %
@@ -353,7 +375,8 @@ As for the second moment, for ${\mu<1/2}$
 the diffusion coefficient is zero. 
 
 The introduction of resistor-network-disorder modifies 
-the spectral density at higher energies.
+the spectral density at higher energies,
+see \Fig{fdos} for illustration. 
 For ${\alpha>1}$, in the absence of bias, 
 the continuum-limit approximation features ${\mu=1/2}$.
 This reflects a normal diffusive behavior 
@@ -411,7 +434,7 @@ Already at this stage one should be aware of the immediate
 implications of conservativity. First of all ${z=\lambda_0=0}$ 
 should be a root of the secular equation. 
 The associated eigenstate is the non-equilibrium steady state (NESS), 
-which is an extended state. 
+which is an extended state (see Methods). 
 In fact it follows that the localization length has 
 to diverge as ${\lambda\rightarrow0}$. 
 This is in essence the difference between the 
@@ -419,6 +442,57 @@ conventional Anderson model (Lifshitz tails at the band floor)
 and the Debye model (phonons at the band floor). 
 It is the latter picture that applies in the 
 case of a conservative model.    
+
+
+
+% Sc vs N/M
+% Sc vs alpha
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\includegraphics[height=5cm]{s_c_sparse_100_loglog}
+\includegraphics[height=5cm]{s_c_vs_alpha}
+
+\caption{\label{figSc}
+{\bf The complexity threshold.}
+%
+Top panel: The threshold value $s_c$ for delocalization versus the number of stochastic field defects $M$. 
+The number of sites is $N{=}100$ and the disorder strength (of the defected sites) is $\sigma{=}5$. 
+Blue dots correspond to different realizations, while red dots are the average (per~$M$). 
+For a fully disordered lattice we expect $s_c=s_{1/2}$, hence the scaling of the axes. 
+The black line is \rmrk{ $s_c=M\sigma/N$}. %\Eq{e33}. 
+%
+Bottom panel: The threshold value~$s_c$ versus~$\alpha$. 
+The dots are for different realizations, while the lines are the statistical average.  
+For ${\alpha<1/2}$ the $s_c$ diverges as $N$ is increased.  
+Data points for each $N$ are slightly shifted for clarity.
+}
+\end{figure}
+
+
+
+% Saturation
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\includegraphics[height=5.4cm]{numComplex_100_alpha_sigma}
+
+\caption{\label{figCplxSat}
+{\bf Complexity saturation.}
+The number of complex eigenvalues is counted for a ring with $N{=}100$ sites, 
+for various values of the affinity~$s$. Each red line corresponds to a different
+realization of field disorder with $\sigma{=}3$ (red) and $\sigma{=}5$ (blue). 
+The vertical lines are the corresponding values of~$s_1$, 
+at which the sliding transition occurs. 
+We see that the asymptotic fraction of complex eigenvalues saturates. 
+The horizontal dashed line are the analytical estimates of \Eq{e101}. 
+If the lattice were continuous with Gaussian disorder, 
+the number of complex eigenvalues would go to~$100\%$.
+In the background a disordered resistor network with ${\alpha=0.9}$ is shown. 
+The crossover is blurred and the saturation value is lower compared to \Eq{e101}.  
+}
+\end{figure}
+
+
+
 
 
 
@@ -447,7 +521,7 @@ V(x,y)=V(0); \ \ \ \ A(x,y)=2\pi*\text{integer}
 \eeq
 %
 Namely the roots are the intersection of the field lines with the 
-potential contour that goes through the origin. 
+potential contour that goes through the origin (\Fig{froots}). 
 %
 %
 We want to find what are the conditions for getting 
@@ -463,7 +537,7 @@ V(\epsilon) \ \ = \ \  \int \ln \left(|\epsilon-x' \right|) \rho(x')dx'
 In regions where the $\{\epsilon_k\}$ form a quasi-continuum,  
 one can identify $(1/N)V(\epsilon)$ as the Thouless expression  
 for the inverse localization length \cite{Shnerb1}.
-The explicit value of $V(0)$ is implied by \Eq{e20}.   
+The explicit value of $V(0)$ is implied by \Eq{e20}, \rmrk{namely ${V(0)=2[\cosh(S_{\circlearrowleft}/2)-1]}$}.   
 For a charge-density that is given by \Eq{e3}, with some cutoff $\epsilon_c$,
 the derivative of the electrostatic potential at the origin is (see Methods)
 %
@@ -504,50 +578,6 @@ The handling of weak links is a bit more complicated (see Methods)
 but leads to the same conclusion, where the role of $\sigma$ 
 is played by the dispersion of the defected~$w_n$.     
   
-
-% DOS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-\includegraphics[height=5cm]{N_E_1_1_french}
-
-\caption{\label{fdos}
-{\bf The spectrum of the associated hermitian matrix.}
-We calculate numerically the integrated density, 
-which counts the eigenvalues ${\{\epsilon_k<\epsilon\}}$ of $\bm{H}$ 
-for a ring with $N{=}3000$ sites. 
-The system is characterized by a percolation exponent ${\mu=\mu_{\alpha}=1/3}$, 
-and by a scaled affinity ${\mu=\mu_s=1}$. 
-The stochastic-field distribution is with $\sigma{=}2$. 
-The blue points are are results of numerical diagonalization. 
-There is a crossover from density that corresponds to $\mu_s$ (dashed black line), 
-to density that corresponds to $\mu_{\alpha}$ (dashed green line). 
-The red line is the Bessel expression of \cite{odh3}. 
-}
-\end{figure}
-
-
-% Saturation
-%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-\includegraphics[height=5.4cm]{numComplex_100_alpha_sigma}
-
-\caption{\label{figCplxSat}
-{\bf Complexity saturation.}
-The number of complex eigenvalues is counted for a ring with $N{=}100$ sites, 
-for various values of the affinity~$s$. Each red line corresponds to a different
-realization of field disorder with $\sigma{=}3$ (red) and $\sigma{=}5$ (blue). 
-The vertical lines are the corresponding values of~$s_1$, 
-at which the sliding transition occurs. 
-We see that the asymptotic fraction of complex eigenvalues saturates. 
-The horizontal dashed line are the analytical estimates of \Eq{e101}. 
-If the lattice were continuous with Gaussian disorder, 
-the number of complex eigenvalues would go to~$100\%$.
-In the background an ${\alpha=0.9}$ resistor-network disorder is shown. 
-The crossover is blurred and the saturation value is lower compared to \Eq{e101}.  
-}
-\end{figure}
-
-
 
 
 
@@ -594,42 +624,14 @@ We demonstrate the agreement with this formula in \Fig{figCplxSat}.
 We plot there also what happens if resistor-network disorder is introduced.
 We see that for small~$\alpha$ the crossover is not as sharp and 
 the saturation value is lower than \Eq{e101} as expected from \Eq{e24}. 
-%\rmrk{[please add if I missed something about the localization issue.]}
 
 
-
-
-% Sc vs N/M
-% Sc vs alpha
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-\includegraphics[height=5cm]{s_c_sparse_100_loglog}
-\includegraphics[height=5cm]{s_c_vs_alpha}
-
-\caption{\label{figSc}
-{\bf The complexity threshold.}
-%
-Top panel: The threshold value $s_c$ for delocalization versus the number of stochastic field defects $M$. 
-The number of sites is $N{=}100$ and the disorder strength (of the defected sites) is $\sigma{=}5$. 
-Blue dots correspond to different realizations, while red dots are the average (per~$M$). 
-For a fully disordered lattice we expect $s_c=s_{1/2}$, hence the scaling of the axes. 
-The black line is $S_c=M\sigma$. %\Eq{e33}. 
-%
-bottom panel: The threshold value~$s_c$ versus~$\alpha$. 
-The dots are for different realizations, while the lines are the statistical average.  
-For ${\alpha<1/2}$ the $s_c$ diverges as $N$ is increased.  
-Data points for each $N$ are slightly shifted for clarity.
-}
-\end{figure}
-
-
-
-
+%\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sect{In conclusion}  
-we have shown that the spectral scenario that characterizes a biased conservative dynamics 
-that is generated by a rate-equation in a closed circuit (or ``chemical cycle" in the context 
-of molecular motors) is dramatically different from that of a biased non-hermitian Hamiltonian. 
+we have shown that the relaxation properties of a closed circuit (or chemical-cycle), 
+whose dynamics is generated by a conservative rate-equation,  
+is dramatically different from that of a biased non-hermitian Hamiltonian. 
 The transition to complexity depends on the type of disorder as summarized in table \ref{tbl}. 
 Surprisingly it happens for ${\alpha>1/2}$ before the percolation transition, 
 and for ${\mu>1/2}$ before the sliding transition, and diminishes as $1/N$ for sparse disorder.
@@ -639,8 +641,31 @@ Further increasing the bias does not lead to full delocalization, instead a ``co
 
 
 
+% DOS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\includegraphics[height=5cm]{N_E_1_1_french}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\caption{\label{fdos}
+{\bf The spectrum of the associated hermitian matrix.}
+We calculate numerically the integrated density, 
+which counts the eigenvalues ${\{\epsilon_k<\epsilon\}}$ of $\bm{H}$ 
+for a ring with $N{=}3000$ sites. 
+The system is characterized by a percolation exponent ${\mu=\mu_{\alpha}=1/3}$, 
+and by a scaled affinity ${\mu=\mu_s=1}$. 
+The stochastic-field distribution is with $\sigma{=}2$. 
+The blue points are are results of numerical diagonalization. 
+There is a crossover from density that corresponds to $\mu_s$ (dashed black line), 
+to density that corresponds to $\mu_{\alpha}$ (dashed green line). 
+The red line is the Bessel expression of \cite{odh3}. 
+}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methods}  
 
 
@@ -654,10 +679,35 @@ Following the derivation in \cite{nes} the explicit formula for the NESS is
 p_n \ \propto \ \left( \frac{1}{w_{\overrightarrow{n}}}\right)_s e^{-\left(U(n)-U_s(n)\right)}
 \eeq
 %
-where $U(n)$ is the stochastic potential that associated with the field $\mathcal{E}_n$, 
+where $U(n)$ is the stochastic potential that is associated with the field $\mathcal{E}_n$, 
 the transitions in the drift-wise direction are $w_{\overrightarrow{n}}=w_n\eexp{\mathcal{E}_n/2}$, 
 and the subscript~$s$ indicates drift-wise smoothing over a length scale~$1/s$. 
 Note that in the absence of bias the smoothed functions are constant and we get the canonical equilibrium state.    
+\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sect{The similarity transformation}
+%
+Define the diagonal matrix $\bm{U}=\mbox{diag}\{U(n)\}$. 
+The stochastic field can be made uniform, as in \cite{Shnerb1}, 
+by performing a similarity transformation ${\tilde{\bm{W}} = \eexp{{\bm{U}/2}} \bm{W} \eexp{-{\bm{U}/2}}}$,  
+leading to 
+%
+\be{16}
+\tilde{\bm{W}} \ = \ 
+\text{diagonal}\Big\{-\gamma_{n}\Big\} 
++\text{offdiagonal}\Big\{  w_{n}\eexp{\pm \frac{S_{\circlearrowleft}}{2N}}  \Big\}
+\eeq
+%
+where the "$\pm$" are for the forward and backward transitions respectively.
+Note that the $s$-dependent statistics of the~$\mathcal{E}_n$ is still hiding in the diagonal elements.
+The associated symmetric matrix $\bm{H}$ is defined by setting ${S_{\circlearrowleft}=0}$.
+Then one can define an associated spectrum ${\epsilon_k}$.
+For an open chain setting ${S_{\circlearrowleft}=0}$ can be regarded 
+as a gauge transformation of an imaginary vector potential.
+For a closed ring ${S_{\circlearrowleft}}$ is like an 
+imaginary Aharonov-Bohm flux, and cannot be gauged away. 
 \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -716,6 +766,29 @@ and the last equality has been obtained by the reflection formula.
 
 
 
+% SecularEq for Ring with "g"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+
+%\includegraphics[height=5cm]{gRing_ES_vs_cont2}
+\includegraphics[height=5cm]{gRing_ES_vs_cont}
+
+\caption{\label{figReconstruction} 
+{\bf Graphical illustration of the the secular equation for a ring with a weak link.} 
+The red line is $V(0)=\ln[2(\cosh(S_{\circlearrowleft}/2)-1)]$. 
+The blue line is $V(\epsilon)$ as deduced from the LHS of \Eq{e50}
+with ${L=1}$, ${g=10^{-3}}$ and ${S_{\circlearrowleft}=20}$.
+The yellow line is an attempted reconstruction of $V(\epsilon)$ 
+from the first $N=22$ roots $\epsilon_k$ of the $S_{\circlearrowleft}{=}0$ equation. 
+The green line is a proper reconstruction that takes into account 
+an impurity term $\epsilon_0$. The deviation from the blue line 
+for large~$k$ is due to finite truncation: compare the ${N{=}10}$ line with the ${N{=}22}$ line. 
+}
+\end{figure}
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sect{Finding $s_c$ due to a biased-link}
 %
@@ -733,33 +806,11 @@ implies $s_c \approx \sigma/N$.
 \\     
 
 
-
-% SecularEq for Ring with "g"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-
-%\includegraphics[height=5cm]{gRing_ES_vs_cont2}
-\includegraphics[height=5cm]{gRing_ES_vs_cont}
-
-\caption{\label{figReconstruction} 
-{\bf Graphical illustration of the the secular equation for a ring with a weak link.} 
-The red line is $V(0)=\ln[2(\cosh(S_{\circlearrowleft}/2)-1)]$. 
-The blue line is $V(\epsilon)$ as deduced from the LHS of \Eq{e50}
-with ${L=1}$ and ${g=10^{-3}}$ and {${S_{\circlearrowleft}=20}$ check}.
-The yellow line is an attempted reconstruction of $V(\epsilon)$ 
-from the first $N=22$ roots $\epsilon_k$ of the $S_{\circlearrowleft}{=}0$ equation. 
-The green line is a proper reconstruction that takes into account 
-an impurity term $\epsilon_0$. The deviation from the blue line 
-for large~$k$ is due to finite truncation: compare the ${N{=}10}$ line with the ${N{=}22}$ line. 
-}
-\end{figure}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sect{Finding $s_c$ due to a weak-link}
 %
-We consider a clean ring of length ${L=Na}$ 
-with identical bonds (${w_n=1}$).  
+We consider a clean ring of length ${L=Na}$ with lattice spacing $a$ 
+and identical bonds (${w_n=1}$).  
 We change one bond into a weak link (${w_1 \ll 1}$). 
 This setup can be treated exactly in the continuum limit, 
 where \Eq{e1} corresponds to a diffusion equation  
@@ -778,7 +829,7 @@ and $g=(D_1/a)/(D_0/L)$. We have taken here
 the limit ${a\rightarrow0}$, keeping~$(L,g,S_{\circlearrowleft})$ constant. 
 The equation is graphically illustrated in \Fig{figReconstruction}. 
 All the roots are real solutions provided the envelope 
-of the left-hand-side (LHS) lays above the right-hand-side.
+of the left-hand-side (LHS) lays above the right-hand-side (RHS).
 The minimum of the envelope of the LHS is obtained at ${z = S_{\circlearrowleft}^2/2}$.
 Consequently we find that the threshold~$S_c$ obeys 
 %
@@ -788,15 +839,15 @@ Consequently we find that the threshold~$S_c$ obeys
 %
 provided $S_{\circlearrowleft} \gg g$, which is self-justified for small~$g$.   
 The solution is given in terms of the Lambert function, 
-namely ${S_c = -2 \mathrm{W}(-g/2)}$, leading to ${s_c=S_c/N}$.
+namely ${S_c = -2 \mathbb{W}(-g/2)}$, leading to ${s_c=S_c/N}$.
 
  
 The secular, equation \Eq{e50}, parallels the discrete version \Eq{e20}, 
 with a small twist that we would like to point out.
 Naively one would like to identify $\ln [2 (\text{LHS} -1)]$, 
 up to a constant, with $\sum_{k=1}^{\infty} \ln(\epsilon-\epsilon_k)$, 
-where the the $\epsilon_k$ are the $S_{\circlearrowleft}{=}0$ 
-roots of \Eq{e50}. This is tested in \Fig{figReconstruction}, 
+where the $\epsilon_k$ are the roots of \Eq{e50} with $S_{\circlearrowleft}{=}0$ 
+in the RHS. This is tested in \Fig{figReconstruction}, 
 and we see that there is a problem. Then one realizes 
 that in fact an additional $k=0$ term with ${0 \lesssim \epsilon_0 < \epsilon_s}$ 
 is missing. Going back to the discrete version it corresponds 
@@ -805,7 +856,7 @@ at the weak-link.
 While taking the limit ${a\rightarrow0}$ this level becomes excluded.
 Adding it back we we see that the agreement between \Eq{e20}      
 and \Eq{e50} is restored. The residual systematic error as $k$ becomes 
-larger is due to finite truncation. 
+larger is due to finite truncation \rmrk{of the number of roots used in the reconstruction}. 
 %
 Making the approximation ${\ln(\epsilon_s-\epsilon_0) \approx \ln[(s/2)^2]}$,  
 and noting that ${g\propto N}$, it is verified that the 

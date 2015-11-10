@@ -4,53 +4,52 @@ The top-level auxiliary file: neg_Nature.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: neg_bib.bib
-I was expecting a `,' or a `}'---line 386 of file neg_bib.bib
+I was expecting a `,' or a `}'---line 387 of file neg_bib.bib
  :   
  :   title = {Nonequilibrium steady state and induced currents of a mesoscopically glassy system: Interplay of resistor-network theory and Sinai physics},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "french"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 14 entries,
+You've used 23 entries,
             3411 wiz_defined-function locations,
-            1272 strings with 12631 characters,
-and the built_in function-call counts, 9508 in all, are:
-= -- 586
-> -- 264
-< -- 42
-+ -- 202
-- -- 64
-* -- 1293
-:= -- 1049
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 56
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 849
-empty$ -- 816
-format.name$ -- 176
-if$ -- 1824
+            1339 strings with 14275 characters,
+and the built_in function-call counts, 15925 in all, are:
+= -- 967
+> -- 473
+< -- 72
++ -- 368
+- -- 114
+* -- 2188
+:= -- 1736
+add.period$ -- 23
+call.type$ -- 23
+change.case$ -- 92
+chr.to.int$ -- 23
+cite$ -- 23
+duplicate$ -- 1421
+empty$ -- 1350
+format.name$ -- 313
+if$ -- 3046
 int.to.chr$ -- 1
-int.to.str$ -- 15
-missing$ -- 130
-newline$ -- 57
-num.names$ -- 42
-pop$ -- 201
+int.to.str$ -- 24
+missing$ -- 218
+newline$ -- 84
+num.names$ -- 69
+pop$ -- 348
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 92
 quote$ -- 0
-skip$ -- 355
+skip$ -- 591
 stack$ -- 0
-substring$ -- 369
-swap$ -- 671
-text.length$ -- 33
+substring$ -- 596
+swap$ -- 1132
+text.length$ -- 58
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 138
 warning$ -- 0
-while$ -- 44
+while$ -- 71
 width$ -- 0
-write$ -- 172
+write$ -- 270
 (There was 1 error message)
