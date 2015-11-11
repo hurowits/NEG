@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  10 NOV 2015 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  11 NOV 2015 09:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -909,135 +909,82 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 807.
 Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
 (./neg_Nature.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
- \OT1/ptm/m/n/9 (2009), URL []$\OT1/cmtt/m/n/9 http : / / link . aps . org / do
-i / 10 . 1103 /
+Underfull \hbox (badness 1107) in paragraph at lines 19--26
+ []\OT1/ptm/m/n/9 Vaknin, A., Ovadyahu, Z. & Pol-lak, M.  Ag-ing ef-fects
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 51--56
- \OT1/ptm/m/n/9 ISSN 0022-4715, URL []$\OT1/cmtt/m/n/9 http : / / dx . doi . or
-g / 10 . 1007 /
+Underfull \hbox (badness 2644) in paragraph at lines 19--26
+ \OT1/ptm/m/n/9 in an an-der-son in-su-la-tor.  \OT1/ptm/m/it/9 Phys. Rev. Lett
+. \OT1/ptm/b/n/9 84\OT1/ptm/m/n/9 , 3402--
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 59--66
- []\OT1/ptm/m/n/9 J. Bouchaud, A. Comtet, A. Georges, and P. L. Dous-
+Underfull \hbox (badness 5331) in paragraph at lines 28--36
+ []\OT1/ptm/m/n/9 Amir, A., Oreg, Y. & Imry, Y.  Slow re-lax-ations
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 59--66
- \OT1/ptm/m/n/9 sal, An-nals of Physics \OT1/ptm/b/n/9 201\OT1/ptm/m/n/9 , 285 
- (1990), ISSN 0003-
+Underfull \hbox (badness 1694) in paragraph at lines 28--36
+ \OT1/ptm/m/n/9 and ag-ing in the elec-tron glass.  \OT1/ptm/m/it/9 Phys. Rev. 
+Lett. \OT1/ptm/b/n/9 103\OT1/ptm/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 59--66
- \OT1/ptm/m/n/9 4916, URL []$\OT1/cmtt/m/n/9 http : / / www . sciencedirect . c
-om / science /
+Underfull \hbox (badness 2469) in paragraph at lines 28--36
+ \OT1/ptm/m/n/9 126403 (2009).  URL []$\OT1/cmtt/m/n/9 http : / / link . aps . 
+org / doi / 10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
- []\OT1/ptm/m/n/9 J.-P. Bouchaud and A. Georges, Physics Re-ports
+Underfull \hbox (badness 2680) in paragraph at lines 57--66
+ \OT1/ptm/m/n/9 dom force field.  \OT1/ptm/m/it/9 An-nals of Physics \OT1/ptm/b
+/n/9 201\OT1/ptm/m/n/9 , 285 -- 341
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
- \OT1/ptm/b/n/9 195\OT1/ptm/m/n/9 , 127  (1990), ISSN 0370-1573, URL []$\OT1/cm
-tt/m/n/9 http :
+Underfull \hbox (badness 3158) in paragraph at lines 68--76
+ []\OT1/ptm/m/n/9 Bouchaud, J.-P. & Georges, A.  Anoma-lous dif-fu-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
- \OT1/cmtt/m/n/9 / / www . sciencedirect . com / science / article / pii /
+Underfull \hbox (badness 1168) in paragraph at lines 68--76
+ \OT1/ptm/m/n/9 in dis-or-dered me-dia: Sta-tis-ti-cal mech-a-nisms, mod-els an
+d
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 75--80
- []\OT1/ptm/m/n/9 D. R. Nel-son and N. M. Shnerb, Phys. Rev. E \OT1/ptm/b/n/9 5
-8\OT1/ptm/m/n/9 ,
+Underfull \hbox (badness 1546) in paragraph at lines 68--76
+ \OT1/ptm/m/n/9 phys-i-cal ap-pli-ca-tions.  \OT1/ptm/m/it/9 Physics Re-ports \
+OT1/ptm/b/n/9 195\OT1/ptm/m/n/9 , 127 -- 293
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 109--114
- []\OT1/ptm/m/n/9 D. K. Luben-sky and D. R. Nel-son, Phys. Rev. Lett. \OT1/ptm/
-b/n/9 85\OT1/ptm/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--121
- \OT1/ptm/m/n/9 (2002), URL []$\OT1/cmtt/m/n/9 http : / / link . aps . org / do
-i / 10 . 1103 /
+Underfull \hbox (badness 1546) in paragraph at lines 78--83
+ []\OT1/ptm/m/n/9 Nelson, D. R. & Shnerb, N. M.  Non-hermitian lo-cal-
  []
 
 [6 </Users/danielhurowitz/PROJ/NEG/Figs/figs_for_paper/gRing_ES_vs_cont-eps-con
 verted-to.pdf>]
-Underfull \hbox (badness 6658) in paragraph at lines 123--128
- []\OT1/ptm/m/n/9 N. Hatano and D. R. Nel-son, Phys. Rev. Lett. \OT1/ptm/b/n/9 
-77\OT1/ptm/m/n/9 ,
+Underfull \hbox (badness 2556) in paragraph at lines 93--99
+ \OT1/ptm/m/n/9 mers and un-zip-ping dna.  \OT1/ptm/m/it/9 Phys. Rev. Lett. \OT
+1/ptm/b/n/9 85\OT1/ptm/m/n/9 , 1572--
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 123--128
- \OT1/ptm/m/n/9 570 (1996), URL []$\OT1/cmtt/m/n/9 http : / / link . aps . org 
-/ doi / 10 . 1103 /
+Underfull \hbox (badness 1215) in paragraph at lines 133--138
+ []\OT1/ptm/m/n/9 Hatano, N. & Nel-son, D. R.  Vor-tex pin-ning and non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--135
- \OT1/ptm/m/n/9 URL []$\OT1/cmtt/m/n/9 http : / / link . aps . org / doi / 10 .
- 1103 / PhysRevB .
+Underfull \hbox (badness 1308) in paragraph at lines 133--138
+ \OT1/ptm/m/n/9 hermitian quan-tum me-chan-ics.  \OT1/ptm/m/it/9 Phys. Rev. B \
+OT1/ptm/b/n/9 56\OT1/ptm/m/n/9 , 8651--
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 137--142
- []\OT1/ptm/m/n/9 N. M. Shnerb and D. R. Nel-son, Phys. Rev. Lett. \OT1/ptm/b/n
-/9 80\OT1/ptm/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 145--152
- []\OT1/ptm/m/n/9 Y. Kafri, D. K. Luben-sky, and D. R. Nel-son, Bio-phys-
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 145--152
- \OT1/ptm/m/n/9 i-cal Jour-nal \OT1/ptm/b/n/9 86\OT1/ptm/m/n/9 , 3373  (2004), 
-ISSN 0006-3495, URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--152
- []$\OT1/cmtt/m/n/9 http : / / www . sciencedirect . com / science / article /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--185
- []$\OT1/cmtt/m/n/9 http : / / link . aps . org / doi / 10 . 1103 / PhysRevE . 
-59 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--192
- []\OT1/ptm/m/n/9 L. G. Moli-nari, Lin-ear Al-ge-bra and its Ap-pli-ca-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--192
- \OT1/ptm/m/n/9 tions \OT1/ptm/b/n/9 429\OT1/ptm/m/n/9 , 2221  (2008), ISSN 002
-4-3795, URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--192
- []$\OT1/cmtt/m/n/9 http : / / www . sciencedirect . com / science / article /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--199
- \OT1/ptm/m/n/9 URL []$\OT1/cmtt/m/n/9 http : / / link . aps . org / doi / 10 .
- 1103 / PhysRevE .
+Underfull \hbox (badness 1314) in paragraph at lines 149--158
+ []\OT1/ptm/m/n/9 Kafri, Y., Luben-sky, D. K. & Nel-son, D. R.  Dy-nam-
  []
 
 )
@@ -1058,13 +1005,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8310 strings out of 493089
- 120337 string characters out of 6134842
- 244591 words of memory out of 5000000
- 11507 multiletter control sequences out of 15000+600000
+ 8306 strings out of 493089
+ 120293 string characters out of 6134842
+ 245828 words of memory out of 5000000
+ 11503 multiletter control sequences out of 15000+600000
  70938 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,21n,28p,1382b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,21n,28p,1382b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1084,10 +1031,10 @@ fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times
 /utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on neg_Nature.pdf (7 pages, 1333304 bytes).
+Output written on neg_Nature.pdf (7 pages, 1335885 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
+ 498 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
  62 named destinations out of 1000 (max. 500000)
  90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

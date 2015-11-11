@@ -1,55 +1,52 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: neg_Nature.aux
-The style file: apsrev.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: naturemag.bst
 Database file #1: neg_bib.bib
 I was expecting a `,' or a `}'---line 387 of file neg_bib.bib
  :   
  :   title = {Nonequilibrium steady state and induced currents of a mesoscopically glassy system: Interplay of resistor-network theory and Sinai physics},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 23 entries,
-            3411 wiz_defined-function locations,
-            1339 strings with 14275 characters,
-and the built_in function-call counts, 15925 in all, are:
-= -- 967
-> -- 473
-< -- 72
-+ -- 368
-- -- 114
-* -- 2188
-:= -- 1736
-add.period$ -- 23
+            2348 wiz_defined-function locations,
+            1154 strings with 12948 characters,
+and the built_in function-call counts, 9941 in all, are:
+= -- 764
+> -- 212
+< -- 0
++ -- 106
+- -- 53
+* -- 1252
+:= -- 1114
+add.period$ -- 90
 call.type$ -- 23
-change.case$ -- 92
-chr.to.int$ -- 23
+change.case$ -- 25
+chr.to.int$ -- 0
 cite$ -- 23
-duplicate$ -- 1421
-empty$ -- 1350
-format.name$ -- 313
-if$ -- 3046
-int.to.chr$ -- 1
-int.to.str$ -- 24
-missing$ -- 218
-newline$ -- 84
-num.names$ -- 69
-pop$ -- 348
+duplicate$ -- 827
+empty$ -- 910
+format.name$ -- 73
+if$ -- 1992
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 191
+newline$ -- 144
+num.names$ -- 23
+pop$ -- 104
 preamble$ -- 1
-purify$ -- 92
+purify$ -- 0
 quote$ -- 0
-skip$ -- 591
+skip$ -- 137
 stack$ -- 0
-substring$ -- 596
-swap$ -- 1132
-text.length$ -- 58
+substring$ -- 632
+swap$ -- 835
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 138
+type$ -- 0
 warning$ -- 0
-while$ -- 71
-width$ -- 0
-write$ -- 270
+while$ -- 60
+width$ -- 25
+write$ -- 302
 (There was 1 error message)
