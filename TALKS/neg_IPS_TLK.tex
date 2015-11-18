@@ -25,8 +25,8 @@
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \graphicspath{{./Figs/}{./}{../}}
+\graphicspath{{/Users/danielhurowitz/PROJ/NEG/Figs/}{./}{../}}
 
-\begin{document}
 
 
 % basic	commands I
@@ -186,7 +186,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bslD
 
@@ -226,6 +226,7 @@
 
 \emp
 
+\center{{   D. Hurowitz and D. Cohen, \texttt{arXiv} (2014)}}
 
 
 %\emp
@@ -238,67 +239,233 @@
 
 \Tl{\large Brownian motion}
 
-\Dn[2]
 
-\cgreen{The Einstein-Smoluchowski Relation (ESR):}
+\bmp{0.6\hsize}
+
+\cgreen{{\bf Simple random walk} [Einstein]} \\
+uniform lattice - all rates are equal
+
+\smp{0.4\hsize}
+
+
+
+\includegraphics[width=4.5cm]{rw1a}
+
+\emp
+
+\bmp{0.6\hsize}
+
+\cgreen{{\bf Random walk on disordered lattice} [Alexander et. al]} 
+random lattice - random, symmetric rates
+
+\smp{0.4\hsize}
+
+\emp
+
+\bmp{0.6\hsize}
+
+\cgreen{{\bf Random walk in random environment} [Sinai, Derrida]} 
+
+rates allowed to be asymmetric
+
+\smp{0.4\hsize}
+
+\includegraphics[width=4.5cm]{rw2a}
+
+\emp
+
+
+
+Dynamics described conservative rate equation
+
+
+\beq
+\frac{d\bm{p}}{dt} \ \ = \ \ \bm{W} \bm{p},  \ \ \ \ \ 
+\bm{W} \ \ = \ \ \left[\amatrix{
+-\gamma_1   & w_{1,2}   & 0         & ... \\ 
+w_{2,1}     & -\gamma_2 & w_{2,3}   & ... \\ 
+0           & w_{3,2}   & -\gamma_3 & ... \\
+...         & ...       & ...       & ...
+}\right], \ \ \ \ \ \sum_n w_{nm} = 0
+\eeq
+
+{transition rates across } $n^{th}$ bond $w_n\eexp{\pm\mathcal{E}_n/2}$
+
+\bmp{0.5\hsize}
+
+
+{Stochastic field} \ \ $\displaystyle \mathcal{E}_n  \sim  [s-\sigma, s+\sigma]$
+
+{Affinity / Bias}\ \  $\displaystyle s = \frac{1}{N} \sum \mathcal{E}_n \equiv \frac{\mathcal{S}_{\circlearrowleft}}{N} $
+
+{Resistor network} $\displaystyle P(w) \propto w^{\alpha-1}$
+
+
+\smp{0.5\hsize}
+
+How do spectral properties of ${\bm W}$ depend on 
+
+\Cn{$(\alpha,\sigma, s)$?}
+
+\emp
+%
+\esl
+
+
+\bslC
+
+\Tl{\large{Sinai spreading}}
+
+\bmp{0.55\hsize}
 
 \Up
 
-\beq
-\hspace{5cm} D = \mu k_B T, \ \ \ \ \ \ \ \ \ \ k_B=1
-\eeq
-
-Relation between mobility ($\mu$) and diffusion ($D$) reflecting microscopics ($k_B$) in universal way.
-
-This is a special case of a \cred{fluctuation-dissipation relation} between first and second moments.
+\be
+\cgreen{\text{Stochastic field:}} \ \ 
+\mathcal{E}_n \ \equiv \ \ln \left[\frac{{w}_{n+1,n}}{{w_{n,n+1}}}\right]  \ ,  
+\hspace{1cm} \cred{\sigma = \sqrt{\mbox{Var} (\mathcal{S}_n)}}
+\ee
 
 
+\be
+\text{\cgreen{Stochastic Motive Force:} } \ \ 
+\mathcal{S}_{\circlearrowleft} = 
+\sum_{n\in\text{ring}} \ \ln \left[ \ \frac{\ora{w}_n}{\ola{w}_n} \ \right ] 
+\ee
 
-\beq
-\text{\cgreen{Drift:}} \ \  && \langle x \rangle \ = \ vt, \ \ \ \ \ \ \  v \ = \ \mu F  \\
-\text{\cgreen{Diffusion:}} \ \  && \text{Var}(x) \ = \ 2Dt \\
-\text{\cgreen{ESR:}} \ \ && \frac{v}{D} \ \ = \ \  \frac{F}{T} \ \ \equiv \ \ s \ \ = \ \ \mbox{\cgreen{affinity (linear response)}}
-%\ \ \ \ \ \cgreen{\leadsto} \ \ \ \ \  \frac{\mu}{D} \ = \ \frac{1}{T}
-\eeq
+\be
+\text{\cgreen{If}} \ \ \ \frac{\ora{w}_n}{\ola{w}_n}=\exp\left[-\frac{E_n-E_{n-1}}{T} \right] 
+\ \ \ \cgreen{\leadsto} \ \ \  
+\mathcal{S}_{\circlearrowleft}  \ = \ 0
+\ee
+
+
+\be
+\text{\cgreen{Affinity}}: \ \ s \  = \ \frac{\mathcal{S}_{\circlearrowleft}}{N}
+\ee
+
 
 \Dn
 
-$s \ \equiv \ $ \cgreen{entropy-production-per-distance}  
+
+\cgreen{For small $s$} [1]:
+
+Sub-diffusive spreading $x \ \sim \ [\log (t)]^2$,
+
+Exponentially small drift $\displaystyle v  \ \sim \ e^{-\sqrt{N}}$.
+ 
 
 \Dn
 
-\center{\cred{\bf FDT is valid close to equilibrium.}}
+\cgreen{For arbitrary $s$} [2,3]: 
 
-\center{\cred{\bf To what extent does the ESR hold? }}
+Complicated expressions for $v$ and $D$.
 
-\center{\cred{\bf Can it be derived from the NFT? }}
+{\bf sliding transition}
 
-\center{\cred{\bf Non-equilibrium version?}}
+\Dn
+
+
+
+\smp{0.45\hsize}
+
+\hspace*{1cm}
+\includegraphics[height=25mm]{sparse_network2.eps}
+
+\includegraphics[height=3.5cm]{V_x}
+
+\Dn[2]
+
+[1] {\bf Sinai} (1982)
+
+[2] {\bf Derrida} (1983)
+
+[3] {\bf Aslangul, Pottier, Saint-James}  (1989)
+
+\Dn[2]
+
+\cred{\bf ESR is violated for large $s$}
+
+\emp
+
 
 \esl
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bslC
 
-\Tl{Percolation}
+\Tl{The spectrum}
+
+\bmp{0.5\hsize}
+
+\Cn{
+\includegraphics[height=3.5cm]{spectrum_electrostatics1_2}
+}
+\smp{0.5\hsize}
+
+\Cn{
+\includegraphics[height=3.5cm]{spectrum_electrostatics1}
+}
+
+\emp 
+
+\bmp{0.5\hsize}
+
+\Cn{
+\includegraphics[height=3.5cm]{spectrum_electrostatics2}
+}
+
+\smp{0.5\hsize}
+
+\Cn{
+\includegraphics[height=3.5cm]{numComplex_100_alpha_sigma}
+}
+
+\emp
+
+\Cn{
+
+\cred{\bf What is the threshold bias $s_c$ for complex eigenvalues (delocalization)?}
+
+\cred{\bf How is $s_c$ related to the percolation transition? to the sliding transition?}
+}
+
 
 \esl
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \bslC
 
-\Tl{Sinai spreading}
+\Tl{The spectral equation}
+
+Gauge away disorder
+$
+{\tilde{\bm{W}} = \eexp{{\bm{U}/2}} \bm{W} \eexp{-{\bm{U}/2}}}
+$
+%
+
+Associated hermitian matrix ${\bm H}$ with real eigenvalues $\epsilon_k(s)$ by setting $\mathcal{S}_{\circlearrowleft} =0$
+
+Spectral determinant for complex eigenvalues $z$
+%
+\beq
+\prod_{k=1}^N \left(\frac{z+\epsilon_k(s)}{\overline{w}}\right) \ \ = \ \ 2\left[\cosh\left(\frac{S_{\circlearrowleft}}{2}\right)-1\right]
+\eeq
+%
+
+\Tl{Electrostatic pitcture}
+
+\beq
+\Psi(z) \ \ = \ \ \sum_k \ln\left(z-\epsilon_k\right) \ \ \equiv \ \ V(x,y)+iA(x,y)
+\eeq
+
 
 \esl
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\bslC
-
-\Tl{Localization}
-
-\esl
 
 \end{document}
 

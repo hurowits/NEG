@@ -88,17 +88,15 @@
 %\renewcommand{\includegraphics}[2][]{{\color{blue} \hspace{5mm} --FIGURE-- \hspace{5mm} }}
 
 %\newcommand{\rmrk}[1]{{#1}}     %{\textcolor[rgb]{0.6,0,0.1}{#1}}
-%\newcommand{\rmrk}[1]{{\color[rgb]{0.6,0,0.1} #1}}
-\newcommand{\rmrk}[1]{{\color[rgb]{0,0,0} #1}}
+\newcommand{\rmrk}[1]{{\color[rgb]{0.6,0,0.1} #1}}
 \newcommand{\hrefl}[1]    {\href{#1}{[link]}}
-\newcommand{\hidea}[1]{}    %{{#1}}
+\newcommand{\hidea}[1]{{#1}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
- 
-\title{Percolation, sliding, localization and relaxation in topologically closed circuits}
+\[\title{Percolation, sliding, localization and relaxation in topologically closed circuits}
 
 \author{Daniel Hurowitz, Doron Cohen}
 
@@ -143,12 +141,14 @@ in the context of ``glassy" electron dynamics \cite{ege,egt}.
 But more generally one has to consider Sinai's spreading problem \cite{Sinai,odh1,odh3,BouchaudReview}, 
 aka {\em random walk in a random environment}, 
 that has relevance e.g. for studies in a biophysical context: 
-population biology \cite{popbio,popbio2}, pulling pinned polymers and DNA denaturation \cite{DNA1,DNA2} and \rmrk{processive molecular motors} \cite{fisher1999force,rief2000myosin}.
+population biology \cite{popbio,popbio2}, pulling pinned polymers and DNA denaturation \cite{DNA1,DNA2} 
+and processive molecular motors \cite{fisher1999force,rief2000myosin}.
 
 %
 In all these cases the dynamics can be regarded as a stochastic process 
 in which a particle hops from site to site.
-The rate equation \rmrk{for the site occupation probabilies $\bm{p}  = \{p_n\}$} can be written in matrix notation as 
+The rate equation for the site occupation probabilities $\bm{p}  = \{p_n\}$
+can be written in matrix notation as 
 %
 \be{1}
 \frac{d\bm{p}}{dt} \ \ = \ \ \bm{W} \bm{p}, 
@@ -171,7 +171,7 @@ w_{2,1}     & -\gamma_2 & w_{2,3}   & ... \\
 In Einstein's theory $\bm{W}$ is symmetric, 
 and all the non-zero rates are the same; 
 In the resistor-network problem the rates
-have some distribution $P(w)$ that features \cite{Alexander}
+have some distribution $P(w)$ that features (see Methods)
 %
 \be{4}
 P(w) \ \propto \ w^{\alpha-1} \ \ \ \ \text{(for small $w$)}
@@ -200,7 +200,7 @@ We are inspired by the study of of non-Hermitian quantum Hamiltonians
 with regard to vortex depinning in type II superconductors \cite{Hatano1,Hatano2,Shnerb1};   
 molecular motors with {\em finite} processivity \cite{brm1,brm2}; 
 and related works \cite{Brouwer,Goldsheid,Zee}.
-In both examples \rmrk{conservation of probability} is violated.  
+In both examples conservation of probability is violated.  
 In the first example the bias is the applied transverse magnetic field;  
 and $N$~is the number of defects to which the magnetic vortex can pin.
 
@@ -460,7 +460,7 @@ Top panel: The threshold value $s_c$ for delocalization versus the number of sto
 The number of sites is $N{=}100$ and the disorder strength (of the defected sites) is $\sigma{=}5$. 
 Blue dots correspond to different realizations, while red dots are the average (per~$M$). 
 For a fully disordered lattice we expect $s_c=s_{1/2}$, hence the scaling of the axes. 
-The black line is \rmrk{ $s_c=M\sigma/N$}. %\Eq{e33}. 
+The black line is $s_c=\sqrt{M}\sigma/N$. %\Eq{e33}. 
 %
 Bottom panel: The threshold value~$s_c$ versus~$\alpha$. 
 The dots are for different realizations, while the lines are the statistical average.  
@@ -538,7 +538,8 @@ V(\epsilon) \ \ = \ \  \int \ln \left(|\epsilon-x' \right|) \rho(x')dx'
 In regions where the $\{\epsilon_k\}$ form a quasi-continuum,  
 one can identify $(1/N)V(\epsilon)$ as the Thouless expression  
 for the inverse localization length \cite{Shnerb1}.
-The explicit value of $V(0)$ is implied by \Eq{e20}, \rmrk{namely ${V(0)=\ln\left[ 2(\cosh(S_{\circlearrowleft}/2)-1)\right]}$}.   
+The explicit value of $V(0)$ is implied by \Eq{e20}, 
+namely ${V(0)=\ln[2(\cosh(S_{\circlearrowleft}/2)-1)]}$.   
 For a charge-density that is given by \Eq{e3}, with some cutoff $\epsilon_c$,
 the derivative of the electrostatic potential at the origin is (see Methods)
 %
@@ -572,9 +573,9 @@ but not for sparse disorder. In the latter case ${s_c \propto 1/N}$,
 or we may better look on ${S_c=Ns_c}$. 
 The reasoning that leads to this conclusion is as follows: 
 We start with a clean ring. Recall that $\varrho(\epsilon)$ 
-feature a gap ${[0,\epsilon_s]}$. If we have $M$ defected 
+feature a gap ${[0,\epsilon_s]}$. If we have $M$ uncorrelated defected 
 bonds with some $\sigma$ disorder the condition ${V(\epsilon_s)<V(0)}$
-implies ${S_c=M\sigma}$ (see methods).
+implies ${S_c=\sqrt{M}\sigma}$ (see methods).
 The handling of weak links is a bit more complicated (see Methods)
 but leads to the same conclusion, where the role of $\sigma$ 
 is played by the dispersion of the defected~$w_n$.     
@@ -593,7 +594,7 @@ For a conservative matrix, however, $V(\epsilon)$ is also a function of $s$,
 so increasing $s$ raises $V(\epsilon)$  at the same rate.
 %
 Taking $s$ to be as large as desired, the eigenvalues of~$H$ 
-become trivially $\gamma_{n} = w_n\eexp{\mathcal{E}_n/2}$, 
+become trivially $\gamma_{n}\eexp{\mathcal{E}_n/2}$, 
 and the equation $V(\epsilon)=V(0)$ for the upper cutoff $\epsilon_c$ 
 of the complex energies takes the form
 %
@@ -669,6 +670,21 @@ The red line is the Bessel expression of \cite{odh3}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Methods}  
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sect{The percolation threshold}
+%
+An example where the percolation issue arises is provided by 
+the analysis of relaxation in ``glassy" networks \cite{ege,egt}, 
+where the sites are distributed randomly in space, 
+and the rates depend exponentially on the inter-site distance, 
+namely ${w \propto \exp(-r/\xi)}$. 
+In such type of model there is a percolation-related crossover 
+to variable-range-hopping \cite{pts}. But in one-dimension
+there is a more dramatic crossover to sub-diffusion \cite{Alexander}.
+The statistics of the inter-site distances is Poisson ${\text{Prob}(r) \propto \exp(-r/a)}$, 
+where $a$ is the mean spacing, and therefore ${\alpha=\xi/a}$ in \Eq{e5}.     
+The diffusion coefficient is the harmonic average over~$w$, 
+reflecting serial addition of connectors. It becomes zero for ${\alpha<1}$. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -776,9 +792,9 @@ and the last equality has been obtained by the reflection formula.
 
 \caption{\label{figReconstruction} 
 {\bf Graphical illustration of the the secular equation for a ring with a weak link.} 
-The red line is $V(0)=\ln[2(\cosh(S_{\circlearrowleft}/2)-1)]$. 
+The red line is $V(0)$.  
 The blue line is $V(\epsilon)$ as deduced from the LHS of \Eq{e50}
-with ${L=1}$, ${g=10^{-3}}$ and ${S_{\circlearrowleft}=20}$.
+with ${L=1}$, and ${g=10^{-3}}$ and ${S_{\circlearrowleft}=20}$.
 The yellow line is an attempted reconstruction of $V(\epsilon)$ 
 from the first $N=22$ roots $\epsilon_k$ of the $S_{\circlearrowleft}{=}0$ equation. 
 The green line is a proper reconstruction that takes into account 
@@ -857,7 +873,7 @@ at the weak-link.
 While taking the limit ${a\rightarrow0}$ this level becomes excluded.
 Adding it back we we see that the agreement between \Eq{e20}      
 and \Eq{e50} is restored. The residual systematic error as $k$ becomes 
-larger is due to finite truncation \rmrk{of the number of roots used in the reconstruction}. 
+larger is due to finite truncation of the number of roots used in the reconstruction. 
 %
 Making the approximation ${\ln(\epsilon_s-\epsilon_0) \approx \ln[(s/2)^2]}$,  
 and noting that ${g\propto N}$, it is verified that the 
@@ -869,34 +885,39 @@ is consistent with \Eq{e23}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\bibliography{neg_bib}{}
+\bibliography{neg}{}
 \bibliographystyle{naturemag}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{Acknowledgements}
+\onecolumngrid
 
-This research has been supported by  by the Israel Science Foundation (grant No. 29/11).
+\ \\ 
+
+\sect{Acknowledgements}
+%
+This research has been supported by the Israel Science Foundation (grant No. 29/11). 
+\\
 
 
 \hidea{
-\section*{Author contributions statement}
 
+\sect{Author contributions statement}
+%
 Both authors have contributed to this article. 
+\\
 
-\section*{Additional information} 
-
+\sect{Additional information} 
+%
 % Reprints and permissions information is available at www.nature.com/reprints\\
 The authors declare that they have no competing financial interests.
-% Correspondence and requests for materials should be addressed to avardi@bgu.ac.il or dcohen@bgu.ac.il
+% Correspondence and requests for materials should be addressed to dcohen@bgu.ac.il
+
 }
 
 
 
+A\]
 \end{document}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-

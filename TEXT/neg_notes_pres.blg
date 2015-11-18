@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: neg_Nature.aux
+The top-level auxiliary file: neg_notes_pres.aux
 The style file: naturemag.bst
 Database file #1: neg_bib.bib
 I was expecting a `,' or a `}'---line 387 of file neg_bib.bib
@@ -10,7 +10,7 @@ I was expecting a `,' or a `}'---line 387 of file neg_bib.bib
 I'm skipping whatever remains of this entry
 You've used 23 entries,
             2348 wiz_defined-function locations,
-            1154 strings with 12948 characters,
+            1154 strings with 12956 characters,
 and the built_in function-call counts, 9941 in all, are:
 = -- 764
 > -- 212
